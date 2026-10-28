@@ -1,33 +1,28 @@
-# CuyMercado · procesamiento y distribución
+# CuyMercado · precios públicos y actualización diaria
 
-Este repositorio público contiene el extractor, el generador de archivos versionados y GitHub Actions. La app iOS permanece en un repositorio privado independiente. El workflow usa un runner estándar `ubuntu-24.04`; no necesita acceder al repositorio privado ni usar un token entre repositorios.
+El extractor, el workflow y los archivos de distribución viven en este repositorio público. La app iOS se mantiene privada. Se procesan precios publicados por MIDAGRI con fuente, mercado, unidad y fecha; consulte [DATA_POLICY.md](DATA_POLICY.md) para las reglas de acceso y reutilización.
 
-## Estado real
+## Consumo
 
-Las pruebas usan datos sintéticos temporales, marcados como tales, que no se publican. No hay PDF ni precios reales en este repositorio. El acceso automatizado y la redistribución de las fuentes siguen pendientes de confirmar. Un workflow de pruebas exitoso no significa que los precios estén actualizados o publicados. No hay descarga programada ni acceso a endpoints internos de entidades.
+Base HTTPS: `https://raw.githubusercontent.com/0sw2ld0/cuymercado-data/main`
 
-## Pruebas
+`current.json` identifica el paquete con versión de esquema, fecha de corte, tamaño y SHA-256. `releases/<sha256>/pack.json` contiene catálogo e histórico. El cliente verifica integridad, conserva caché y muestra antigüedad. GitHub Raw puede tardar en reflejar un cambio por caché; no se garantiza disponibilidad ni actualización al minuto. Cloudflare sigue siendo una opción de distribución futura, sin proyecto configurado todavía.
 
-`python -m pip install -r requirements.txt`
+## Actualización
 
-`python -m unittest discover -s tests -v`
+Actions usa `ubuntu-24.04`, un runner estándar público. Ejecuta pruebas al cambiar el pipeline y consulta MIDAGRI diariamente a las 15:30 UTC (10:30 de Lima), además de permitir ejecución manual. Respeta robots.txt, consulta páginas directas sin paginación y descarga únicamente el último PDF enlazado, con identificación y límites. Un error conserva la versión anterior. No consulta endpoints internos de EMMSA.
 
-Las pruebas comprueban hash y reproducibilidad, conservación de unidades y datos faltantes, coherencia de catálogo e histórico, rechazo de duplicados y bloqueo de publicación de fixtures.
+Se publican los datos numéricos normalizados, no PDF ni contenido de la app. `data-input/reports.json` registra procedencia. Los JSON procesados permiten mantener el histórico sin volver a descargar todos los originales. Cada observación conserva fecha, unidad, documento, hash y página. La fuente y corte reales aparecen en el paquete; la fecha de ejecución no transforma un reporte antiguo en uno actual.
 
-## Procesamiento de reportes revisados
+## Desarrollo y validación
 
-Cuando se hayan confirmado las condiciones de uso y redistribución, aportar `data-input/reports.json` y los PDF revisados. Cada entrada del manifest debe tener `date` (AAAA-MM-DD), `file` (nombre local, sin directorios), `sha256`, `url` oficial y `expectedRows` (72 por defecto). El extractor valida la fecha del PDF, su hash, cobertura y unicidad. No calcula precios por conversiones ni considera promedios semanales como observaciones de un día.
+```sh
+python -m pip install -r requirements.txt
+python -m unittest discover -s tests -v
+python etl/fetch_latest.py
+python etl/build_release.py
+```
 
-`python etl/extract_reports.py --input data-input --output data-input/processed`
+Los tests sintéticos son temporales y se rechazan para publicación por defecto. El extractor falla ante fecha, hash, conteo o esquema inesperados. El conteo esperado actual es 72 filas; un catálogo distinto requiere revisión del formato. No se interpolan días ni se usan promedios semanales como precios diarios.
 
-`python etl/build_release.py --resources data-input/processed --output dist`
-
-Se generan `current.json`, `releases/<sha256>/pack.json` y `_headers`. El paquete incluye catálogo e histórico con fuente, fecha, unidad y trazabilidad. La fecha de corte determina antigüedad, no la hora de descarga.
-
-## Actions y publicación
-
-Cada cambio del pipeline ejecuta las pruebas. Sin fuentes revisadas y `CUY_DATA_REDISTRIBUTION_APPROVED=true`, la generación de precios queda desactivada. Una ejecución manual con `publish=true` publica el paquete en este repositorio mediante `GITHUB_TOKEN`, conservando las versiones anteriores. Los permisos de escritura solo se conceden a ese job. El repositorio puede requerir permitir escritura de Actions según su configuración.
-
-El despliegue opcional `deploy_cloudflare=true` requiere un proyecto existente y la variable `CUY_DATA_PAGES_PROJECT`, además de los secretos `CLOUDFLARE_ACCOUNT_ID` y `CLOUDFLARE_API_TOKEN`. Solo se suben archivos de distribución; no el extractor ni tests. No se crea ningún recurso ni se modifica facturación desde el workflow.
-
-La app se configura una vez con la URL HTTPS del sitio. Luego descarga versiones compatibles y mantiene caché local sin necesitar reinstalación para cada actualización de datos. Actualmente no hay proyecto ni URL de Cloudflare configurados.
+Opcionalmente, una ejecución manual puede desplegar en un proyecto Cloudflare existente mediante `deploy_cloudflare=true`, `CUY_DATA_PAGES_PROJECT`, `CLOUDFLARE_ACCOUNT_ID` y `CLOUDFLARE_API_TOKEN`. Nunca se incluyen secretos en la app o los JSON; no se crean recursos desde el workflow.

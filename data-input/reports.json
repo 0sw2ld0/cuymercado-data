@@ -1,0 +1,51 @@
+[
+  {
+    "date": "2026-10-27",
+    "url": "https://cdn.www.gob.pe/uploads/document/file/10861196/8666398-reporte-de-ingreso-y-precios-en-el-gran-mercado-mayorista-de-lima-27-10-2026.pdf?v=1793121842",
+    "file": "gmml-2026-10-27.pdf",
+    "sha256": "c1c626a41e4899415dafbf4d1abab3e28cfb8b3dfd0156e10d4aff9c4c9e4284",
+    "retrievedAt": "2026-10-28T11:23:50.019104+00:00"
+  },
+  {
+    "date": "2026-10-26",
+    "url": "https://cdn.www.gob.pe/uploads/document/file/10853517/8666398-reporte-de-ingreso-y-precios-en-el-gran-mercado-mayorista-de-lima-26-10-2026.pdf?v=1793121842",
+    "file": "gmml-2026-10-26.pdf",
+    "sha256": "a5091b1237e36243f61162a6fadeb71cf14d67bf17439eb4b4e8b599d88efeb1",
+    "retrievedAt": "2026-10-28T11:23:51.171154+00:00"
+  },
+  {
+    "date": "2026-10-23",
+    "url": "https://cdn.www.gob.pe/uploads/document/file/10845166/8666398-reporte-de-ingreso-y-precios-en-el-gran-mercado-mayorista-de-lima-23-10-2026.pdf?v=1793121837",
+    "file": "gmml-2026-10-23.pdf",
+    "sha256": "95a70e135e52db7904c661ba1c2cb833211886fe406cdb3f4b04b305bb6133c1",
+    "retrievedAt": "2026-10-28T11:23:58.396474+00:00"
+  },
+  {
+    "date": "2026-10-22",
+    "url": "https://cdn.www.gob.pe/uploads/document/file/10839041/8666398-reporte-de-ingreso-y-precios-en-el-gran-mercado-mayorista-de-lima-22-10-2026.pdf?v=1793121837",
+    "file": "gmml-2026-10-22.pdf",
+    "sha256": "0bc272d9b580ff07e82022086b1659d5e3882d0d4de334901476faa40118da2f",
+    "retrievedAt": "2026-10-28T11:23:59.249473+00:00"
+  },
+  {
+    "date": "2026-10-21",
+    "url": "https://cdn.www.gob.pe/uploads/document/file/10831381/8666398-reporte-de-ingreso-y-precios-en-el-gran-mercado-mayorista-de-lima-21-10-2026.pdf?v=1793121833",
+    "file": "gmml-2026-10-21.pdf",
+    "sha256": "d089d0d11ea1b026475ab7d162aa7ca2b90db527b36c4ce4b4d10c6e0d42250c",
+    "retrievedAt": "2026-10-28T11:23:59.990501+00:00"
+  },
+  {
+    "date": "2026-10-20",
+    "url": "https://cdn.www.gob.pe/uploads/document/file/10824200/8666398-reporte-de-ingreso-y-precios-en-el-gran-mercado-mayorista-de-lima-20-10-2026.pdf?v=1793121833",
+    "file": "gmml-2026-10-20.pdf",
+    "sha256": "b8d389d4369793ad4ec5ae114d2759a9a4c523b11a54f63dc5cfaad0a1a383f2",
+    "retrievedAt": "2026-10-28T11:24:00.758861+00:00"
+  },
+  {
+    "date": "2026-10-19",
+    "url": "https://cdn.www.gob.pe/uploads/document/file/10818117/8666398-reporte-de-ingreso-y-precios-en-el-gran-mercado-mayorista-de-lima-19-10-2026.pdf?v=1793121828",
+    "file": "gmml-2026-10-19.pdf",
+    "sha256": "57e81a28d5c864dc004f710d7e9b923f9557200fe635151c6f8dc1d3b888214d",
+    "retrievedAt": "2026-10-28T11:24:01.565799+00:00"
+  }
+]

@@ -4,4 +4,3 @@ __pycache__/
 .venv/
 dist/
 cloudflare-dist/
-data-input/processed/
