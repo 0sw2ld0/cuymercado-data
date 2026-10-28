@@ -26,3 +26,9 @@ python etl/build_release.py
 Los tests sintéticos son temporales y se rechazan para publicación por defecto. El extractor falla ante fecha, hash, conteo o esquema inesperados. El conteo esperado actual es 72 filas; un catálogo distinto requiere revisión del formato. No se interpolan días ni se usan promedios semanales como precios diarios.
 
 Opcionalmente, una ejecución manual puede desplegar en un proyecto Cloudflare existente mediante `deploy_cloudflare=true`, `CUY_DATA_PAGES_PROJECT`, `CLOUDFLARE_ACCOUNT_ID` y `CLOUDFLARE_API_TOKEN`. Nunca se incluyen secretos en la app o los JSON; no se crean recursos desde el workflow.
+
+## Ampliar el histórico por publicación mensual
+
+`python etl/backfill.py --publication URL_OFICIAL_MENSUAL --since AAAA-MM-DD` descarga únicamente los PDF enlazados y aún no registrados, con las mismas reglas de acceso. Está limitado a una publicación y 31 reportes por ejecución; valida todos antes de escribir el histórico. El corte no se adelanta: solo añade fechas anteriores. Después se genera una versión con `python etl/build_release.py`. No se rellena automáticamente un año ni se asume que existan todos los días.
+
+La primera ampliación de octubre incorporó 18 fechas y 1.296 precios entre el 1 y el 27/10/2026. Los 504 valores anteriormente publicados se mantuvieron iguales.
