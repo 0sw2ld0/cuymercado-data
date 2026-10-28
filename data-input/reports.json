@@ -135,5 +135,13 @@
     "file": "gmml-2026-10-27.pdf",
     "sha256": "c1c626a41e4899415dafbf4d1abab3e28cfb8b3dfd0156e10d4aff9c4c9e4284",
     "retrievedAt": "2026-10-28T11:23:50.019104+00:00"
+  },
+  {
+    "date": "2026-10-28",
+    "url": "https://cdn.www.gob.pe/uploads/document/file/10866579/8666398-reporte-de-ingreso-y-precios-en-el-gran-mercado-mayorista-de-lima-28-10-2026.pdf?v=1793202450",
+    "file": "gmml-2026-10-28.pdf",
+    "sha256": "a9fdcb0948bf8da346247d6ef9c8560375356b6e501bdb5d7c63dba4397650cc",
+    "expectedRows": 72,
+    "retrievedAt": "2026-10-28T20:29:37.830679+00:00"
   }
 ]
