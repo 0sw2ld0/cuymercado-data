@@ -1,0 +1,105 @@
+name: CuyMercado · procesamiento público
+on:
+  push:
+    paths: ['etl/**', 'tests/**', 'requirements.txt', 'data-input/**', '.github/workflows/cuymercado-data.yml']
+  workflow_dispatch:
+    inputs:
+      publish:
+        description: Publicar datos revisados y autorizados en este repositorio
+        type: boolean
+        default: false
+      deploy_cloudflare:
+        description: Desplegar además en un proyecto Cloudflare existente
+        type: boolean
+        default: false
+permissions:
+  contents: read
+concurrency:
+  group: cuymercado-public-data
+  cancel-in-progress: false
+jobs:
+  verify:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    outputs:
+      ready: ${{ steps.input.outputs.ready }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m pip install -r requirements.txt
+      - name: Pruebas sintéticas sin publicar precios
+        run: python -m unittest discover -s tests -v
+      - name: Comprobar disponibilidad de fuentes autorizadas
+        id: input
+        env:
+          APPROVED: ${{ vars.CUY_DATA_REDISTRIBUTION_APPROVED }}
+        run: |
+          if [ -f data-input/reports.json ] && [ "$APPROVED" = "true" ]; then
+            echo "ready=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "ready=false" >> "$GITHUB_OUTPUT"
+            echo "No se generan ni publican precios: faltan los PDF revisados y/o la confirmación de redistribución."
+          fi
+      - name: Validar PDF y preparar paquete versionado
+        if: steps.input.outputs.ready == 'true'
+        run: |
+          python etl/extract_reports.py
+          python etl/build_release.py
+      - uses: actions/upload-artifact@v4
+        if: steps.input.outputs.ready == 'true'
+        with:
+          name: cuymercado-release
+          path: dist
+          retention-days: 1
+          if-no-files-found: error
+      - name: Rechazar publicación sin fuentes autorizadas
+        if: github.event_name == 'workflow_dispatch' && inputs.publish && steps.input.outputs.ready != 'true'
+        run: |
+          echo "::error::Faltan fuentes revisadas o autorización de redistribución."
+          exit 1
+  publish:
+    needs: verify
+    if: github.event_name == 'workflow_dispatch' && inputs.publish && needs.verify.outputs.ready == 'true'
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/download-artifact@v4
+        with:
+          name: cuymercado-release
+          path: dist
+      - name: Conservar versiones y actualizar puntero
+        run: |
+          cp -R dist/releases .
+          cp dist/current.json dist/_headers .
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add releases current.json _headers
+          if ! git diff --cached --quiet; then
+            git commit -m 'Publicar datos verificados de CuyMercado'
+            git push origin HEAD:main
+          fi
+      - uses: actions/setup-node@v4
+        if: inputs.deploy_cloudflare
+        with:
+          node-version: '22'
+      - name: Exportar exclusivamente los archivos de distribución
+        if: inputs.deploy_cloudflare
+        run: |
+          mkdir -p cloudflare-dist
+          cp -R releases current.json _headers cloudflare-dist/
+      - name: Desplegar en proyecto Cloudflare existente
+        if: inputs.deploy_cloudflare
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          PROJECT: ${{ vars.CUY_DATA_PAGES_PROJECT }}
+        run: |
+          test -n "$PROJECT"
+          test -n "$CLOUDFLARE_ACCOUNT_ID"
+          test -n "$CLOUDFLARE_API_TOKEN"
+          npx wrangler@4 pages deploy cloudflare-dist --project-name "$PROJECT" --branch main
