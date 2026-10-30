@@ -44,10 +44,11 @@ def allowed_by_robots(text,url):
     return max(applied,default=(0,True))[1]
 
 class Reader:
+    HOSTS=('www.gob.pe','cdn.www.gob.pe')
     def __init__(self):self.robots={};self.last=0;self.receipts=[]
     def raw(self,url,robots=False):
         part=urlparse(url)
-        if part.scheme!='https' or part.hostname not in ('www.gob.pe','cdn.www.gob.pe') or part.username or part.password or 'sheet' in parse_qs(part.query):raise ValueError('URL outside approved public channel')
+        if part.scheme!='https' or part.hostname not in self.HOSTS or part.username or part.password or 'sheet' in parse_qs(part.query):raise ValueError('URL outside approved public channel')
         time.sleep(max(0,2-(time.monotonic()-self.last)))
         result=subprocess.run(['curl','--silent','--show-error','--location','--proto','=https','--proto-redir','=https','--connect-timeout','10','--max-time','40','--max-filesize','5000000','--user-agent',AGENT,'--write-out','\n%{http_code}',url],capture_output=True,check=True)
         self.last=time.monotonic();body,status=result.stdout.rsplit(b'\n',1);status=int(status)

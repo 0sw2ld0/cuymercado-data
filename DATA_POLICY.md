@@ -11,3 +11,7 @@ Si la fuente falla, bloquea el acceso, cambia el esquema o no supera validacione
 Las series de EMMSA se consultan aparte y no se mezclan con MIDAGRI. Las unidades se conservan; un kilogramo no se convierte en saco o jaba. Los precios de periodos anteriores no son cotizaciones actuales ni pronósticos.
 
 Los originales se procesan temporalmente en el runner y se identifican por hash en cada observación. Los manifiestos de reportes registran procedencia; los paquetes versionados permiten inspeccionar qué datos se distribuyeron. La detección de cambios y un hash no sustituyen una auditoría independiente de exactitud.
+
+## El mar
+
+Desde el 29/10/2026 se integra también, por solicitud expresa del usuario, información factual de precios y disposiciones públicas de PRODUCE. El canal de precios es el PDF enlazado en el Observatorio PRODUCEmpresarial; el normativo es el compendio Vedas y los PDF oficiales fijados por hash. Se mantienen separados de la serie MIDAGRI. La cobertura, las excepciones, las verificaciones y el mecanismo de revisión de novedades se detallan en [SEA_SOURCES.md](SEA_SOURCES.md). No se declara una licencia abierta inexistente ni autorización escrita de PRODUCE. No se publican originales PDF, logos o datos personales; solo datos normalizados y la procedencia. No se automatiza el Datero ni se envían solicitudes o mensajes a la entidad.

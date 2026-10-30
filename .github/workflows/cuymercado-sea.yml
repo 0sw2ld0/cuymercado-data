@@ -1,0 +1,55 @@
+name: CuyMercado · El mar
+on:
+  push:
+    branches: [main]
+    paths: ['etl/sea_sources.py', 'etl/update_sea.py', 'tests/test_sea.py', 'data-input/sea/rules.json', '.github/workflows/cuymercado-sea.yml']
+  schedule:
+    - cron: '45 21 * * *'
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: cuymercado-public-data
+  cancel-in-progress: false
+jobs:
+  sea:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m pip install -r requirements.txt
+      - name: Validar extracción, integridad y aislamiento de fuentes
+        run: python -m unittest discover -s tests -v
+      - name: Consultar precios y disposiciones públicas de PRODUCE
+        if: github.event_name != 'push'
+        run: python etl/update_sea.py
+      - name: Validar paquete de El mar
+        run: python etl/update_sea.py --build-only
+      - name: Publicar el paquete verificado de El mar
+        if: github.event_name != 'push'
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add sea data-input/sea
+          if ! git diff --cached --quiet; then
+            git commit -m 'Actualizar precios pesqueros y compendio de vedas de PRODUCE'
+            git push origin HEAD:main
+          fi
+      - name: Informar cobertura y cambios que necesitan revisión
+        if: github.event_name != 'push'
+        run: |
+          python - <<'PY'
+          import json,os
+          from pathlib import Path
+          data=json.loads(Path('data-input/sea/current-data.json').read_text())
+          with open(os.environ['GITHUB_STEP_SUMMARY'],'a') as out:
+              out.write(f"## El mar · PRODUCE\n\nPrecios al **{data['prices']['date']}**: {len(data['prices']['products'])} valores de promedio mayorista. Compendio: {len(data['norms'])} disposiciones.\n\nConsulta de fuentes: {data['checkedAt']}. Revisión de periodos: {data['rulesReviewedAt']}.\n")
+          if data['reviewRequired']:
+              print('::error::Cambió el compendio o un documento revisado. Se publicaron las nuevas disposiciones con alerta; revisar los periodos antes de confirmar su aplicación.')
+              raise SystemExit(1)
+          PY
