@@ -5,17 +5,20 @@
     {
       "id": "choro",
       "url": "https://cdn.www.gob.pe/uploads/document/file/10551835/8547947-r-m-n-00313-2026-produce.pdf?v=1788365641",
-      "sha256": "0e1dc3728e52753af8b0fa2d1dc194900bba409ecaef8c9cea7bc3893c246e82"
+      "sha256": "0e1dc3728e52753af8b0fa2d1dc194900bba409ecaef8c9cea7bc3893c246e82",
+      "publicationURL": "https://www.gob.pe/institucion/produce/normas-legales/8547947-00313-2026-produce"
     },
     {
       "id": "bagre",
       "url": "https://cdn.www.gob.pe/uploads/document/file/10549333/8546151-r-m-n-00307-2026-produce.pdf?v=1788358587",
-      "sha256": "4a49c73f6ad8787d68cf7911e80d9954a64ba786952e7fff028fcffccbba5cef"
+      "sha256": "4a49c73f6ad8787d68cf7911e80d9954a64ba786952e7fff028fcffccbba5cef",
+      "publicationURL": "https://www.gob.pe/institucion/produce/normas-legales/8546151-00307-2026-produce"
     },
     {
       "id": "paiche",
       "url": "https://cdn.www.gob.pe/uploads/document/file/1326281/R.%20M.%20N%C2%B0%20320-2020-PRODUCE.pdf?v=1601468205",
-      "sha256": "a84655a539b0c81c919450888cd1cb75c900d44f5de9d0fcbe72defcae6e7f92"
+      "sha256": "a84655a539b0c81c919450888cd1cb75c900d44f5de9d0fcbe72defcae6e7f92",
+      "publicationURL": "https://www.gob.pe/institucion/produce/normas-legales/1221252-320-2020-produce"
     }
   ],
   "rules": [

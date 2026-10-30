@@ -58,12 +58,18 @@ def update(root,reader=None):
 
     changed=[]
     for source in rules['documents']:
-        digest=hashlib.sha256(reader.get(source['url'])).hexdigest()
+        html=reader.get(source['publicationURL']).decode('utf8')
+        summary,current_document=norm_details(html)
+        for norm in norms:
+            if norm['url']==source['publicationURL']:
+                norm['summary']=summary;norm['documentURL']=current_document
+                norm['summaryCheckedAt']=datetime.datetime.now(datetime.timezone.utc).isoformat()
+        digest=hashlib.sha256(reader.get(current_document)).hexdigest()
         if digest!=source['sha256']:changed.append(source['id'])
     now=datetime.datetime.now(datetime.timezone.utc).isoformat()
     data=dict(schemaVersion=1,checkedAt=now,prices=prices,norms=norms,rules=rules['rules'],
         reviewRequired=bool(changed) or signature!=rules['reviewedIndexSignature'],rulesReviewedAt=rules['reviewedAt'],
-        coverage='25 disposiciones recientes del compendio PRODUCE y periodos revisados de choro, paiche y bagre andino. Cobertura parcial; no acredita permiso de pesca o venta.',
+        coverage=f'{len(norms)} disposiciones recientes del compendio PRODUCE y periodos revisados de choro, paiche y bagre andino. Cobertura parcial; no acredita permiso de pesca o venta.',
         normsURL=VEDAS,indexSignature=signature,changedDocuments=changed)
     validate(data)
     temp=folder/'current-data.tmp';temp.write_text(json.dumps(data,ensure_ascii=False,indent=2)+'\n');temp.replace(previous)
