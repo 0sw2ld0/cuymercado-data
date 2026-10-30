@@ -30,6 +30,15 @@ class PipelineTests(unittest.TestCase):
         self.assertEqual(rows[0]['unit'],'saco chico');self.assertIsNone(rows[0]['tonnes']);self.assertEqual(rows[0]['price'],2)
     def test_missing_price_rejected(self):
         with self.assertRaises(ValueError):parse_lines('TEST PRODUCT 1 2 3 4 Kilogramo 1.00 1.00 : 1.50',2)
+    def test_legacy_hidden_placeholders_do_not_change_price_fields(self):
+        rows=parse_lines('Z:apallo Macre 144: 67: 123: 57: Kilogramo 1.00 1.53 1.65 1.E5s5table',2)
+        self.assertEqual(rows[0]['name'],'Zapallo Macre')
+        self.assertEqual(rows[0]['tonnes'],67)
+        self.assertEqual(rows[0]['previous'],1.53)
+        self.assertEqual(rows[0]['price'],1.65)
+        with self.assertRaises(ValueError):
+            parse_lines('Z:apallo Macre 144: 67: 123: 57: Kilogramo 1.00 1.53 : 1.E5s5table',2)
+
     def test_duplicate_and_mismatched_price_rejected(self):
         with tempfile.TemporaryDirectory() as tmp:
             s,h=fixture(Path(tmp));h.append(copy.deepcopy(h[0]))

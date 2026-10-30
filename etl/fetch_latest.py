@@ -83,7 +83,7 @@ def update(root,reader=None):
     if any(r['date']==date.isoformat() and r['sha256']==digest for r in reports) and old['date']==date.isoformat():
         print(json.dumps(dict(cutoff=str(date),unchanged=True,requests=reader.receipts),ensure_ascii=False,indent=2))
         return
-    report=dict(date=date.isoformat(),url=url,file=f'gmml-{date}.pdf',sha256=digest,expectedRows=72,retrievedAt=datetime.datetime.now(datetime.timezone.utc).isoformat())
+    report=dict(date=date.isoformat(),url=url,file=f'gmml-{date}.pdf',sha256=digest,expectedRows=72,retrievedAt=datetime.datetime.now(datetime.timezone.utc).isoformat(),extractorVersion='gmml-pdf-v2')
     with tempfile.TemporaryDirectory() as tmp:
         folder=Path(tmp);(folder/report['file']).write_bytes(raw);(folder/'reports.json').write_text(json.dumps([report]));extract(folder,folder/'processed')
         snapshot=json.loads((folder/'processed/gmml-sample.json').read_text());incoming=json.loads((folder/'processed/gmml-history.json').read_text())

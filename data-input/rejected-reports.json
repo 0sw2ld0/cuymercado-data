@@ -1,0 +1,38 @@
+[
+  {
+    "date": "2026-09-24",
+    "url": "https://cdn.www.gob.pe/uploads/document/file/10687748/8540865-reporte-de-ingreso-y-precios-en-el-gran-mercado-mayorista-de-lima-24-09-2026.pdf?v=1790776440",
+    "file": "gmml-2026-09-24.pdf",
+    "sha256": "e263f330785aa9e3b38527399ff6e2b9fd046e94ce07e532a9985ba53366cd40",
+    "expectedRows": 72,
+    "retrievedAt": "2026-10-30T01:08:31.109490+00:00",
+    "reason": "PDF date mismatch"
+  },
+  {
+    "date": "2026-07-13",
+    "url": "https://cdn.www.gob.pe/uploads/document/file/10302327/8317587-reporte-de-ingreso-y-precios-en-el-gran-mercado-mayorista-de-lima-13-07-2026.pdf?v=1785520388",
+    "file": "gmml-2026-07-13.pdf",
+    "sha256": "2ba67124044386df599ccc98fbe35cd665e3dd856e58d508cb7572562c6e7274",
+    "expectedRows": 72,
+    "retrievedAt": "2026-10-30T01:08:38.826474+00:00",
+    "reason": "PDF date mismatch"
+  },
+  {
+    "date": "2026-06-09",
+    "url": "https://cdn.www.gob.pe/uploads/document/file/10125379/8202251-reporte-de-ingreso-y-precios-en-el-gran-mercado-mayorista-de-lima-09-06-2026.pdf?v=1782835896",
+    "file": "gmml-2026-06-09.pdf",
+    "sha256": "943bdc2ce4486813ba4aa048e8d9a6443c5e65e614527087bd979f00ea5d53d8",
+    "expectedRows": 72,
+    "retrievedAt": "2026-10-30T01:08:44.349576+00:00",
+    "reason": "Unexpected coverage or duplicates"
+  },
+  {
+    "date": "2025-11-19",
+    "url": "https://cdn.www.gob.pe/uploads/document/file/9020844/7360458-reporte-de-ingreso-y-precios-en-el-gran-mercado-mayorista-de-lima-19-11-2025.pdf?v=1764344029",
+    "file": "gmml-2025-11-19.pdf",
+    "sha256": "c0bc315f14af411c8f19e74c574e110f1079f282af2052c11ff7ec4e10011b0d",
+    "expectedRows": 72,
+    "retrievedAt": "2026-10-30T01:12:29.557129+00:00",
+    "reason": "PDF date mismatch"
+  }
+]

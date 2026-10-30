@@ -23,7 +23,8 @@ def backfill(root,publication,since,cache=None,skip_invalid=False):
         else:
             raw=reader.get(url)
             if cached:cache.mkdir(parents=True,exist_ok=True);cached.write_bytes(raw)
-        report=dict(date=date,url=url,file=f'gmml-{date}.pdf',sha256=hashlib.sha256(raw).hexdigest(),expectedRows=72,retrievedAt=datetime.datetime.now(datetime.timezone.utc).isoformat())
+        retrieved=datetime.datetime.fromtimestamp(cached.stat().st_mtime,datetime.timezone.utc) if cached else datetime.datetime.now(datetime.timezone.utc)
+        report=dict(date=date,url=url,file=f'gmml-{date}.pdf',sha256=hashlib.sha256(raw).hexdigest(),expectedRows=72,retrievedAt=retrieved.isoformat(),extractorVersion='gmml-pdf-v2')
         try:
             with tempfile.TemporaryDirectory() as temp:
                 folder=Path(temp);(folder/report['file']).write_bytes(raw);(folder/'reports.json').write_text(json.dumps([report]));extract(folder,folder/'processed');incoming=json.loads((folder/'processed/gmml-history.json').read_text())
@@ -35,10 +36,11 @@ def backfill(root,publication,since,cache=None,skip_invalid=False):
         history.extend(incoming);reports.append(report)
     history.sort(key=lambda r:(r['date'],r['name'],r['unit']));reports.sort(key=lambda r:r['date']);validate(snapshot,history)
     (resources/'gmml-history.json').write_text(json.dumps(history,ensure_ascii=False,indent=2)+'\n');provenance.write_text(json.dumps(reports,ensure_ascii=False,indent=2)+'\n')
-    if rejected:
-        path=root/'data-input/rejected-reports.json'
+    path=root/'data-input/rejected-reports.json'
+    if rejected or path.exists():
         previous=json.loads(path.read_text()) if path.exists() else []
-        by_url={r['url']:r for r in previous+rejected}
+        accepted_urls={r['url'] for r in reports}
+        by_url={r['url']:r for r in previous+rejected if r['url'] not in accepted_urls}
         path.write_text(json.dumps(list(by_url.values()),ensure_ascii=False,indent=2)+'\n')
     print(json.dumps(dict(addedReports=len(candidates)-len(rejected),rejectedReports=len(rejected),totalReports=len(reports),observations=len(history),requests=reader.receipts),ensure_ascii=False,indent=2))
 if __name__=='__main__':

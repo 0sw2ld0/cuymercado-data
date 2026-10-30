@@ -4,12 +4,20 @@ from pathlib import Path
 import pdfplumber
 
 UNITS={'Kilogramo':'kg','Atado':'atado','Atado Grande':'atado grande','Docena':'docena','Cajon':'cajón','Cajon Chico':'cajón chico','Saco Chico':'saco chico','Bolsa':'bolsa','Ciento':'ciento','Paquete':'paquete','Unidad':'unidad'}
-ROW=re.compile(r'^(.*?)\s+([\d.:]+)\s+([\d.:]+)\s+([\d.:]+)\s+([\d.:]+)\s+(Kilogramo|Atado Grande|Atado|Docena|Cajon Chico|Cajon|Saco Chico|Bolsa|Ciento|Paquete|Unidad)\s+([\d.]+)\s+([\d.:]+)\s+([\d.:]+)\s+([\d.:]+)$')
+ROW=re.compile(r'^(.*?)\s+([\d.:]+)\s+([\d.:]+)\s+([\d.:]+)\s+([\d.:]+)\s+(Kilogramo|Atado Grande|Atado|Docena|Cajon Chico|Cajon|Saco Chico|Bolsa|Ciento|Paquete|Unidad)\s+([\d.]+)\s+([\d.:]+)\s+([\d.:]+)\s+(.+)$')
 MONTHS=['enero','febrero','marzo','abril','mayo','junio','julio','agosto','septiembre','octubre','noviembre','diciembre']
 
 def parse_lines(text,page):
     rows=[]
     for line in text.splitlines():
+        # Legacy PDFs contain hidden placeholder colons over the final row.
+        # Restrict cleanup to this visually reviewed product and intake columns;
+        # never alter the previous/current price fields.
+        if line.startswith('Z:apallo Macre '):
+            head,separator,tail=line.partition(' Kilogramo ')
+            head=head.replace('Z:apallo','Zapallo')
+            head=re.sub(r'(\d):',r'\1',head)
+            line=head+separator+tail
         match=ROW.fullmatch(line)
         if not match: continue
         name,_,tonnes,_,_,unit,_,previous,price,_=match.groups()

@@ -3,9 +3,14 @@ import json, sys, tempfile, unittest
 from pathlib import Path
 from unittest.mock import patch
 sys.path.insert(0,str(Path(__file__).resolve().parents[1]/'etl'))
-from update_daily import run
+from update_daily import run,retain_window
 
 class DailyTests(unittest.TestCase):
+    def test_rolling_window_uses_source_cutoff_and_keeps_boundary(self):
+        start=(__import__('datetime').date(2026,10,29)-__import__('datetime').timedelta(days=359)).isoformat()
+        rows=[dict(date='2025-01-01'),dict(date=start),dict(date='2026-10-29')]
+        self.assertEqual(retain_window('2026-10-29',rows),rows[1:])
+
     def stage(self,root):
         folder=root/'data-input/processed';folder.mkdir(parents=True)
         (folder/'gmml-sample.json').write_text(json.dumps(dict(testOnly=True,date='2026-10-27',products=[])))
