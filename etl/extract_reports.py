@@ -36,7 +36,7 @@ def extract(input_dir,output):
             for page_number,page in enumerate(pdf.pages,start=1):
                 text=page.extract_text() or '';texts.append(text);rows.extend(parse_lines(text,page_number))
         expected=f'{date.day} de {MONTHS[date.month-1]} de {date.year}'
-        if expected not in '\n'.join(texts).lower(): raise ValueError('PDF date mismatch')
+        if expected not in '\n'.join(texts).lower().replace('setiembre', 'septiembre'): raise ValueError('PDF date mismatch')
         if len(rows)!=report.get('expectedRows',72) or len({(r['name'],r['unit']) for r in rows})!=len(rows): raise ValueError('Unexpected coverage or duplicates')
         snapshot=dict(date=report['date'],market='Gran Mercado Mayorista de Lima',source='MIDAGRI · SISAP',url=report['url'],sha256=digest,coverage=f'{len(rows)} productos del reporte; unidades originales, sin conversiones.',products=rows)
         snapshots.append(snapshot)

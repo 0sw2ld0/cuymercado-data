@@ -10,7 +10,7 @@ Base HTTPS: `https://raw.githubusercontent.com/0sw2ld0/cuymercado-data/main`
 
 ## Actualización
 
-Actions usa `ubuntu-24.04`, un runner estándar público. Ejecuta pruebas al cambiar el pipeline y consulta MIDAGRI diariamente a las 15:30 UTC (10:30 de Lima), además de permitir ejecución manual. Respeta robots.txt, consulta páginas directas sin paginación y descarga únicamente el último PDF enlazado, con identificación y límites. Un error conserva la versión anterior. No consulta endpoints internos de EMMSA.
+Actions usa `ubuntu-24.04`, un runner estándar público. Ejecuta pruebas al cambiar el pipeline y consulta MIDAGRI diariamente a las 15:30 UTC (10:30 de Lima), además de permitir ejecución manual. Respeta robots.txt, consulta páginas directas sin paginación y descarga el último PDF enlazado, con identificación y límites. Recupera también los reportes intermedios desde el último corte (hasta tres publicaciones mensuales); valida todo en una carpeta temporal antes de modificar los datos publicables. Si la interrupción supera ese límite, falla y requiere una carga histórica explícita. Un error conserva la versión anterior. No consulta endpoints internos de EMMSA.
 
 Se publican los datos numéricos normalizados, no PDF ni contenido de la app. `data-input/reports.json` registra procedencia. Los JSON procesados permiten mantener el histórico sin volver a descargar todos los originales. Cada observación conserva fecha, unidad, documento, hash y página. La fuente y corte reales aparecen en el paquete; la fecha de ejecución no transforma un reporte antiguo en uno actual.
 
@@ -19,11 +19,11 @@ Se publican los datos numéricos normalizados, no PDF ni contenido de la app. `d
 ```sh
 python -m pip install -r requirements.txt
 python -m unittest discover -s tests -v
-python etl/fetch_latest.py
+python etl/update_daily.py
 python etl/build_release.py
 ```
 
-Los tests sintéticos son temporales y se rechazan para publicación por defecto. El extractor falla ante fecha, hash, conteo o esquema inesperados. El conteo esperado actual es 72 filas; un catálogo distinto requiere revisión del formato. No se interpolan días ni se usan promedios semanales como precios diarios.
+Los tests sintéticos son temporales y se rechazan para publicación por defecto. El extractor falla ante fecha, hash, conteo o esquema inesperados. El paquete se limita a 8 MB para mantener compatibilidad con la app instalada. El conteo esperado actual es 72 filas; un catálogo distinto requiere revisión del formato. No se interpolan días ni se usan promedios semanales como precios diarios.
 
 Opcionalmente, una ejecución manual puede desplegar en un proyecto Cloudflare existente mediante `deploy_cloudflare=true`, `CUY_DATA_PAGES_PROJECT`, `CLOUDFLARE_ACCOUNT_ID` y `CLOUDFLARE_API_TOKEN`. Nunca se incluyen secretos en la app o los JSON; no se crean recursos desde el workflow.
 
@@ -32,3 +32,7 @@ Opcionalmente, una ejecución manual puede desplegar en un proyecto Cloudflare e
 `python etl/backfill.py --publication URL_OFICIAL_MENSUAL --since AAAA-MM-DD` descarga únicamente los PDF enlazados y aún no registrados, con las mismas reglas de acceso. Está limitado a una publicación y 31 reportes por ejecución; valida todos antes de escribir el histórico. El corte no se adelanta: solo añade fechas anteriores. Después se genera una versión con `python etl/build_release.py`. No se rellena automáticamente un año ni se asume que existan todos los días.
 
 La primera ampliación de octubre incorporó 18 fechas y 1.296 precios entre el 1 y el 27/10/2026. Los 504 valores anteriormente publicados se mantuvieron iguales.
+
+## Verificación de la programación
+
+El workflow está activo. Las ejecuciones programadas del [28/10/2026](https://github.com/0sw2ld0/cuymercado-data/actions/runs/40763713684) y [29/10/2026](https://github.com/0sw2ld0/cuymercado-data/actions/runs/40949385619) publicaron correctamente los reportes de esos días. La programación es diaria; GitHub puede retrasar el inicio (esas ejecuciones comenzaron aproximadamente a las 15:29 de Lima). No garantiza datos nuevos cada día: depende de la publicación de MIDAGRI. El resumen de cada ejecución informa corte, antigüedad, número de fechas y observaciones; los errores impiden publicar.

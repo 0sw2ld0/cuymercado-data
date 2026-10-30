@@ -31,6 +31,7 @@ def prepare(output, resources=None, allow_test_data=False):
     package=dict(schemaVersion=1,snapshot=snapshot,history=history)
     if snapshot.get("testOnly"): package["testOnly"]=True
     raw=(json.dumps(package,ensure_ascii=False,sort_keys=True,separators=(',',':'),allow_nan=False)+'\n').encode()
+    if len(raw)>8_000_000:raise ValueError('Package exceeds the installed iOS client limit (8 MB); review retention or split schema')
     digest=hashlib.sha256(raw).hexdigest()
     path=f'releases/{digest}/pack.json'
     target=output/path;target.parent.mkdir(parents=True,exist_ok=True);target.write_bytes(raw)
