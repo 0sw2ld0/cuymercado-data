@@ -15,3 +15,7 @@ Los originales se procesan temporalmente en el runner y se identifican por hash 
 ## El mar
 
 Desde el 29/10/2026 se integra también, por solicitud expresa del usuario, información factual de precios y disposiciones públicas de PRODUCE. El canal de precios es el PDF enlazado en el Observatorio PRODUCEmpresarial; el normativo es el compendio Vedas y los PDF oficiales fijados por hash. Se mantienen separados de la serie MIDAGRI. La cobertura, las excepciones, las verificaciones y el mecanismo de revisión de novedades se detallan en [SEA_SOURCES.md](SEA_SOURCES.md). No se declara una licencia abierta inexistente ni autorización escrita de PRODUCE. No se publican originales PDF, logos o datos personales; solo datos normalizados y la procedencia. No se automatiza el Datero ni se envían solicitudes o mensajes a la entidad.
+
+## Escudo
+
+Por solicitud del 30/10/2026 se incorporan hechos de comunicados públicos alimentarios de DIGESA y títulos, fechas y enlaces de noticias de MINSA, con atribución y alcance específico. No se redistribuyen originales ni imágenes institucionales, ni una base de registros sanitarios. El formulario público DIGESA se opera interactivamente desde la app; no se usan APIs privadas ni se eluden bloqueos. El monitor diario público y sus límites están documentados en [SHIELD_SOURCES.md](SHIELD_SOURCES.md). No se afirma que una ausencia de coincidencias indique seguridad, ni que un registro garantice autenticidad o inocuidad.

@@ -48,3 +48,7 @@ El paquete publicado tiene 72 productos, 17.352 observaciones y 241 fechas del 0
 ## El mar · feed independiente
 
 `https://raw.githubusercontent.com/0sw2ld0/cuymercado-data/main/sea/current.json` identifica el paquete de precios pesqueros y disposiciones de PRODUCE. `python etl/update_sea.py` consulta el reporte y el compendio; `--build-only` valida y reconstruye los inputs ya guardados. Workflow público `cuymercado-sea.yml`, diario a las 16:45 Lima y bajo demanda. La cobertura inicial es de 12 precios promedio al 28/10/2026, 25 disposiciones recientes y periodos revisados de choro, paiche y bagre andino. No afirma contener todas las vedas vigentes. Consulte [SEA_SOURCES.md](SEA_SOURCES.md) antes de interpretar o ampliar sus reglas. Los cambios normativos disparan una alerta de revisión; no se aceptan automáticamente como permisos de pesca o venta.
+
+## Escudo · alertas y registros
+
+`shield/current.json` distribuye comunicados alimentarios revisados de DIGESA y noticias detectadas en MINSA. El workflow público `cuymercado-shield.yml` revisa diariamente a las 17:15 Lima los listados oficiales accesibles; no renueva la revisión editorial de los comunicados. El formulario real DIGESA se consulta interactivamente desde iOS. Cobertura parcial, fuente, lote y fechas explícitas: [SHIELD_SOURCES.md](SHIELD_SOURCES.md). `python etl/update_shield.py` consulta y publica; `--build-only` reconstruye el paquete ya guardado. Las fuentes que bloquean automatización no se eluden.

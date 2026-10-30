@@ -1,0 +1,158 @@
+{
+  "schemaVersion": 1,
+  "reviewedAt": "2026-10-30T05:53:51.165656+00:00",
+  "coverage": "Selección de 5 comunicados alimentarios de DIGESA de 2025–2026. El monitor diario revisa las primeras páginas públicas de noticias de MINSA por alerta, retiro y DIGESA; no cubre todas las autoridades ni certifica la vigencia de cada medida.",
+  "alerts": [
+    {
+      "id": "digesa-09-2026",
+      "title": "Timonel y Lybre · agua de mesa",
+      "category": "Agua y bebidas",
+      "publishedDate": "2026-09-16",
+      "risk": "Detección de Pseudomonas aeruginosa en agua de mesa y varios lotes de la línea de producción.",
+      "action": "DIGESA indicó no comprar ni consumir estas aguas y dispuso su retiro de la venta.",
+      "scope": "Todas las presentaciones y lotes indicados en el comunicado.",
+      "company": "INCO BRANDS PERÚ S.A.C.",
+      "registrations": [
+        "P0652824N/NAINYY"
+      ],
+      "lots": [
+        "Todos los lotes"
+      ],
+      "url": "https://www.digesa.minsa.gob.pe/COMUNICADO_09-2026-DIGESA-MINSA01.pdf",
+      "issuer": "DIGESA · MINSA",
+      "reviewedAt": "2026-10-30T05:53:51.165656+00:00"
+    },
+    {
+      "id": "digesa-02-2026",
+      "title": "Alula Gold · fórmulas para lactantes",
+      "category": "Fórmulas infantiles",
+      "publishedDate": "2026-01-23",
+      "risk": "Posible presencia de cereulida en el ingrediente Omega 6 ARA.",
+      "action": "Retiro voluntario y preventivo. DIGESA indicó no adquirir ni consumir los productos afectados.",
+      "scope": "Comparar producto, presentación y lote con la tabla completa del comunicado de dos páginas. Incluye Alula Gold Premium, Gold 1, Gold 2, Comfort, CFT Kid, LF y Pedialact.",
+      "company": "Sanulac Nutrición Perú S.A.C.",
+      "registrations": [
+        "I1000625E/NASNNT",
+        "I1014124E/NASNNT",
+        "I1012924E/NASNNT",
+        "I1014524E/NASNNT"
+      ],
+      "lots": [
+        "8000003358",
+        "8000003379",
+        "8000003178",
+        "8000003179",
+        "8000003285",
+        "8000003300",
+        "8000003378",
+        "8000003594",
+        "8000003226",
+        "8000003269",
+        "8000003286",
+        "8000003351",
+        "8000003236",
+        "8000003275",
+        "8000003345",
+        "8000003235",
+        "8000003224",
+        "8000003595",
+        "8000003223",
+        "8000003290",
+        "8000003360",
+        "8000003597",
+        "8000003245",
+        "8000003246",
+        "8000003301",
+        "8000003385",
+        "8000003386",
+        "8000003599",
+        "8000003600",
+        "8000003607",
+        "8000003642",
+        "8000003621"
+      ],
+      "url": "https://www.digesa.minsa.gob.pe/COMUNICADO_02-2026-DIGESA-MINSA-01.pdf",
+      "issuer": "DIGESA · MINSA",
+      "reviewedAt": "2026-10-30T05:53:51.165656+00:00"
+    },
+    {
+      "id": "digesa-01-2026",
+      "title": "NAN Supreme Pro 2 · lata de 800 g",
+      "category": "Fórmulas infantiles",
+      "publishedDate": "2026-01-06",
+      "risk": "Posible desviación de calidad comunicada por DIGESA.",
+      "action": "Retiro voluntario y preventivo del lote señalado. DIGESA indicó no adquirirlo ni consumirlo.",
+      "scope": "NAN Supreme Pro 2, lata de 800 g, lote 52840742F2. La alerta no se extiende automáticamente a otros lotes o fórmulas.",
+      "company": "Nestlé Marcas Perú S.A.C.",
+      "registrations": [],
+      "lots": [
+        "52840742F2"
+      ],
+      "url": "https://www.digesa.minsa.gob.pe/COMUNICADO_01-2026-DIGESA-MINSA-01.pdf",
+      "issuer": "DIGESA · MINSA",
+      "reviewedAt": "2026-10-30T05:53:51.165656+00:00"
+    },
+    {
+      "id": "digesa-11-2025",
+      "title": "ByHeart Whole Nutrition · fórmula infantil",
+      "category": "Fórmulas infantiles",
+      "publishedDate": "2025-11-21",
+      "risk": "Retirada global comunicada por DIGESA tras una alerta e investigación de la FDA.",
+      "action": "DIGESA indicó dejar de consumir cualquier fórmula ByHeart y coordinar su recogida con la autoridad sanitaria.",
+      "scope": "Todos los lotes; latas y sobres individuales, incluidos Anywhere Pack. Se comercializa mediante plataformas internacionales.",
+      "company": "ByHeart",
+      "registrations": [],
+      "lots": [
+        "Todos los lotes"
+      ],
+      "url": "https://www.digesa.minsa.gob.pe/COMUNICADO_11-2025-DIGESA-MINSA-01.pdf",
+      "issuer": "DIGESA · MINSA",
+      "reviewedAt": "2026-10-30T05:53:51.165656+00:00"
+    },
+    {
+      "id": "digesa-08-2025",
+      "title": "Guttis · purés de frutas, verduras y cereales",
+      "category": "Alimentos infantiles",
+      "publishedDate": "2025-09-01",
+      "risk": "Plomo por encima del límite informado para alimentos de lactantes y niños pequeños.",
+      "action": "El comunicado ratificó retiro de lotes y suspensión de dos registros. El estado actual del registro debe comprobarse en la consulta DIGESA.",
+      "scope": "Morado Citrus L0710248, Verde Dulzura L0710247 y Naranja Tropical L07102411. Consultar el original; no atribuir la alerta a cualquier puré o ingrediente fresco.",
+      "company": "Smart Snacks S.A.C.",
+      "registrations": [
+        "I8909024E/NASASA",
+        "I8908624E/NASASA"
+      ],
+      "lots": [
+        "L0710248",
+        "L0710247",
+        "L07102411"
+      ],
+      "url": "https://www.digesa.minsa.gob.pe/COMUNICADO_08-2025-DIGESA-MINSA-01.pdf",
+      "issuer": "DIGESA · MINSA",
+      "reviewedAt": "2026-10-30T05:53:51.165656+00:00"
+    }
+  ],
+  "checkedAt": "2026-10-30T05:54:24.065011+00:00",
+  "news": [
+    {
+      "id": "1445416",
+      "title": "Minsa ordena el retiro inmediato de las aguas de mesa “Timonel” y “Lybre” por contaminación y riesgo para la salud",
+      "publishedDate": "2026-09-16",
+      "url": "https://www.gob.pe/institucion/minsa/noticias/1445416-minsa-ordena-el-retiro-inmediato-de-las-aguas-de-mesa-timonel-y-lybre-por-contaminacion-y-riesgo-para-la-salud"
+    }
+  ],
+  "monitoredSources": [
+    {
+      "url": "https://www.gob.pe/institucion/minsa/noticias?filter%5Bterms%5D=alerta",
+      "sha256": "7c3aa0852f050bbe841ce4c80818281f5f02b08a65d4e666813409d3263f2471"
+    },
+    {
+      "url": "https://www.gob.pe/institucion/minsa/noticias?filter%5Bterms%5D=retiro",
+      "sha256": "5abef76ccd8d6c5207485bf5f9165738e60161b5b5af2c935948debc6d6eb08f"
+    },
+    {
+      "url": "https://www.gob.pe/institucion/minsa/noticias?filter%5Bterms%5D=digesa",
+      "sha256": "8954a08b2f8dac7147c43ecf4b00fa5d5b439b0e2de7dffa6fa9544e54fca07c"
+    }
+  ]
+}
