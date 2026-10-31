@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-10-30T01:56:11.470420+00:00",
+  "checkedAt": "2026-10-31T01:03:44.307533+00:00",
   "prices": {
     "date": "2026-10-28",
     "source": "PRODUCE · OGEIEE",
@@ -158,6 +158,16 @@
   },
   "norms": [
     {
+      "id": "8772690-00386-2026-produce",
+      "title": "Resolución Ministerial N.° 00386-2026-PRODUCE",
+      "publishedDate": "2026-10-30",
+      "summary": "Establecer la veda reproductiva del recurso bonito (Sarda chiliensis chiliensis) en el ámbito marítimo de jurisdicción nacional, del 1 al 30 de noviembre de 2026, quedando prohibida toda actividad extractiva que involucre a este recurso, así como su transporte, procesamiento, comercialización y/o almacenamiento, salvo que se cuente con documentación indubitable y de fecha cierta que demuestre que el referido recurso ha sido extraído antes del establecimiento de la citada veda reproductiva o en el marco de la pesca exploratoria autorizada en el artículo 2 de la presente Resolución Ministerial. Esta norma pertenece al compendio Vedas R M Nº 00386-2026-PRODUCE PDF 924.7 KB Descargar ANEXO - R M Nº 00386-2026-PRODUCE PDF 389 KB Descargar",
+      "url": "https://www.gob.pe/institucion/produce/normas-legales/8772690-00386-2026-produce",
+      "indexSummary": "Establecer la veda reproductiva del recurso bonito (Sarda chiliensis chiliensis) en el ámbito marítimo de ...",
+      "documentURL": "https://cdn.www.gob.pe/uploads/document/file/10879755/8772690-r-m-n-00386-2026-produce.pdf?v=1793371262",
+      "summaryCheckedAt": "2026-10-31T01:03:23.023619+00:00"
+    },
+    {
       "id": "8547947-00313-2026-produce",
       "title": "Resolución Ministerial N.° 00313-2026-PRODUCE",
       "publishedDate": "2026-09-02",
@@ -165,7 +175,7 @@
       "url": "https://www.gob.pe/institucion/produce/normas-legales/8547947-00313-2026-produce",
       "indexSummary": "Establecer la veda reproductiva del recurso choro (Aulacomya atra) en el litoral peruano desde el día siguiente de ...",
       "documentURL": "https://cdn.www.gob.pe/uploads/document/file/10551835/8547947-r-m-n-00313-2026-produce.pdf?v=1788365641",
-      "summaryCheckedAt": "2026-10-30T01:55:53.982933+00:00"
+      "summaryCheckedAt": "2026-10-31T01:03:25.925233+00:00"
     },
     {
       "id": "8546151-00307-2026-produce",
@@ -175,7 +185,7 @@
       "url": "https://www.gob.pe/institucion/produce/normas-legales/8546151-00307-2026-produce",
       "indexSummary": "Establecer la veda reproductiva del recurso \"bagre andino\" (Rhamdia quelen) en el tramo del río Pampas comprendido ...",
       "documentURL": "https://cdn.www.gob.pe/uploads/document/file/10549333/8546151-r-m-n-00307-2026-produce.pdf?v=1788358587",
-      "summaryCheckedAt": "2026-10-30T01:56:03.309995+00:00"
+      "summaryCheckedAt": "2026-10-31T01:03:35.892234+00:00"
     },
     {
       "id": "8500453-00285-2026-produce",
@@ -396,16 +406,6 @@
       "indexSummary": "Dar por concluidas las actividades extractivas del recurso jurel (Trachurus murphyi), efectuadas por embarcaciones ...",
       "documentURL": "https://cdn.www.gob.pe/uploads/document/file/6812639/5898141-rm-n-332-2024-produce.pdf?v=1724247404",
       "summaryCheckedAt": "2026-10-30T01:32:45.079843+00:00"
-    },
-    {
-      "id": "5815746-301-2024-produce",
-      "title": "Resolución Ministerial N.° 301-2024-PRODUCE",
-      "publishedDate": "2024-07-27",
-      "summary": "La presente Resolución Ministerial tiene por objeto establecer medidas de conservación a ser aplicadas en la pesquería de atunes en cumplimiento de las Resoluciones de la Comisión Interamericana del Atún Tropical - CIAT, sin perjuicio de las disposiciones contenidas en el Reglamento de Ordenamiento Pesquero del Atún, aprobado por Decreto Supremo Nº 032-2003- PRODUCE, y demás disposiciones aplicables, las cuales son de cumplimento por parte de las embarcaciones pesqueras nacionales registradas ante la CIAT. Esta norma pertenece al compendio Vedas RM Nº 301-2024-PRODUCE PDF 606.3 KB Descargar ANEXO-RM N 301-2024-PRODUCE PDF 224.7 KB Descargar",
-      "url": "https://www.gob.pe/institucion/produce/normas-legales/5815746-301-2024-produce",
-      "indexSummary": "La presente Resolución Ministerial tiene por objeto establecer medidas de conservación a ser aplicadas en la ...",
-      "documentURL": "https://cdn.www.gob.pe/uploads/document/file/6699149/5815746-rm-n-301-2024-produce.pdf?v=1722076323",
-      "summaryCheckedAt": "2026-10-30T01:32:47.555949+00:00"
     }
   ],
   "rules": [
@@ -470,10 +470,10 @@
       "exceptions": "Rige desde 2027 y puede modificarse por recomendación de IMARPE. Para transporte, procesamiento, comercialización o almacenamiento se exige prueba de extracción anterior o de procedencia de otra zona (art. 1.4)."
     }
   ],
-  "reviewRequired": false,
+  "reviewRequired": true,
   "rulesReviewedAt": "2026-10-30T01:29:17.614185+00:00",
   "coverage": "25 disposiciones recientes del compendio PRODUCE y periodos revisados de choro, paiche y bagre andino. Cobertura parcial; no acredita permiso de pesca o venta.",
   "normsURL": "https://www.gob.pe/institucion/produce/colecciones/1918-vedas",
-  "indexSignature": "e8cc871da8a4086f02b35b7de49701c30410dd88f5eed5165a153854bb33b9ac",
+  "indexSignature": "da92634acfe5adb8c802c0f6fd7af5f3117f060191c52df2a57873459d7cf5aa",
   "changedDocuments": []
 }
