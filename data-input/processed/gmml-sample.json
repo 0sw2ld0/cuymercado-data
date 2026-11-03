@@ -1,49 +1,49 @@
 {
-  "date": "2026-11-02",
+  "date": "2026-11-03",
   "market": "Gran Mercado Mayorista de Lima",
   "source": "MIDAGRI · SISAP",
-  "url": "https://cdn.www.gob.pe/uploads/document/file/10891860/8779792-reporte-de-ingreso-y-precios-en-el-gran-mercado-mayorista-de-lima-02-11-2026.pdf?v=1793640313",
-  "sha256": "c9303b476880ff24d6a735d75c0c7843c811c7a8d57b2104da96c5a009cdcf50",
+  "url": "https://cdn.www.gob.pe/uploads/document/file/10898525/8779792-reporte-de-ingreso-y-precios-en-el-gran-mercado-mayorista-de-lima-03-11-2026.pdf?v=1793724818",
+  "sha256": "45ea7cebaa32279f40b5c5e98d3ae8f4d0543e9bb848ac2b3e7460934de6d397",
   "coverage": "72 productos del reporte; unidades originales, sin conversiones.",
   "products": [
     {
       "name": "Acelga",
       "unit": "atado",
-      "previous": 3.83,
-      "price": 3.78,
-      "tonnes": null,
+      "previous": 3.78,
+      "price": 3.83,
+      "tonnes": 2.0,
       "page": 2
     },
     {
       "name": "Aji Amarillo Seco",
       "unit": "kg",
-      "previous": 14.38,
+      "previous": 14.5,
       "price": 14.5,
-      "tonnes": 21.0,
+      "tonnes": 67.0,
       "page": 2
     },
     {
       "name": "Aji Escabeche",
       "unit": "kg",
-      "previous": 5.33,
-      "price": 5.25,
-      "tonnes": 149.0,
+      "previous": 5.25,
+      "price": 5.4,
+      "tonnes": 127.0,
       "page": 2
     },
     {
       "name": "Aji Montaña",
       "unit": "kg",
-      "previous": 4.38,
-      "price": 4.63,
-      "tonnes": 19.0,
+      "previous": 4.63,
+      "price": 4.75,
+      "tonnes": null,
       "page": 2
     },
     {
       "name": "Aji Panca",
       "unit": "kg",
-      "previous": 16.38,
+      "previous": 16.5,
       "price": 16.5,
-      "tonnes": 23.0,
+      "tonnes": 2.0,
       "page": 2
     },
     {
@@ -57,40 +57,40 @@
     {
       "name": "Aji Rocoto",
       "unit": "cajón",
-      "previous": 42.5,
-      "price": 45.0,
-      "tonnes": 137.0,
+      "previous": 45.0,
+      "price": 52.5,
+      "tonnes": 102.0,
       "page": 2
     },
     {
       "name": "Ajo Criollo O Napuri",
       "unit": "kg",
       "previous": 4.75,
-      "price": 4.75,
-      "tonnes": 111.0,
+      "price": 5.13,
+      "tonnes": 182.0,
       "page": 2
     },
     {
       "name": "Ajo Morado",
       "unit": "kg",
-      "previous": 6.63,
-      "price": 6.75,
-      "tonnes": 84.0,
+      "previous": 6.75,
+      "price": 7.25,
+      "tonnes": 58.0,
       "page": 2
     },
     {
       "name": "Albahaca",
       "unit": "atado",
-      "previous": 2.75,
-      "price": 2.7,
-      "tonnes": 10.0,
+      "previous": 2.7,
+      "price": 2.75,
+      "tonnes": 13.0,
       "page": 2
     },
     {
       "name": "Alcachofa",
       "unit": "docena",
       "previous": 23.0,
-      "price": 23.0,
+      "price": 22.75,
       "tonnes": null,
       "page": 2
     },
@@ -98,24 +98,24 @@
       "name": "Apio",
       "unit": "atado",
       "previous": 20.0,
-      "price": 20.0,
-      "tonnes": 25.0,
+      "price": 19.5,
+      "tonnes": 57.0,
       "page": 2
     },
     {
       "name": "Arveja Verde Americana",
       "unit": "kg",
-      "previous": 7.25,
-      "price": 7.38,
-      "tonnes": 53.0,
+      "previous": 7.38,
+      "price": 8.63,
+      "tonnes": 67.0,
       "page": 2
     },
     {
       "name": "Arveja Verde Blanca Serrana",
       "unit": "kg",
       "previous": 6.7,
-      "price": 6.7,
-      "tonnes": 29.0,
+      "price": 8.1,
+      "tonnes": 1.0,
       "page": 2
     },
     {
@@ -123,47 +123,47 @@
       "unit": "docena",
       "previous": 22.25,
       "price": 22.25,
-      "tonnes": null,
+      "tonnes": 6.0,
       "page": 2
     },
     {
       "name": "Beterraga",
       "unit": "atado",
       "previous": 2.75,
-      "price": 2.75,
-      "tonnes": 29.0,
+      "price": 2.7,
+      "tonnes": 68.0,
       "page": 2
     },
     {
       "name": "Brocoli",
       "unit": "kg",
-      "previous": 3.38,
-      "price": 3.5,
-      "tonnes": 23.0,
+      "previous": 3.5,
+      "price": 3.63,
+      "tonnes": 71.0,
       "page": 2
     },
     {
       "name": "Caigua (Selva)",
       "unit": "cajón",
-      "previous": 56.25,
-      "price": 53.75,
-      "tonnes": null,
+      "previous": 53.75,
+      "price": 55.0,
+      "tonnes": 9.0,
       "page": 2
     },
     {
       "name": "Camote Amarillo",
       "unit": "kg",
-      "previous": 0.95,
-      "price": 0.98,
-      "tonnes": 51.0,
+      "previous": 0.98,
+      "price": 0.88,
+      "tonnes": 369.0,
       "page": 2
     },
     {
       "name": "Camote Morado",
       "unit": "kg",
       "previous": 1.83,
-      "price": 1.83,
-      "tonnes": 53.0,
+      "price": 1.93,
+      "tonnes": 22.0,
       "page": 2
     },
     {
@@ -177,25 +177,25 @@
     {
       "name": "Cebolla Cabeza Roja",
       "unit": "kg",
-      "previous": 2.45,
-      "price": 2.5,
-      "tonnes": 752.0,
+      "previous": 2.5,
+      "price": 2.43,
+      "tonnes": 4.0,
       "page": 2
     },
     {
       "name": "Cebolla China",
       "unit": "atado grande",
       "previous": 4.38,
-      "price": 4.38,
-      "tonnes": 11.0,
+      "price": 4.5,
+      "tonnes": 19.0,
       "page": 2
     },
     {
       "name": "Choclo (Tipo Cusco)",
       "unit": "ciento",
       "previous": 357.5,
-      "price": 357.5,
-      "tonnes": 122.0,
+      "price": 365.0,
+      "tonnes": 182.0,
       "page": 2
     },
     {
@@ -203,47 +203,47 @@
       "unit": "docena",
       "previous": 66.25,
       "price": 66.25,
-      "tonnes": 12.0,
+      "tonnes": 49.0,
       "page": 2
     },
     {
       "name": "Col Corazon",
       "unit": "docena",
       "previous": 35.0,
-      "price": 35.0,
-      "tonnes": 40.0,
+      "price": 36.5,
+      "tonnes": 73.0,
       "page": 2
     },
     {
       "name": "Coliflor",
       "unit": "docena",
-      "previous": 31.75,
-      "price": 32.5,
-      "tonnes": null,
+      "previous": 32.5,
+      "price": 33.0,
+      "tonnes": 36.0,
       "page": 2
     },
     {
       "name": "Culantro",
       "unit": "atado",
-      "previous": 4.38,
-      "price": 4.63,
-      "tonnes": 21.0,
+      "previous": 4.63,
+      "price": 4.5,
+      "tonnes": 17.0,
       "page": 2
     },
     {
       "name": "Esparrago",
       "unit": "paquete",
-      "previous": 3.38,
-      "price": 3.5,
-      "tonnes": null,
+      "previous": 3.5,
+      "price": 3.58,
+      "tonnes": 1.0,
       "page": 2
     },
     {
       "name": "Espinaca",
       "unit": "kg",
       "previous": 2.75,
-      "price": 2.75,
-      "tonnes": 49.0,
+      "price": 3.13,
+      "tonnes": 155.0,
       "page": 2
     },
     {
@@ -251,14 +251,14 @@
       "unit": "kg",
       "previous": 2.5,
       "price": 2.5,
-      "tonnes": 11.0,
+      "tonnes": 16.0,
       "page": 2
     },
     {
       "name": "Frijol Verde Canario",
       "unit": "kg",
-      "previous": 7.2,
-      "price": 7.33,
+      "previous": 7.33,
+      "price": 7.7,
       "tonnes": null,
       "page": 2
     },
@@ -266,23 +266,23 @@
       "name": "Haba Verde Serrana",
       "unit": "kg",
       "previous": 2.45,
-      "price": 2.45,
-      "tonnes": 30.0,
+      "price": 2.43,
+      "tonnes": 39.0,
       "page": 2
     },
     {
       "name": "Hierba Buena",
       "unit": "atado",
-      "previous": 1.73,
-      "price": 1.75,
-      "tonnes": 2.0,
+      "previous": 1.75,
+      "price": 1.8,
+      "tonnes": 5.0,
       "page": 2
     },
     {
       "name": "Holantau/Organica",
       "unit": "kg",
-      "previous": 12.25,
-      "price": 12.0,
+      "previous": 12.0,
+      "price": 12.25,
       "tonnes": null,
       "page": 2
     },
@@ -290,104 +290,104 @@
       "name": "Huacatay",
       "unit": "atado",
       "previous": 2.63,
-      "price": 2.63,
-      "tonnes": 6.0,
+      "price": 2.5,
+      "tonnes": 11.0,
       "page": 2
     },
     {
       "name": "Kion",
       "unit": "kg",
-      "previous": 4.0,
+      "previous": 3.88,
       "price": 3.88,
-      "tonnes": 88.0,
+      "tonnes": 46.0,
       "page": 2
     },
     {
       "name": "Lechuga Americana",
       "unit": "docena",
       "previous": 14.25,
-      "price": 14.25,
-      "tonnes": 81.0,
+      "price": 16.25,
+      "tonnes": 158.0,
       "page": 2
     },
     {
       "name": "Lechuga Criolla Seda",
       "unit": "docena",
-      "previous": 15.0,
-      "price": 14.75,
-      "tonnes": null,
+      "previous": 14.75,
+      "price": 16.75,
+      "tonnes": 1.0,
       "page": 2
     },
     {
       "name": "Lechuga Romana Hidroponica",
       "unit": "docena",
       "previous": 9.5,
-      "price": 9.5,
+      "price": 11.0,
       "tonnes": null,
       "page": 2
     },
     {
       "name": "Limon Sutil Bolsa",
       "unit": "bolsa",
-      "previous": 65.0,
-      "price": 67.5,
-      "tonnes": 1095.0,
+      "previous": 67.5,
+      "price": 61.25,
+      "tonnes": 187.0,
       "page": 2
     },
     {
       "name": "Limon Sutil Cajon",
       "unit": "cajón",
-      "previous": 45.0,
-      "price": 47.5,
-      "tonnes": 250.0,
+      "previous": 47.5,
+      "price": 43.75,
+      "tonnes": null,
       "page": 2
     },
     {
       "name": "Maiz Marlo/Coronta De Maiz",
       "unit": "kg",
-      "previous": 19.5,
-      "price": 18.75,
+      "previous": 18.75,
+      "price": 19.5,
       "tonnes": null,
       "page": 2
     },
     {
       "name": "Maiz Morado",
       "unit": "kg",
-      "previous": 4.93,
-      "price": 4.83,
-      "tonnes": 81.0,
+      "previous": 4.83,
+      "price": 4.63,
+      "tonnes": 158.0,
       "page": 2
     },
     {
       "name": "Manzana Cte/Para Agua",
       "unit": "kg",
-      "previous": 4.2,
+      "previous": 4.3,
       "price": 4.3,
-      "tonnes": null,
+      "tonnes": 33.0,
       "page": 2
     },
     {
       "name": "Maracuya",
       "unit": "kg",
-      "previous": 5.13,
-      "price": 5.25,
-      "tonnes": 164.0,
+      "previous": 5.25,
+      "price": 3.75,
+      "tonnes": 94.0,
       "page": 2
     },
     {
       "name": "Nabo",
       "unit": "atado",
       "previous": 3.38,
-      "price": 3.38,
-      "tonnes": 8.0,
+      "price": 3.63,
+      "tonnes": 4.0,
       "page": 2
     },
     {
       "name": "Olluco Largo",
       "unit": "kg",
-      "previous": 4.83,
+      "previous": 4.7,
       "price": 4.7,
-      "tonnes": 32.0,
+      "tonnes": 74.0,
       "page": 2
     },
     {
@@ -395,47 +395,47 @@
       "unit": "docena",
       "previous": 33.75,
       "price": 33.75,
-      "tonnes": 1.0,
+      "tonnes": 12.0,
       "page": 2
     },
     {
       "name": "Pallar Verde Serrucho",
       "unit": "kg",
       "previous": 5.25,
-      "price": 5.25,
+      "price": 5.2,
       "tonnes": null,
       "page": 2
     },
     {
       "name": "Papa Amarilla",
       "unit": "kg",
-      "previous": 4.1,
-      "price": 4.15,
-      "tonnes": null,
+      "previous": 4.15,
+      "price": 4.58,
+      "tonnes": 76.0,
       "page": 2
     },
     {
       "name": "Papa Blanca",
       "unit": "kg",
-      "previous": 1.49,
-      "price": 1.53,
-      "tonnes": 327.0,
+      "previous": 1.53,
+      "price": 1.55,
+      "tonnes": 1703.0,
       "page": 2
     },
     {
       "name": "Papa Canchan 2/",
       "unit": "kg",
-      "previous": 2.08,
-      "price": 2.13,
-      "tonnes": 14.0,
+      "previous": 2.13,
+      "price": 2.38,
+      "tonnes": 23.0,
       "page": 2
     },
     {
       "name": "Papa Color",
       "unit": "kg",
-      "previous": 1.89,
-      "price": 1.92,
-      "tonnes": 37.0,
+      "previous": 1.92,
+      "price": 2.13,
+      "tonnes": 121.0,
       "page": 2
     },
     {
@@ -449,65 +449,65 @@
     {
       "name": "Papa Huayro",
       "unit": "kg",
-      "previous": 2.9,
-      "price": 2.93,
-      "tonnes": null,
-      "page": 3
+      "previous": 2.93,
+      "price": 3.1,
+      "tonnes": 24.0,
+      "page": 2
     },
     {
       "name": "Papa Negra Andina",
       "unit": "kg",
-      "previous": 1.48,
+      "previous": 1.5,
       "price": 1.5,
       "tonnes": null,
-      "page": 3
+      "page": 2
     },
     {
       "name": "Papa Peruanita",
       "unit": "kg",
-      "previous": 2.38,
-      "price": 2.43,
-      "tonnes": 20.0,
-      "page": 3
+      "previous": 2.43,
+      "price": 2.65,
+      "tonnes": null,
+      "page": 2
     },
     {
       "name": "Papa Unica 2/",
       "unit": "kg",
-      "previous": 1.7,
-      "price": 1.71,
-      "tonnes": 7.0,
-      "page": 3
+      "previous": 1.71,
+      "price": 1.88,
+      "tonnes": 98.0,
+      "page": 2
     },
     {
       "name": "Papa Yungay 1/",
       "unit": "kg",
-      "previous": 1.49,
-      "price": 1.53,
-      "tonnes": 47.0,
+      "previous": 1.53,
+      "price": 1.55,
+      "tonnes": 152.0,
       "page": 3
     },
     {
       "name": "Pepinillo",
       "unit": "docena",
-      "previous": 5.75,
+      "previous": 5.5,
       "price": 5.5,
-      "tonnes": 235.0,
+      "tonnes": 247.0,
       "page": 3
     },
     {
       "name": "Perejil",
       "unit": "atado",
-      "previous": 2.38,
-      "price": 2.5,
-      "tonnes": 17.0,
+      "previous": 2.5,
+      "price": 2.63,
+      "tonnes": 27.0,
       "page": 3
     },
     {
       "name": "Pimiento Morron",
       "unit": "cajón",
-      "previous": 65.0,
-      "price": 66.25,
-      "tonnes": 44.0,
+      "previous": 66.25,
+      "price": 55.0,
+      "tonnes": 120.0,
       "page": 3
     },
     {
@@ -515,71 +515,71 @@
       "unit": "atado",
       "previous": 14.25,
       "price": 14.25,
-      "tonnes": null,
+      "tonnes": 25.0,
       "page": 3
     },
     {
       "name": "Rabanito",
       "unit": "atado",
-      "previous": 3.38,
-      "price": 3.5,
-      "tonnes": null,
+      "previous": 3.5,
+      "price": 4.38,
+      "tonnes": 9.0,
       "page": 3
     },
     {
       "name": "Tomate",
       "unit": "cajón chico",
-      "previous": 76.25,
-      "price": 85.0,
-      "tonnes": 166.0,
+      "previous": 85.0,
+      "price": 77.5,
+      "tonnes": 359.0,
       "page": 3
     },
     {
       "name": "Vainita Americana",
       "unit": "kg",
-      "previous": 4.88,
-      "price": 6.75,
-      "tonnes": 6.0,
+      "previous": 6.75,
+      "price": 6.03,
+      "tonnes": 57.0,
       "page": 3
     },
     {
       "name": "Yuca Amarilla",
       "unit": "kg",
-      "previous": 1.88,
-      "price": 1.85,
-      "tonnes": 98.0,
+      "previous": 1.85,
+      "price": 1.88,
+      "tonnes": 221.0,
       "page": 3
     },
     {
       "name": "Zanahoria",
       "unit": "saco chico",
-      "previous": 132.5,
-      "price": 245.0,
-      "tonnes": 91.0,
+      "previous": 245.0,
+      "price": 255.0,
+      "tonnes": 317.0,
       "page": 3
     },
     {
       "name": "Zapallo Italiano",
       "unit": "docena",
-      "previous": 19.75,
-      "price": 20.0,
-      "tonnes": 6.0,
+      "previous": 20.0,
+      "price": 20.5,
+      "tonnes": 45.0,
       "page": 3
     },
     {
       "name": "Zapallo Loche",
       "unit": "unidad",
-      "previous": 18.0,
+      "previous": 17.75,
       "price": 17.75,
-      "tonnes": null,
+      "tonnes": 7.0,
       "page": 3
     },
     {
       "name": "Zapallo Macre",
       "unit": "kg",
-      "previous": 2.48,
-      "price": 2.5,
-      "tonnes": 64.0,
+      "previous": 2.5,
+      "price": 2.58,
+      "tonnes": 79.0,
       "page": 3
     }
   ]
