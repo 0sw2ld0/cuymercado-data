@@ -1,0 +1,443 @@
+[
+  {
+    "date": "2026-08-03",
+    "url": "https://cdn.www.gob.pe/uploads/document/file/10394459/8437905-boletin-de-abastecimiento-y-precios-de-aves-03-08-2026.pdf?v=1788207802",
+    "sha256": "4daa9ca00cb45be66349d3aeb6b299d1b7a82ee6bd53069a0febc6c22495a72d",
+    "status": "rechazado",
+    "reason": "Poultry page count changed"
+  },
+  {
+    "date": "2026-08-04",
+    "url": "https://cdn.www.gob.pe/uploads/document/file/10399981/8437905-boletin-de-abastecimiento-y-precios-de-aves-04-08-2026.pdf?v=1788207802",
+    "sha256": "b4e2f4c98413919ab2b5b96369238c9cf3b431bc4a815836760d97dc35296670",
+    "status": "rechazado",
+    "reason": "Poultry page count changed"
+  },
+  {
+    "date": "2026-08-05",
+    "url": "https://cdn.www.gob.pe/uploads/document/file/10409007/8437905-boletin-de-abastecimiento-y-precios-de-aves-05-08-2026.pdf?v=1788207882",
+    "sha256": "06e97baafecf04e361be62121fb5d78f15487b825a00b43f6351456b0677c5e0",
+    "status": "rechazado",
+    "reason": "Poultry page count changed"
+  },
+  {
+    "date": "2026-08-10",
+    "url": "https://cdn.www.gob.pe/uploads/document/file/10426548/8437905-boletin-de-abastecimiento-y-precios-de-aves-10-08-2026.pdf?v=1788207882",
+    "sha256": "85df78b76a16f19088147bd818c3ddb72361146547c586f5a0bca664268d3dd4",
+    "status": "rechazado",
+    "reason": "Poultry page count changed"
+  },
+  {
+    "date": "2026-08-11",
+    "url": "https://cdn.www.gob.pe/uploads/document/file/10432060/8437905-boletin-de-abastecimiento-y-precios-de-aves-11-08-2026.pdf?v=1788207887",
+    "sha256": "5739e2b5e7c1f3bbfa47fd8115924e9bb9c66cad330a4c83bc8127c44103fd24",
+    "status": "rechazado",
+    "reason": "Poultry page count changed"
+  },
+  {
+    "date": "2026-08-12",
+    "url": "https://cdn.www.gob.pe/uploads/document/file/10439216/8437905-boletin-de-abastecimiento-y-precios-de-aves-12-08-2026.pdf?v=1788207887",
+    "sha256": "717313e073aa83c11a61341199ac028ec172b2bbeb885e556ac88e0a0dfb6693",
+    "status": "rechazado",
+    "reason": "Poultry page count changed"
+  },
+  {
+    "date": "2026-08-13",
+    "url": "https://cdn.www.gob.pe/uploads/document/file/10449058/8437905-boletin-de-abastecimiento-y-precios-de-aves-13-08-2026.pdf?v=1788207892",
+    "sha256": "5e5949eeb8a22bc06fb508c6bf6cd1653c943f1965a114f0c14761f71314a94e",
+    "status": "rechazado",
+    "reason": "Poultry page count changed"
+  },
+  {
+    "date": "2026-08-14",
+    "url": "https://cdn.www.gob.pe/uploads/document/file/10456779/8437905-boletin-de-abastecimiento-y-precios-de-aves-14-08-2026.pdf?v=1788207892",
+    "sha256": "4c7481b4c21d51f2d2bd45ba888c6764cc7789526cef1e291e31f5a6c353d712",
+    "status": "rechazado",
+    "reason": "Poultry page count changed"
+  },
+  {
+    "date": "2026-08-17",
+    "url": "https://cdn.www.gob.pe/uploads/document/file/10466717/8437905-boletin-de-abastecimiento-y-precios-de-aves-17-08-2026.pdf?v=1788207896",
+    "sha256": "34e966753ece230a7e413764de34209d02c569210a219ca6783d6fc43f1f00fe",
+    "status": "rechazado",
+    "reason": "Poultry page count changed"
+  },
+  {
+    "date": "2026-08-18",
+    "url": "https://cdn.www.gob.pe/uploads/document/file/10473075/8437905-boletin-de-abastecimiento-y-precios-de-aves-18-08-2026.pdf?v=1788207897",
+    "sha256": "a01930fea491422264cb5935a4e655f728e4493e632605d89245d58e6b4eba58",
+    "status": "rechazado",
+    "reason": "Poultry page count changed"
+  },
+  {
+    "date": "2026-08-19",
+    "url": "https://cdn.www.gob.pe/uploads/document/file/10479864/8437905-boletin-de-abastecimiento-y-precios-de-aves-19-08-2026.pdf?v=1788207902",
+    "sha256": "c880198a0cd1dfc220518f1d5ced68a1b8159d00b1960adf632b3448788e6b61",
+    "status": "importado",
+    "rows": 8
+  },
+  {
+    "date": "2026-08-20",
+    "url": "https://cdn.www.gob.pe/uploads/document/file/10486490/8437905-boletin-de-abastecimiento-y-precios-de-aves-20-08-2026.pdf?v=1788207902",
+    "sha256": "00933575dba8d7986e80a0993ee9c1cfb96e6f26fa526a5ecdbfbb2bb8de6fb2",
+    "status": "importado",
+    "rows": 6
+  },
+  {
+    "date": "2026-08-21",
+    "url": "https://cdn.www.gob.pe/uploads/document/file/10496581/8437905-boletin-de-abastecimiento-y-precios-de-aves-21-08-2026.pdf?v=1788207908",
+    "sha256": "e6306c61f4a9b41cc2e55aec16bcb464af30404269bbf07ca50991370e195b1f",
+    "status": "importado",
+    "rows": 8
+  },
+  {
+    "date": "2026-08-24",
+    "url": "https://cdn.www.gob.pe/uploads/document/file/10502177/8437905-boletin-de-abastecimiento-y-precios-de-aves-24-08-2026.pdf?v=1788207909",
+    "sha256": "d4b1044bda02d8ee40bd2e9e839d9df5d6a45cc8bb5d063dd452e86b9f9181ef",
+    "status": "importado",
+    "rows": 6
+  },
+  {
+    "date": "2026-08-25",
+    "url": "https://cdn.www.gob.pe/uploads/document/file/10509674/8437905-boletin-de-abastecimiento-y-precios-de-aves-25-08-2026.pdf?v=1788207915",
+    "sha256": "5dda0f5b222aa4291519a890f24eabdef0aefa6b9cf0f2827af00d0761615c0b",
+    "status": "importado",
+    "rows": 8
+  },
+  {
+    "date": "2026-08-26",
+    "url": "https://cdn.www.gob.pe/uploads/document/file/10515953/8437905-boletin-de-abastecimiento-y-precios-de-aves-26-08-2026.pdf?v=1788207915",
+    "sha256": "eefe02d747e8727d7f4b11e44ca3ad3e64cf1a9fd53a9f382bce3f2bd24d4e66",
+    "status": "importado",
+    "rows": 8
+  },
+  {
+    "date": "2026-08-27",
+    "url": "https://cdn.www.gob.pe/uploads/document/file/10523666/8437905-boletin-de-abastecimiento-y-precios-de-aves-27-08-2026.pdf?v=1788207921",
+    "sha256": "ebb0d50b92cb1d876583390367395bb8a21dfb801dcab59808e4c0ac6053b2b5",
+    "status": "importado",
+    "rows": 8
+  },
+  {
+    "date": "2026-08-28",
+    "url": "https://cdn.www.gob.pe/uploads/document/file/10531077/8437905-boletin-de-abastecimiento-y-precios-de-aves-28-08-2026.pdf?v=1788207921",
+    "sha256": "4189e5c207aabb19616f4c0d0fb0e44b2b25aa7eb8cd657cf924fa99b43feb0f",
+    "status": "importado",
+    "rows": 8
+  },
+  {
+    "date": "2026-08-31",
+    "url": "https://cdn.www.gob.pe/uploads/document/file/10537012/8437905-boletin-de-abastecimiento-y-precios-de-aves-31-08-2026.pdf?v=1788207921",
+    "sha256": "d8a8b89174ce2cd3d5b4638625ae2b0618ab492372a16f2c2418025c7c6ddacd",
+    "status": "importado",
+    "rows": 6
+  },
+  {
+    "date": "2026-09-01",
+    "url": "https://cdn.www.gob.pe/uploads/document/file/10544294/8542327-boletin-de-abastecimiento-y-precios-de-aves-01-09-2026.pdf?v=1790798027",
+    "sha256": "2c156e43036e06d59e0373fee15acb2e5a870002cda01d94dc403d508feec389",
+    "status": "importado",
+    "rows": 8
+  },
+  {
+    "date": "2026-09-02",
+    "url": "https://cdn.www.gob.pe/uploads/document/file/10553148/8542327-boletin-de-abastecimiento-y-precios-de-aves-02-09-2026.pdf?v=1790798028",
+    "sha256": "9506d987deaac8d53e498ce4f58082b1af9d659b76c022e87d7bb04847273cab",
+    "status": "importado",
+    "rows": 6
+  },
+  {
+    "date": "2026-09-04",
+    "url": "https://cdn.www.gob.pe/uploads/document/file/10570141/8542327-boletin-de-abastecimiento-y-precios-de-aves-04-09-2026.pdf?v=1790798034",
+    "sha256": "c62c86a7ff4ffa47274d8a02a3ff0233921f7e8e02d526449bf1e1a6625127fe",
+    "status": "importado",
+    "rows": 6
+  },
+  {
+    "date": "2026-09-07",
+    "url": "https://cdn.www.gob.pe/uploads/document/file/10580604/8542327-boletin-de-abastecimiento-y-precios-de-aves-07-09-2026.pdf?v=1790798034",
+    "sha256": "aca2e418d88bb549b66915296365c2a0e06a2d7776f052d9a6e3d8a4c5cd4ff5",
+    "status": "importado",
+    "rows": 8
+  },
+  {
+    "date": "2026-09-08",
+    "url": "https://cdn.www.gob.pe/uploads/document/file/10589972/8542327-boletin-de-abastecimiento-y-precios-de-aves-08-09-2026.pdf?v=1790798035",
+    "sha256": "43dd9bc08a2ad85e4a40fb7156e46c275906e398962a16d95691c2952332cdb9",
+    "status": "importado",
+    "rows": 6
+  },
+  {
+    "date": "2026-09-09",
+    "url": "https://cdn.www.gob.pe/uploads/document/file/10597800/8542327-boletin-de-abastecimiento-y-precios-de-aves-09-09-2026.pdf?v=1790798042",
+    "sha256": "2b9c389accf0612b2dbc09a68e6cd6e05a5838a7730435ba5c9684bcf1a26141",
+    "status": "importado",
+    "rows": 6
+  },
+  {
+    "date": "2026-09-10",
+    "url": "https://cdn.www.gob.pe/uploads/document/file/10603550/8542327-boletin-de-abastecimiento-y-precios-de-aves-10-09-2026.pdf?v=1790798042",
+    "sha256": "45bec109435eaaf6418b507584215c8cd153c2f3af951f47e6e438479d580b4a",
+    "status": "importado",
+    "rows": 6
+  },
+  {
+    "date": "2026-09-14",
+    "url": "https://cdn.www.gob.pe/uploads/document/file/10622207/8542327-boletin-de-abastecimiento-y-precios-de-aves-14-09-2026.pdf?v=1790798048",
+    "sha256": "3164dd0086c310418da48118ec5d22511e79a1b78b54178b4d36b0152f4b5695",
+    "status": "importado",
+    "rows": 8
+  },
+  {
+    "date": "2026-09-15",
+    "url": "https://cdn.www.gob.pe/uploads/document/file/10625452/8542327-boletin-de-abastecimiento-y-precios-de-aves-15-09-2026.pdf?v=1790798048",
+    "sha256": "effd91d48f7d973311216796a7b3a9356e261d55ca94bd45fca820b6f89e586f",
+    "status": "importado",
+    "rows": 5
+  },
+  {
+    "date": "2026-09-16",
+    "url": "https://cdn.www.gob.pe/uploads/document/file/10637592/8542327-boletin-de-abastecimiento-y-precios-de-aves-16-09-2026.pdf?v=1790798049",
+    "sha256": "e721ef981b766824f3c721e02e68ae552685816717d0c233649cd7a1d88eae85",
+    "status": "importado",
+    "rows": 6
+  },
+  {
+    "date": "2026-09-17",
+    "url": "https://cdn.www.gob.pe/uploads/document/file/10654841/8542327-boletin-de-abastecimiento-y-precios-de-aves-17-09-2026.pdf?v=1790798054",
+    "sha256": "208f53a760b897815665f830936f50176d91220c4421579c784c32e5be105c27",
+    "status": "importado",
+    "rows": 8
+  },
+  {
+    "date": "2026-09-18",
+    "url": "https://cdn.www.gob.pe/uploads/document/file/10659572/8542327-boletin-de-abastecimiento-y-precios-de-aves-18-09-2026.pdf?v=1790798055",
+    "sha256": "e4ee264bc29691d939daf9aae20c7f65fcba659f6c823f533905cae0eef31a58",
+    "status": "importado",
+    "rows": 6
+  },
+  {
+    "date": "2026-09-21",
+    "url": "https://cdn.www.gob.pe/uploads/document/file/10666053/8542327-boletin-de-abastecimiento-y-precios-de-aves-21-09-2026.pdf?v=1790798055",
+    "sha256": "a3a78b8c5191c36f92b3a54bdeb4b28717551561b50c81f916f71fa14a250510",
+    "status": "importado",
+    "rows": 6
+  },
+  {
+    "date": "2026-09-22",
+    "url": "https://cdn.www.gob.pe/uploads/document/file/10674595/8542327-boletin-de-abastecimiento-y-precios-de-aves-22-09-2026.pdf?v=1790798061",
+    "sha256": "fdbfbabba48ff14fdb186396e28e58fcb7e066bd270dc3670d4934e20ec99362",
+    "status": "importado",
+    "rows": 6
+  },
+  {
+    "date": "2026-09-23",
+    "url": "https://cdn.www.gob.pe/uploads/document/file/10680742/8542327-boletin-de-abastecimiento-y-precios-de-aves-23-09-2026.pdf?v=1790798061",
+    "sha256": "3d07316c98d4b822a65e150bae025325d7b3d68dc38a0fdcbd6900edaf487345",
+    "status": "importado",
+    "rows": 6
+  },
+  {
+    "date": "2026-09-24",
+    "url": "https://cdn.www.gob.pe/uploads/document/file/10687836/8542327-boletin-de-abastecimiento-y-precios-de-aves-24-09-2026.pdf?v=1790798061",
+    "sha256": "8770db38a3fe1163453b9b0cfc1ffef4b980cf011eefcad0c78af5c9ae30c0eb",
+    "status": "importado",
+    "rows": 7
+  },
+  {
+    "date": "2026-09-25",
+    "url": "https://cdn.www.gob.pe/uploads/document/file/10693495/8542327-boletin-de-abastecimiento-y-precios-de-aves-25-09-2026.pdf?v=1790798068",
+    "sha256": "f244a6376bde1ea214bab048ab6404a16f191f0c182e707450f234d3a9488d9d",
+    "status": "importado",
+    "rows": 8
+  },
+  {
+    "date": "2026-09-28",
+    "url": "https://cdn.www.gob.pe/uploads/document/file/10702431/8542327-boletin-de-abastecimiento-y-precios-de-aves-28-09-2026.pdf?v=1790798069",
+    "sha256": "96ea4a357e51f375b5869a88bb25f6e2e0a90cd39afa132263cb9559b760e2d1",
+    "status": "importado",
+    "rows": 8
+  },
+  {
+    "date": "2026-09-29",
+    "url": "https://cdn.www.gob.pe/uploads/document/file/10707410/8542327-boletin-de-abastecimiento-y-precios-de-aves-29-09-2026.pdf?v=1790798069",
+    "sha256": "6b7f3f19417395af5770bc30b55432aaec5be5629d39a2a8ac4bbc75d045b1d6",
+    "status": "importado",
+    "rows": 8
+  },
+  {
+    "date": "2026-09-30",
+    "url": "https://cdn.www.gob.pe/uploads/document/file/10715180/8542327-boletin-de-abastecimiento-y-precios-de-aves-30-09-2026.pdf?v=1790798069",
+    "sha256": "d749888ac4abcbe8b76747132c3dcf19f0e2288c9bcbb0d38c1a0ce40591f4a5",
+    "status": "importado",
+    "rows": 8
+  },
+  {
+    "date": "2026-10-02",
+    "url": "https://cdn.www.gob.pe/uploads/document/file/10732126/8667279-boletin-de-abastecimiento-y-precios-de-aves-02-10-2026.pdf?v=1793649558",
+    "sha256": "9bceabb19b23230b9670eb49c8502dd8778195109f40698cd88a91a89dd4c295",
+    "status": "importado",
+    "rows": 8
+  },
+  {
+    "date": "2026-10-05",
+    "url": "https://cdn.www.gob.pe/uploads/document/file/10741614/8667279-boletin-de-abastecimiento-y-precios-de-aves-05-10-2026.pdf?v=1793649563",
+    "sha256": "cd2bbe4c46f1d9995895c571667295b5f521c20cb793c3021ffa71b36fae9951",
+    "status": "importado",
+    "rows": 8
+  },
+  {
+    "date": "2026-10-06",
+    "url": "https://cdn.www.gob.pe/uploads/document/file/10750964/8667279-boletin-de-abastecimiento-y-precios-de-aves-06-10-2026.pdf?v=1793649564",
+    "sha256": "e04a42c9b3e3ec1da773a71f082f54f1f68a050f0d091255f307211c27fbabf9",
+    "status": "importado",
+    "rows": 6
+  },
+  {
+    "date": "2026-10-07",
+    "url": "https://cdn.www.gob.pe/uploads/document/file/10756600/8667279-boletin-de-abastecimiento-y-precios-de-aves-07-10-2026.pdf?v=1793649568",
+    "sha256": "795b44e7895dc834a4bc47eec4933efb913a19c2c6e1702b8d9706e362302e9d",
+    "status": "importado",
+    "rows": 7
+  },
+  {
+    "date": "2026-10-09",
+    "url": "https://cdn.www.gob.pe/uploads/document/file/10766307/8667279-boletin-de-abastecimiento-y-precios-de-aves-09-10-2026.pdf?v=1793649569",
+    "sha256": "4864774885aaecfe8612dea3bdb30e8a73657eecf73862222f03b8b384704c2e",
+    "status": "importado",
+    "rows": 8
+  },
+  {
+    "date": "2026-10-12",
+    "url": "https://cdn.www.gob.pe/uploads/document/file/10779613/8667279-boletin-de-abastecimiento-y-precios-de-aves-12-10-2026.pdf?v=1793649575",
+    "sha256": "48c3f2e0c9903126e620c64b6513e573f625218741070588d3bb20d1206b353f",
+    "status": "importado",
+    "rows": 6
+  },
+  {
+    "date": "2026-10-13",
+    "url": "https://cdn.www.gob.pe/uploads/document/file/10783767/8667279-boletin-de-abastecimiento-y-precios-de-aves-13-10-2026.pdf?v=1793649575",
+    "sha256": "b8416cbabef2f608b8f752eb2ab577eb2b9f816a155aa3997594874b5fdc3b48",
+    "status": "importado",
+    "rows": 6
+  },
+  {
+    "date": "2026-10-14",
+    "url": "https://cdn.www.gob.pe/uploads/document/file/10791583/8667279-boletin-de-abastecimiento-y-precios-de-aves-14-10-2026.pdf?v=1793649581",
+    "sha256": "9de26db53c9eec1f86b4302112352d695625bd3b3fcb00ef2fcf6f19478fe73d",
+    "status": "importado",
+    "rows": 6
+  },
+  {
+    "date": "2026-10-15",
+    "url": "https://cdn.www.gob.pe/uploads/document/file/10798851/8667279-boletin-de-abastecimiento-y-precios-de-aves-15-10-2026.pdf?v=1793649581",
+    "sha256": "98d9cf573d5bd35e43f129088309195f17c964259d609b533c5989f5cdb2e2f1",
+    "status": "importado",
+    "rows": 6
+  },
+  {
+    "date": "2026-10-16",
+    "url": "https://cdn.www.gob.pe/uploads/document/file/10810108/8667279-boletin-de-abastecimiento-y-precios-de-aves-16-10-2026.pdf?v=1793649590",
+    "sha256": "f598cc67636c1e6ca1e851d8c3730be01df17e571b58eb09d5376af21681ff2e",
+    "status": "importado",
+    "rows": 6
+  },
+  {
+    "date": "2026-10-19",
+    "url": "https://cdn.www.gob.pe/uploads/document/file/10818751/8667279-boletin-de-abastecimiento-y-precios-de-aves-19-10-2026.pdf?v=1793649591",
+    "sha256": "0900991f78ef3f74eb9e0e66e9210c72353a4c203d52cffa4db572acf916eece",
+    "status": "importado",
+    "rows": 6
+  },
+  {
+    "date": "2026-10-20",
+    "url": "https://cdn.www.gob.pe/uploads/document/file/10825287/8667279-boletin-de-abastecimiento-y-precios-de-aves-20-10-2026.pdf?v=1793649597",
+    "sha256": "5f168f709c2421e298e39ce7c1742e4d6430ac58defb142f0a93e81db8d6b8d6",
+    "status": "importado",
+    "rows": 6
+  },
+  {
+    "date": "2026-10-21",
+    "url": "https://cdn.www.gob.pe/uploads/document/file/10834913/8667279-boletin-de-abastecimiento-y-precios-de-aves-21-10-2026.pdf?v=1793649597",
+    "sha256": "4d121cecc4d7bab62f175550c9d78e81d428e22156ce7bb8560ba930a3ab6ced",
+    "status": "importado",
+    "rows": 6
+  },
+  {
+    "date": "2026-10-22",
+    "url": "https://cdn.www.gob.pe/uploads/document/file/10839024/8667279-boletin-de-abastecimiento-y-precios-de-aves-22-10-2026.pdf?v=1793649604",
+    "sha256": "f6f6c9aa27dd315ab5c08b84d7d00fa5b04a48138ba1930420ed1806bccf8641",
+    "status": "importado",
+    "rows": 8
+  },
+  {
+    "date": "2026-10-23",
+    "url": "https://cdn.www.gob.pe/uploads/document/file/10846341/8667279-boletin-de-abastecimiento-y-precios-de-aves-23-10-2026.pdf?v=1793649604",
+    "sha256": "ceaf18013e3d6dcf3491e052a1055874a1a9bc356c9f77762e6a4454a518dad1",
+    "status": "importado",
+    "rows": 6
+  },
+  {
+    "date": "2026-10-26",
+    "url": "https://cdn.www.gob.pe/uploads/document/file/10854631/8667279-boletin-de-abastecimiento-y-precios-de-aves-26-10-2026.pdf?v=1793649610",
+    "sha256": "02bc067e98a25f62ebc56005137c9a41818d4eac70881407138591608d5efde9",
+    "status": "importado",
+    "rows": 6
+  },
+  {
+    "date": "2026-10-27",
+    "url": "https://cdn.www.gob.pe/uploads/document/file/10862164/8667279-boletin-de-abastecimiento-y-precios-de-aves-27-10-2026.pdf?v=1793649611",
+    "sha256": "fee418e24eef4a06503c8baa5244a82bc7ff52cd8d180e4652703aa4b657c3e7",
+    "status": "importado",
+    "rows": 6
+  },
+  {
+    "date": "2026-10-28",
+    "url": "https://cdn.www.gob.pe/uploads/document/file/10869099/8667279-boletin-de-abastecimiento-y-precios-de-aves-28-10-2026.pdf?v=1793649616",
+    "sha256": "bb794bc402447f2c3102b3f9b2ee488e9ec11f00529e5992d7e0efd2b76fe74d",
+    "status": "importado",
+    "rows": 6
+  },
+  {
+    "date": "2026-10-29",
+    "url": "https://cdn.www.gob.pe/uploads/document/file/10875215/8667279-boletin-de-abastecimiento-y-precios-de-aves-29-10-2026.pdf?v=1793649616",
+    "sha256": "22e1a7797708c8c21cea3307122488414c9cbe7870ebf424bb7d04f503a376a9",
+    "status": "importado",
+    "rows": 6
+  },
+  {
+    "date": "2026-10-30",
+    "url": "https://cdn.www.gob.pe/uploads/document/file/10893158/8667279-boletin-de-abastecimiento-y-precios-de-aves-30-10-2026.pdf?v=1793649616",
+    "sha256": "889fe3a474590ba923624e8372f1a8752782c4477f816df2283189e5209036db",
+    "status": "importado",
+    "rows": 8
+  },
+  {
+    "date": "2026-11-02",
+    "url": "https://cdn.www.gob.pe/uploads/document/file/10893202/8780586-boletin-de-abastecimiento-y-precios-de-aves-02-11-2026.pdf?v=1793912530",
+    "sha256": "477974e746d3977e2e79d0ba9cabf4ede921ff665eecc528787dd725be8154e7",
+    "status": "importado",
+    "rows": 8
+  },
+  {
+    "date": "2026-11-03",
+    "url": "https://cdn.www.gob.pe/uploads/document/file/10900116/8780586-boletin-de-abastecimiento-y-precios-de-aves-03-11-2026.pdf?v=1793912531",
+    "sha256": "8415d36de12a5af1b7e62c21dceda2f8ffe5c6903dd8e6c4a9dcec945b4fe289",
+    "status": "importado",
+    "rows": 8
+  },
+  {
+    "date": "2026-11-04",
+    "url": "https://cdn.www.gob.pe/uploads/document/file/10908786/8780586-boletin-de-abastecimiento-y-precios-de-aves-04-11-2026.pdf?v=1793912536",
+    "sha256": "023799186565f57c394fb3af3c3c0e1d477ed38db7658934c83ea2f279f1fa82",
+    "status": "importado",
+    "rows": 8
+  },
+  {
+    "date": "2026-11-05",
+    "url": "https://cdn.www.gob.pe/uploads/document/file/10918631/8780586-boletin-de-abastecimiento-y-precios-de-aves-05-11-2026.pdf?v=1793912536",
+    "sha256": "b0ff21c9276966005863bd7cea32fbe96ee221f45ca06f006b97cb60f76fe8b3",
+    "status": "importado",
+    "rows": 8
+  }
+]
