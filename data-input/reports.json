@@ -2185,5 +2185,14 @@
     "expectedRows": 72,
     "retrievedAt": "2026-11-04T21:26:59.419133+00:00",
     "extractorVersion": "gmml-pdf-v2"
+  },
+  {
+    "date": "2026-11-05",
+    "url": "https://cdn.www.gob.pe/uploads/document/file/10915067/8779792-reporte-de-ingreso-y-precios-en-el-gran-mercado-mayorista-de-lima-05-11-2026.pdf?v=1793890262",
+    "file": "gmml-2026-11-05.pdf",
+    "sha256": "b6c33001408383f8d501f537172847940ed501601b55622ff6e7308c378969ba",
+    "expectedRows": 72,
+    "retrievedAt": "2026-11-05T21:32:47.744595+00:00",
+    "extractorVersion": "gmml-pdf-v2"
   }
 ]
