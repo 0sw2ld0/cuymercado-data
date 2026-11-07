@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-11-06T20:59:01.207191+00:00",
-  "cutoff": "2026-11-05",
+  "checkedAt": "2026-11-07T19:31:47.136913+00:00",
+  "cutoff": "2026-11-06",
   "collectionURL": "https://www.gob.pe/institucion/midagri/colecciones/4-boletin-diario-de-comercializacion-y-precio-de-aves",
   "coverage": "Pollo, gallina y huevo de Lima Metropolitana y jurel y bonito de los terminales pesqueros de Villa María del Triunfo y Ventanilla, según el boletín diario de aves de MIDAGRI desde su formato de agosto de 2026. Solo días con boletín publicado; cada precio conserva su etapa (granja, mayorista o consumidor) y su mercado. Res y cerdo no tienen una fuente oficial diaria verificada.",
   "beefPork": "No se encontró una serie oficial diaria y verificable de precios de res y cerdo en soles por kg: el portal SISAP presentó un certificado TLS vencido y el INEI publica variaciones porcentuales, no precios.",
@@ -2626,6 +2626,48 @@
       "price": 6.0,
       "url": "https://cdn.www.gob.pe/uploads/document/file/10918631/8780586-boletin-de-abastecimiento-y-precios-de-aves-05-11-2026.pdf?v=1793912536",
       "sha256": "b0ff21c9276966005863bd7cea32fbe96ee221f45ca06f006b97cb60f76fe8b3"
+    },
+    {
+      "series": "gallina-colorada",
+      "date": "2026-11-06",
+      "price": 6.37,
+      "url": "https://cdn.www.gob.pe/uploads/document/file/10926746/8780586-boletin-de-abastecimiento-y-precios-de-aves-06-11-2026.pdf?v=1794023011",
+      "sha256": "55abc3e192efb1501498f3bb9014e7ebb9237daafd724edd8096d064b7db5f4d"
+    },
+    {
+      "series": "gallina-reproductora",
+      "date": "2026-11-06",
+      "price": 6.67,
+      "url": "https://cdn.www.gob.pe/uploads/document/file/10926746/8780586-boletin-de-abastecimiento-y-precios-de-aves-06-11-2026.pdf?v=1794023011",
+      "sha256": "55abc3e192efb1501498f3bb9014e7ebb9237daafd724edd8096d064b7db5f4d"
+    },
+    {
+      "series": "huevo-rosado",
+      "date": "2026-11-06",
+      "price": 5.53,
+      "url": "https://cdn.www.gob.pe/uploads/document/file/10926746/8780586-boletin-de-abastecimiento-y-precios-de-aves-06-11-2026.pdf?v=1794023011",
+      "sha256": "55abc3e192efb1501498f3bb9014e7ebb9237daafd724edd8096d064b7db5f4d"
+    },
+    {
+      "series": "pollo-consumidor",
+      "date": "2026-11-06",
+      "price": 9.96,
+      "url": "https://cdn.www.gob.pe/uploads/document/file/10926746/8780586-boletin-de-abastecimiento-y-precios-de-aves-06-11-2026.pdf?v=1794023011",
+      "sha256": "55abc3e192efb1501498f3bb9014e7ebb9237daafd724edd8096d064b7db5f4d"
+    },
+    {
+      "series": "pollo-granja",
+      "date": "2026-11-06",
+      "price": 5.79,
+      "url": "https://cdn.www.gob.pe/uploads/document/file/10926746/8780586-boletin-de-abastecimiento-y-precios-de-aves-06-11-2026.pdf?v=1794023011",
+      "sha256": "55abc3e192efb1501498f3bb9014e7ebb9237daafd724edd8096d064b7db5f4d"
+    },
+    {
+      "series": "pollo-mayorista",
+      "date": "2026-11-06",
+      "price": 6.0,
+      "url": "https://cdn.www.gob.pe/uploads/document/file/10926746/8780586-boletin-de-abastecimiento-y-precios-de-aves-06-11-2026.pdf?v=1794023011",
+      "sha256": "55abc3e192efb1501498f3bb9014e7ebb9237daafd724edd8096d064b7db5f4d"
     }
   ]
 }
