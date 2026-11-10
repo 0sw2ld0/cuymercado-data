@@ -1,0 +1,28 @@
+name: CuyMercado · diagnóstico de conexión
+# Manual only. Reads three public addresses and reports what answers; it publishes nothing.
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  reach:
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-24.04, macos-latest]
+    runs-on: ${{ matrix.os }}
+    timeout-minutes: 5
+    steps:
+      - name: Probar gob.pe y su CDN
+        run: |
+          AGENT='CuyMercadoData/1.0 (+https://github.com/0sw2ld0/cuymercado-data)'
+          for url in \
+            https://www.gob.pe/robots.txt \
+            https://www.gob.pe/institucion/midagri/colecciones/335-reporte-de-ingreso-y-precios-en-el-gran-mercado-mayorista-de-lima \
+            https://cdn.www.gob.pe/robots.txt \
+            https://www.producempresarial.pe/robots.txt; do
+            out=$(curl -sS -o /dev/null --connect-timeout 10 --max-time 30 -A "$AGENT" \
+              -w '%{http_code} ip=%{remote_ip} conexión=%{time_connect}s total=%{time_total}s' "$url" 2>&1) || true
+            echo "$url -> $out" | tee -a "$GITHUB_STEP_SUMMARY"
+          done
+          getent hosts www.gob.pe 2>/dev/null || dscacheutil -q host -a name www.gob.pe || true
