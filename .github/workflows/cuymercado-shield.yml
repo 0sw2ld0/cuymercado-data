@@ -9,7 +9,7 @@ on:
 permissions:
   contents: read
 concurrency:
-  group: cuymercado-public-data
+  group: cuymercado-shield
   cancel-in-progress: false
 jobs:
   shield:
@@ -23,7 +23,11 @@ jobs:
         with:
           python-version: '3.12'
       - run: python -m pip install -r requirements.txt
-      - name: Validar extracción y estados de Escudo
+      - name: Validar extracción y estados de Escudo de esta fuente
+        # Only this feed's tests: a failure in another feed must not stop this one.
+        run: python -m unittest discover -s tests -p test_shield.py -v
+      - name: Pruebas de todas las fuentes al cambiar el código
+        if: github.event_name == 'push'
         run: python -m unittest discover -s tests -v
       - name: Revisar publicaciones públicas de MINSA
         if: github.event_name != 'push'
@@ -38,7 +42,12 @@ jobs:
           git add shield data-input/shield/current-data.json
           if ! git diff --cached --quiet; then
             git commit -m 'Actualizar monitor sanitario de MINSA'
-            git push origin HEAD:main
+            # Another feed may have published meanwhile: they touch separate folders, so rebase and retry.
+            for attempt in 1 2 3; do
+              git pull --rebase --quiet origin main && git push origin HEAD:main && break
+              test "$attempt" = 3 && exit 1
+              sleep 10
+            done
           fi
       - name: Documentar alcance de la revisión diaria
         if: github.event_name != 'push'

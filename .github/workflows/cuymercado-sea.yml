@@ -9,7 +9,7 @@ on:
 permissions:
   contents: read
 concurrency:
-  group: cuymercado-public-data
+  group: cuymercado-sea
   cancel-in-progress: false
 jobs:
   sea:
@@ -23,7 +23,11 @@ jobs:
         with:
           python-version: '3.12'
       - run: python -m pip install -r requirements.txt
-      - name: Validar extracción, integridad y aislamiento de fuentes
+      - name: Validar extracción, integridad y aislamiento de fuentes de esta fuente
+        # Only this feed's tests: a failure in another feed must not stop this one.
+        run: python -m unittest discover -s tests -p test_sea.py -v
+      - name: Pruebas de todas las fuentes al cambiar el código
+        if: github.event_name == 'push'
         run: python -m unittest discover -s tests -v
       - name: Verificar y completar el intermediario TLS de PRODUCEmpresarial
         if: github.event_name != 'push'
@@ -41,7 +45,12 @@ jobs:
           git add sea data-input/sea
           if ! git diff --cached --quiet; then
             git commit -m 'Actualizar precios pesqueros y compendio de vedas de PRODUCE'
-            git push origin HEAD:main
+            # Another feed may have published meanwhile: they touch separate folders, so rebase and retry.
+            for attempt in 1 2 3; do
+              git pull --rebase --quiet origin main && git push origin HEAD:main && break
+              test "$attempt" = 3 && exit 1
+              sleep 10
+            done
           fi
       - name: Informar cobertura y cambios que necesitan revisión
         if: github.event_name != 'push'

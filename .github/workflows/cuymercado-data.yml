@@ -4,7 +4,10 @@ on:
     branches: [main]
     paths: ['etl/**', 'tests/**', 'requirements.txt', '.github/workflows/cuymercado-data.yml']
   schedule:
-    - cron: '30 15 * * *'
+    # MIDAGRI uploads the GMML report between about 09:00 and 15:00 in Lima: 09:00, 13:00 and 16:30 Lima (UTC-5).
+    - cron: '0 14 * * *'
+    - cron: '0 18 * * *'
+    - cron: '30 21 * * *'
   workflow_dispatch:
     inputs:
       deploy_cloudflare:
@@ -14,7 +17,7 @@ on:
 permissions:
   contents: read
 concurrency:
-  group: cuymercado-public-data
+  group: cuymercado-data
   cancel-in-progress: false
 jobs:
   update:
@@ -28,7 +31,11 @@ jobs:
         with:
           python-version: '3.12'
       - run: python -m pip install -r requirements.txt
-      - name: Pruebas de extracción, integridad y acceso
+      - name: Pruebas de extracción, integridad y acceso de esta fuente
+        # Only this feed's tests: a failure in another feed must not stop this one.
+        run: for p in test_access.py test_backfill.py test_daily.py test_pipeline.py; do python -m unittest discover -s tests -p "$p" -v; done
+      - name: Pruebas de todas las fuentes al cambiar el código
+        if: github.event_name == 'push'
         run: python -m unittest discover -s tests -v
       - name: Consultar MIDAGRI y recuperar fechas intermedias
         if: github.event_name != 'push'
@@ -45,7 +52,12 @@ jobs:
           git add releases current.json _headers data-input
           if ! git diff --cached --quiet; then
             git commit -m 'Actualizar precios públicos verificados de MIDAGRI'
-            git push origin HEAD:main
+            # Another feed may have published meanwhile: they touch separate folders, so rebase and retry.
+            for attempt in 1 2 3; do
+              git pull --rebase --quiet origin main && git push origin HEAD:main && break
+              test "$attempt" = 3 && exit 1
+              sleep 10
+            done
           fi
       - uses: actions/setup-node@v4
         if: github.event_name == 'workflow_dispatch' && inputs.deploy_cloudflare
