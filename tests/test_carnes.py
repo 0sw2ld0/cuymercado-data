@@ -79,7 +79,7 @@ class CarnesTests(unittest.TestCase):
             self.assertFalse((root / 'carnes/current.json').exists())
 
     def test_real_package_keeps_series_separate_and_traceable(self):
-        data = json.loads((ROOT / 'data-input/carnes/current-data.json').read_text()); validate(data, DATE)
+        data = json.loads((ROOT / 'data-input/carnes/current-data.json').read_text()); validate(data)  # the published package grows every day: check against today, not the fixture date
         self.assertEqual({s['group'] for s in data['series']}, {'aves', 'pescados'})
         stages = {s['id']: s['priceType'] for s in data['series']}
         self.assertNotEqual(stages['pollo-mayorista'], stages['pollo-consumidor'])
