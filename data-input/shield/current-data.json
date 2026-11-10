@@ -132,8 +132,14 @@
       "reviewedAt": "2026-10-30T05:53:51.165656+00:00"
     }
   ],
-  "checkedAt": "2026-11-07T01:58:01.850814+00:00",
+  "checkedAt": "2026-11-10T14:42:29.205562+00:00",
   "news": [
+    {
+      "id": "1471037",
+      "title": "Minsa ordena el retiro inmediato de agua de mesa “Manantial Adonai” por contaminación y riesgo para la salud",
+      "publishedDate": "2026-11-06",
+      "url": "https://www.gob.pe/institucion/minsa/noticias/1471037-minsa-ordena-el-retiro-inmediato-de-agua-de-mesa-manantial-adonai-por-contaminacion-y-riesgo-para-la-salud"
+    },
     {
       "id": "1445416",
       "title": "Minsa ordena el retiro inmediato de las aguas de mesa “Timonel” y “Lybre” por contaminación y riesgo para la salud",
@@ -144,15 +150,15 @@
   "monitoredSources": [
     {
       "url": "https://www.gob.pe/institucion/minsa/noticias?filter%5Bterms%5D=alerta",
-      "sha256": "4c5c873c8a69ba2dcb23f952931da9a3152bead94ded0e930449e383a5c4869b"
+      "sha256": "8479b3c4d581bf53630ccfa4d424fb8fdd63ed09a94de32804fd890e01a764fc"
     },
     {
       "url": "https://www.gob.pe/institucion/minsa/noticias?filter%5Bterms%5D=retiro",
-      "sha256": "82c3a37088ddb769bb8c1b78f358ff8d386a2eca08211924da8f35a4604c710b"
+      "sha256": "e78fb5764a5a2bb9dccd0b278311414138cac5f7e48b8d751dcb89c4d6e1bdd1"
     },
     {
       "url": "https://www.gob.pe/institucion/minsa/noticias?filter%5Bterms%5D=digesa",
-      "sha256": "a018f0d0b535a0ed6d2a423e1f1f44441475fcd66a68380ba95f33de2ec6e2bc"
+      "sha256": "4d336330ed1405f14ce87900396dd35364e7462ae1538c6da6eb257b4d626075"
     }
   ]
 }
