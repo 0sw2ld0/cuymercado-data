@@ -10,6 +10,11 @@ on:
     - cron: '30 21 * * *'
   workflow_dispatch:
     inputs:
+      runner:
+        description: Runner de GitHub (macOS usa otra red si gob.pe no responde a Ubuntu)
+        type: choice
+        options: [ubuntu-24.04, macos-latest]
+        default: ubuntu-24.04
       deploy_cloudflare:
         description: Desplegar además en un proyecto Cloudflare existente
         type: boolean
@@ -21,7 +26,7 @@ concurrency:
   cancel-in-progress: false
 jobs:
   update:
-    runs-on: ubuntu-24.04
+    runs-on: ${{ inputs.runner || 'ubuntu-24.04' }}
     timeout-minutes: 10
     permissions:
       contents: write
