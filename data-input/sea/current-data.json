@@ -1,36 +1,48 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-11-11T01:29:33.935908+00:00",
+  "checkedAt": "2026-11-12T02:31:43.354826+00:00",
   "prices": {
-    "date": "2026-10-28",
+    "date": "2026-11-10",
     "source": "PRODUCE · OGEIEE",
     "priceType": "Promedio mayorista",
     "unit": "kg",
-    "url": "https://www.producempresarial.pe/wp-content/uploads/2026/10/28102026.pdf",
-    "sha256": "a5ff47d785e64e3e581c7960ab6e24538876d5d1b95b299d1781ede50aa9a310",
+    "url": "https://www.producempresarial.pe/wp-content/uploads/2026/11/10112026.pdf",
+    "sha256": "d88babb90b34865f92ef2fa1fb366d92a1ea59fdb70b7fc2bbaa71cc7705cca9",
     "products": [
-      {
-        "id": "lima-callao|Bonito",
-        "name": "Bonito",
-        "market": "lima-callao",
-        "unit": "kg",
-        "price": 10.9,
-        "previous": 9.8,
-        "date": "2026-10-28",
-        "previousDate": "2026-10-27",
-        "url": "https://www.producempresarial.pe/wp-content/uploads/2026/10/28102026.pdf",
-        "page": 1
-      },
       {
         "id": "lima-callao|Pota",
         "name": "Pota",
         "market": "lima-callao",
         "unit": "kg",
-        "price": 4.1,
-        "previous": 3.8,
-        "date": "2026-10-28",
-        "previousDate": "2026-10-27",
-        "url": "https://www.producempresarial.pe/wp-content/uploads/2026/10/28102026.pdf",
+        "price": 4.4,
+        "previous": 4.5,
+        "date": "2026-11-10",
+        "previousDate": "2026-11-09",
+        "url": "https://www.producempresarial.pe/wp-content/uploads/2026/11/10112026.pdf",
+        "page": 1
+      },
+      {
+        "id": "lima-callao|Bonito",
+        "name": "Bonito",
+        "market": "lima-callao",
+        "unit": "kg",
+        "price": 9.6,
+        "previous": 9.8,
+        "date": "2026-11-10",
+        "previousDate": "2026-11-09",
+        "url": "https://www.producempresarial.pe/wp-content/uploads/2026/11/10112026.pdf",
+        "page": 1
+      },
+      {
+        "id": "lima-callao|Merluza",
+        "name": "Merluza",
+        "market": "lima-callao",
+        "unit": "kg",
+        "price": 9.6,
+        "previous": 10.4,
+        "date": "2026-11-10",
+        "previousDate": "2026-11-09",
+        "url": "https://www.producempresarial.pe/wp-content/uploads/2026/11/10112026.pdf",
         "page": 1
       },
       {
@@ -38,23 +50,23 @@
         "name": "Jurel",
         "market": "lima-callao",
         "unit": "kg",
-        "price": 7.0,
-        "previous": 7.9,
-        "date": "2026-10-28",
-        "previousDate": "2026-10-27",
-        "url": "https://www.producempresarial.pe/wp-content/uploads/2026/10/28102026.pdf",
+        "price": 8.5,
+        "previous": 8.8,
+        "date": "2026-11-10",
+        "previousDate": "2026-11-09",
+        "url": "https://www.producempresarial.pe/wp-content/uploads/2026/11/10112026.pdf",
         "page": 1
       },
       {
-        "id": "lima-callao|Perico",
-        "name": "Perico",
+        "id": "lima-callao|Tiburón Azul",
+        "name": "Tiburón Azul",
         "market": "lima-callao",
         "unit": "kg",
-        "price": 18.0,
-        "previous": 18.0,
-        "date": "2026-10-28",
-        "previousDate": "2026-10-27",
-        "url": "https://www.producempresarial.pe/wp-content/uploads/2026/10/28102026.pdf",
+        "price": 11.5,
+        "previous": 11.4,
+        "date": "2026-11-10",
+        "previousDate": "2026-11-09",
+        "url": "https://www.producempresarial.pe/wp-content/uploads/2026/11/10112026.pdf",
         "page": 1
       },
       {
@@ -62,47 +74,23 @@
         "name": "Lisa",
         "market": "lima-callao",
         "unit": "kg",
-        "price": 11.1,
-        "previous": 11.5,
-        "date": "2026-10-28",
-        "previousDate": "2026-10-27",
-        "url": "https://www.producempresarial.pe/wp-content/uploads/2026/10/28102026.pdf",
+        "price": 10.3,
+        "previous": 10.6,
+        "date": "2026-11-10",
+        "previousDate": "2026-11-09",
+        "url": "https://www.producempresarial.pe/wp-content/uploads/2026/11/10112026.pdf",
         "page": 1
       },
       {
-        "id": "lima-callao|Cachema",
-        "name": "Cachema",
-        "market": "lima-callao",
-        "unit": "kg",
-        "price": 13.0,
-        "previous": 16.0,
-        "date": "2026-10-28",
-        "previousDate": "2026-10-27",
-        "url": "https://www.producempresarial.pe/wp-content/uploads/2026/10/28102026.pdf",
-        "page": 1
-      },
-      {
-        "id": "regiones|Jurel",
-        "name": "Jurel",
+        "id": "regiones|Bonito",
+        "name": "Bonito",
         "market": "regiones",
         "unit": "kg",
-        "price": 9.9,
-        "previous": 9.6,
-        "date": "2026-10-28",
-        "previousDate": "2026-10-27",
-        "url": "https://www.producempresarial.pe/wp-content/uploads/2026/10/28102026.pdf",
-        "page": 1
-      },
-      {
-        "id": "regiones|Caballa",
-        "name": "Caballa",
-        "market": "regiones",
-        "unit": "kg",
-        "price": 11.0,
-        "previous": 12.0,
-        "date": "2026-10-28",
-        "previousDate": "2026-10-27",
-        "url": "https://www.producempresarial.pe/wp-content/uploads/2026/10/28102026.pdf",
+        "price": 10.9,
+        "previous": 11.7,
+        "date": "2026-11-10",
+        "previousDate": "2026-11-09",
+        "url": "https://www.producempresarial.pe/wp-content/uploads/2026/11/10112026.pdf",
         "page": 1
       },
       {
@@ -110,11 +98,11 @@
         "name": "Pota",
         "market": "regiones",
         "unit": "kg",
-        "price": 4.6,
-        "previous": 4.3,
-        "date": "2026-10-28",
-        "previousDate": "2026-10-27",
-        "url": "https://www.producempresarial.pe/wp-content/uploads/2026/10/28102026.pdf",
+        "price": 4.3,
+        "previous": 4.1,
+        "date": "2026-11-10",
+        "previousDate": "2026-11-09",
+        "url": "https://www.producempresarial.pe/wp-content/uploads/2026/11/10112026.pdf",
         "page": 1
       },
       {
@@ -122,11 +110,11 @@
         "name": "Tiburón Azul",
         "market": "regiones",
         "unit": "kg",
-        "price": 12.8,
+        "price": 10.3,
         "previous": 9.5,
-        "date": "2026-10-28",
-        "previousDate": "2026-10-27",
-        "url": "https://www.producempresarial.pe/wp-content/uploads/2026/10/28102026.pdf",
+        "date": "2026-11-10",
+        "previousDate": "2026-11-09",
+        "url": "https://www.producempresarial.pe/wp-content/uploads/2026/11/10112026.pdf",
         "page": 1
       },
       {
@@ -134,11 +122,11 @@
         "name": "Perico",
         "market": "regiones",
         "unit": "kg",
-        "price": 14.9,
-        "previous": 15.4,
-        "date": "2026-10-28",
-        "previousDate": "2026-10-27",
-        "url": "https://www.producempresarial.pe/wp-content/uploads/2026/10/28102026.pdf",
+        "price": 17.4,
+        "previous": 16.8,
+        "date": "2026-11-10",
+        "previousDate": "2026-11-09",
+        "url": "https://www.producempresarial.pe/wp-content/uploads/2026/11/10112026.pdf",
         "page": 1
       },
       {
@@ -146,15 +134,27 @@
         "name": "Lisa",
         "market": "regiones",
         "unit": "kg",
-        "price": 9.8,
-        "previous": 10.6,
-        "date": "2026-10-28",
-        "previousDate": "2026-10-27",
-        "url": "https://www.producempresarial.pe/wp-content/uploads/2026/10/28102026.pdf",
+        "price": 10.6,
+        "previous": 10.5,
+        "date": "2026-11-10",
+        "previousDate": "2026-11-09",
+        "url": "https://www.producempresarial.pe/wp-content/uploads/2026/11/10112026.pdf",
+        "page": 1
+      },
+      {
+        "id": "regiones|Merluza",
+        "name": "Merluza",
+        "market": "regiones",
+        "unit": "kg",
+        "price": 7.5,
+        "previous": 7.5,
+        "date": "2026-11-10",
+        "previousDate": "2026-11-09",
+        "url": "https://www.producempresarial.pe/wp-content/uploads/2026/11/10112026.pdf",
         "page": 1
       }
     ],
-    "publicationURL": "https://www.producempresarial.pe/reporte-abastecimiento-diario-de-recursos-hidrobiologicos-mercados-mayoristas-pesqueros-28-10-2026/"
+    "publicationURL": "https://www.producempresarial.pe/reporte-abastecimiento-diario-de-recursos-hidrobiologicos-mercados-mayoristas-pesqueros-10-11-2026/"
   },
   "norms": [
     {
@@ -175,7 +175,7 @@
       "url": "https://www.gob.pe/institucion/produce/normas-legales/8547947-00313-2026-produce",
       "indexSummary": "Establecer la veda reproductiva del recurso choro (Aulacomya atra) en el litoral peruano desde el día siguiente de ...",
       "documentURL": "https://cdn.www.gob.pe/uploads/document/file/10551835/8547947-r-m-n-00313-2026-produce.pdf?v=1788365641",
-      "summaryCheckedAt": "2026-11-11T01:29:15.986587+00:00"
+      "summaryCheckedAt": "2026-11-12T02:31:25.780796+00:00"
     },
     {
       "id": "8546151-00307-2026-produce",
@@ -185,7 +185,7 @@
       "url": "https://www.gob.pe/institucion/produce/normas-legales/8546151-00307-2026-produce",
       "indexSummary": "Establecer la veda reproductiva del recurso \"bagre andino\" (Rhamdia quelen) en el tramo del río Pampas comprendido ...",
       "documentURL": "https://cdn.www.gob.pe/uploads/document/file/10549333/8546151-r-m-n-00307-2026-produce.pdf?v=1788358587",
-      "summaryCheckedAt": "2026-11-11T01:29:25.326918+00:00"
+      "summaryCheckedAt": "2026-11-12T02:31:34.829612+00:00"
     },
     {
       "id": "8500453-00285-2026-produce",
