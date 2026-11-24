@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "release": "90df7143875f1a6a4346341bfbe65405bc3f3051f7e5650cce3e86868e7ab841",
-  "path": "releases/90df7143875f1a6a4346341bfbe65405bc3f3051f7e5650cce3e86868e7ab841/pack.json",
-  "sha256": "90df7143875f1a6a4346341bfbe65405bc3f3051f7e5650cce3e86868e7ab841",
-  "bytes": 5591473,
-  "cutoff": "2026-11-20"
+  "release": "01c374c4ffda0d444cd6898ffbf227399937aef8cfb2f9a26a9145628b734f33",
+  "path": "releases/01c374c4ffda0d444cd6898ffbf227399937aef8cfb2f9a26a9145628b734f33/pack.json",
+  "sha256": "01c374c4ffda0d444cd6898ffbf227399937aef8cfb2f9a26a9145628b734f33",
+  "bytes": 5545490,
+  "cutoff": "2026-11-23"
 }
