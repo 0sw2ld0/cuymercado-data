@@ -132,7 +132,7 @@
       "reviewedAt": "2026-10-30T05:53:51.165656+00:00"
     }
   ],
-  "checkedAt": "2026-11-23T02:50:08.572630+00:00",
+  "checkedAt": "2026-11-24T06:05:54.960953+00:00",
   "news": [
     {
       "id": "1471037",
@@ -150,15 +150,15 @@
   "monitoredSources": [
     {
       "url": "https://www.gob.pe/institucion/minsa/noticias?filter%5Bterms%5D=alerta",
-      "sha256": "5a971738f91e918e73221779a007505a51314b013fde786a75b2a69b0e9d2c7d"
+      "sha256": "44a447fc4681188cbc5789549849cb12d6d9e734cb366e7a804a6fcbdd03bb62"
     },
     {
       "url": "https://www.gob.pe/institucion/minsa/noticias?filter%5Bterms%5D=retiro",
-      "sha256": "a003fcaa131bd09aac3042f6aed565cb5de77e44ec59ffc69c11b0e6c2cd4e24"
+      "sha256": "9fd528ef124768b63f0f9b2920796667ac95d27153356df2eb26d28e6902241f"
     },
     {
       "url": "https://www.gob.pe/institucion/minsa/noticias?filter%5Bterms%5D=digesa",
-      "sha256": "23c8a4fab5821e245bd220127a64f7675112d926c24634b1c4e3a6fdccadb588"
+      "sha256": "c9109d10635979dbc6dc406b6250c70a0440446133ccbc0b1035db97ea2af2f2"
     }
   ]
 }
