@@ -530,5 +530,12 @@
     "sha256": "0be727d6fdbbc2821afc158e7f06d66e9e69579030071f495d26f458bf7c82f4",
     "status": "importado",
     "rows": 6
+  },
+  {
+    "date": "2026-11-26",
+    "url": "https://cdn.www.gob.pe/uploads/document/file/11036559/8780586-boletin-de-abastecimiento-y-precios-de-aves-26-11-2026.pdf?v=1795726479",
+    "sha256": "2743a734a1e8c98855ad6dce73aa8a12cfb1134b0a2d2d3ab53685cf2e408e44",
+    "status": "importado",
+    "rows": 8
   }
 ]
