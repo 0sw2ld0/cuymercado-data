@@ -4,654 +4,6 @@
     "unit": "atado",
     "price": 3.88,
     "page": 1,
-    "date": "2025-12-02",
-    "url": "https://cdn.www.gob.pe/uploads/document/file/9090987/7456609-reporte-de-ingreso-y-precios-en-el-gran-mercado-mayorista-de-lima-02-12-2025.pdf?v=1767197475",
-    "sha256": "6e0d73db26fabfb7cd7d5449ea14bebd44e485f552d350c45a300b9ff24cba62"
-  },
-  {
-    "name": "Aji Amarillo Seco",
-    "unit": "kg",
-    "price": 13.75,
-    "page": 1,
-    "date": "2025-12-02",
-    "url": "https://cdn.www.gob.pe/uploads/document/file/9090987/7456609-reporte-de-ingreso-y-precios-en-el-gran-mercado-mayorista-de-lima-02-12-2025.pdf?v=1767197475",
-    "sha256": "6e0d73db26fabfb7cd7d5449ea14bebd44e485f552d350c45a300b9ff24cba62"
-  },
-  {
-    "name": "Aji Escabeche",
-    "unit": "kg",
-    "price": 9.0,
-    "page": 1,
-    "date": "2025-12-02",
-    "url": "https://cdn.www.gob.pe/uploads/document/file/9090987/7456609-reporte-de-ingreso-y-precios-en-el-gran-mercado-mayorista-de-lima-02-12-2025.pdf?v=1767197475",
-    "sha256": "6e0d73db26fabfb7cd7d5449ea14bebd44e485f552d350c45a300b9ff24cba62"
-  },
-  {
-    "name": "Aji Montaña",
-    "unit": "kg",
-    "price": 2.38,
-    "page": 1,
-    "date": "2025-12-02",
-    "url": "https://cdn.www.gob.pe/uploads/document/file/9090987/7456609-reporte-de-ingreso-y-precios-en-el-gran-mercado-mayorista-de-lima-02-12-2025.pdf?v=1767197475",
-    "sha256": "6e0d73db26fabfb7cd7d5449ea14bebd44e485f552d350c45a300b9ff24cba62"
-  },
-  {
-    "name": "Aji Panca",
-    "unit": "kg",
-    "price": 14.63,
-    "page": 1,
-    "date": "2025-12-02",
-    "url": "https://cdn.www.gob.pe/uploads/document/file/9090987/7456609-reporte-de-ingreso-y-precios-en-el-gran-mercado-mayorista-de-lima-02-12-2025.pdf?v=1767197475",
-    "sha256": "6e0d73db26fabfb7cd7d5449ea14bebd44e485f552d350c45a300b9ff24cba62"
-  },
-  {
-    "name": "Aji Paprika",
-    "unit": "kg",
-    "price": 14.63,
-    "page": 1,
-    "date": "2025-12-02",
-    "url": "https://cdn.www.gob.pe/uploads/document/file/9090987/7456609-reporte-de-ingreso-y-precios-en-el-gran-mercado-mayorista-de-lima-02-12-2025.pdf?v=1767197475",
-    "sha256": "6e0d73db26fabfb7cd7d5449ea14bebd44e485f552d350c45a300b9ff24cba62"
-  },
-  {
-    "name": "Aji Rocoto",
-    "unit": "cajón",
-    "price": 21.25,
-    "page": 1,
-    "date": "2025-12-02",
-    "url": "https://cdn.www.gob.pe/uploads/document/file/9090987/7456609-reporte-de-ingreso-y-precios-en-el-gran-mercado-mayorista-de-lima-02-12-2025.pdf?v=1767197475",
-    "sha256": "6e0d73db26fabfb7cd7d5449ea14bebd44e485f552d350c45a300b9ff24cba62"
-  },
-  {
-    "name": "Ajo Criollo O Napuri",
-    "unit": "kg",
-    "price": 5.63,
-    "page": 1,
-    "date": "2025-12-02",
-    "url": "https://cdn.www.gob.pe/uploads/document/file/9090987/7456609-reporte-de-ingreso-y-precios-en-el-gran-mercado-mayorista-de-lima-02-12-2025.pdf?v=1767197475",
-    "sha256": "6e0d73db26fabfb7cd7d5449ea14bebd44e485f552d350c45a300b9ff24cba62"
-  },
-  {
-    "name": "Ajo Morado",
-    "unit": "kg",
-    "price": 7.0,
-    "page": 1,
-    "date": "2025-12-02",
-    "url": "https://cdn.www.gob.pe/uploads/document/file/9090987/7456609-reporte-de-ingreso-y-precios-en-el-gran-mercado-mayorista-de-lima-02-12-2025.pdf?v=1767197475",
-    "sha256": "6e0d73db26fabfb7cd7d5449ea14bebd44e485f552d350c45a300b9ff24cba62"
-  },
-  {
-    "name": "Albahaca",
-    "unit": "atado",
-    "price": 2.38,
-    "page": 1,
-    "date": "2025-12-02",
-    "url": "https://cdn.www.gob.pe/uploads/document/file/9090987/7456609-reporte-de-ingreso-y-precios-en-el-gran-mercado-mayorista-de-lima-02-12-2025.pdf?v=1767197475",
-    "sha256": "6e0d73db26fabfb7cd7d5449ea14bebd44e485f552d350c45a300b9ff24cba62"
-  },
-  {
-    "name": "Alcachofa",
-    "unit": "docena",
-    "price": 25.0,
-    "page": 1,
-    "date": "2025-12-02",
-    "url": "https://cdn.www.gob.pe/uploads/document/file/9090987/7456609-reporte-de-ingreso-y-precios-en-el-gran-mercado-mayorista-de-lima-02-12-2025.pdf?v=1767197475",
-    "sha256": "6e0d73db26fabfb7cd7d5449ea14bebd44e485f552d350c45a300b9ff24cba62"
-  },
-  {
-    "name": "Apio",
-    "unit": "atado",
-    "price": 7.25,
-    "page": 1,
-    "date": "2025-12-02",
-    "url": "https://cdn.www.gob.pe/uploads/document/file/9090987/7456609-reporte-de-ingreso-y-precios-en-el-gran-mercado-mayorista-de-lima-02-12-2025.pdf?v=1767197475",
-    "sha256": "6e0d73db26fabfb7cd7d5449ea14bebd44e485f552d350c45a300b9ff24cba62"
-  },
-  {
-    "name": "Arveja Verde Americana",
-    "unit": "kg",
-    "price": 3.73,
-    "page": 1,
-    "date": "2025-12-02",
-    "url": "https://cdn.www.gob.pe/uploads/document/file/9090987/7456609-reporte-de-ingreso-y-precios-en-el-gran-mercado-mayorista-de-lima-02-12-2025.pdf?v=1767197475",
-    "sha256": "6e0d73db26fabfb7cd7d5449ea14bebd44e485f552d350c45a300b9ff24cba62"
-  },
-  {
-    "name": "Arveja Verde Blanca Serrana",
-    "unit": "kg",
-    "price": 1.88,
-    "page": 1,
-    "date": "2025-12-02",
-    "url": "https://cdn.www.gob.pe/uploads/document/file/9090987/7456609-reporte-de-ingreso-y-precios-en-el-gran-mercado-mayorista-de-lima-02-12-2025.pdf?v=1767197475",
-    "sha256": "6e0d73db26fabfb7cd7d5449ea14bebd44e485f552d350c45a300b9ff24cba62"
-  },
-  {
-    "name": "Berenjena",
-    "unit": "docena",
-    "price": 23.5,
-    "page": 1,
-    "date": "2025-12-02",
-    "url": "https://cdn.www.gob.pe/uploads/document/file/9090987/7456609-reporte-de-ingreso-y-precios-en-el-gran-mercado-mayorista-de-lima-02-12-2025.pdf?v=1767197475",
-    "sha256": "6e0d73db26fabfb7cd7d5449ea14bebd44e485f552d350c45a300b9ff24cba62"
-  },
-  {
-    "name": "Beterraga",
-    "unit": "atado",
-    "price": 1.33,
-    "page": 1,
-    "date": "2025-12-02",
-    "url": "https://cdn.www.gob.pe/uploads/document/file/9090987/7456609-reporte-de-ingreso-y-precios-en-el-gran-mercado-mayorista-de-lima-02-12-2025.pdf?v=1767197475",
-    "sha256": "6e0d73db26fabfb7cd7d5449ea14bebd44e485f552d350c45a300b9ff24cba62"
-  },
-  {
-    "name": "Brocoli",
-    "unit": "kg",
-    "price": 1.88,
-    "page": 1,
-    "date": "2025-12-02",
-    "url": "https://cdn.www.gob.pe/uploads/document/file/9090987/7456609-reporte-de-ingreso-y-precios-en-el-gran-mercado-mayorista-de-lima-02-12-2025.pdf?v=1767197475",
-    "sha256": "6e0d73db26fabfb7cd7d5449ea14bebd44e485f552d350c45a300b9ff24cba62"
-  },
-  {
-    "name": "Caigua (Selva)",
-    "unit": "cajón",
-    "price": 32.0,
-    "page": 1,
-    "date": "2025-12-02",
-    "url": "https://cdn.www.gob.pe/uploads/document/file/9090987/7456609-reporte-de-ingreso-y-precios-en-el-gran-mercado-mayorista-de-lima-02-12-2025.pdf?v=1767197475",
-    "sha256": "6e0d73db26fabfb7cd7d5449ea14bebd44e485f552d350c45a300b9ff24cba62"
-  },
-  {
-    "name": "Camote Amarillo",
-    "unit": "kg",
-    "price": 0.89,
-    "page": 1,
-    "date": "2025-12-02",
-    "url": "https://cdn.www.gob.pe/uploads/document/file/9090987/7456609-reporte-de-ingreso-y-precios-en-el-gran-mercado-mayorista-de-lima-02-12-2025.pdf?v=1767197475",
-    "sha256": "6e0d73db26fabfb7cd7d5449ea14bebd44e485f552d350c45a300b9ff24cba62"
-  },
-  {
-    "name": "Camote Morado",
-    "unit": "kg",
-    "price": 1.68,
-    "page": 1,
-    "date": "2025-12-02",
-    "url": "https://cdn.www.gob.pe/uploads/document/file/9090987/7456609-reporte-de-ingreso-y-precios-en-el-gran-mercado-mayorista-de-lima-02-12-2025.pdf?v=1767197475",
-    "sha256": "6e0d73db26fabfb7cd7d5449ea14bebd44e485f552d350c45a300b9ff24cba62"
-  },
-  {
-    "name": "Cebolla Cabeza Blanca",
-    "unit": "kg",
-    "price": 1.25,
-    "page": 1,
-    "date": "2025-12-02",
-    "url": "https://cdn.www.gob.pe/uploads/document/file/9090987/7456609-reporte-de-ingreso-y-precios-en-el-gran-mercado-mayorista-de-lima-02-12-2025.pdf?v=1767197475",
-    "sha256": "6e0d73db26fabfb7cd7d5449ea14bebd44e485f552d350c45a300b9ff24cba62"
-  },
-  {
-    "name": "Cebolla Cabeza Roja",
-    "unit": "kg",
-    "price": 1.28,
-    "page": 1,
-    "date": "2025-12-02",
-    "url": "https://cdn.www.gob.pe/uploads/document/file/9090987/7456609-reporte-de-ingreso-y-precios-en-el-gran-mercado-mayorista-de-lima-02-12-2025.pdf?v=1767197475",
-    "sha256": "6e0d73db26fabfb7cd7d5449ea14bebd44e485f552d350c45a300b9ff24cba62"
-  },
-  {
-    "name": "Cebolla China",
-    "unit": "atado grande",
-    "price": 4.5,
-    "page": 1,
-    "date": "2025-12-02",
-    "url": "https://cdn.www.gob.pe/uploads/document/file/9090987/7456609-reporte-de-ingreso-y-precios-en-el-gran-mercado-mayorista-de-lima-02-12-2025.pdf?v=1767197475",
-    "sha256": "6e0d73db26fabfb7cd7d5449ea14bebd44e485f552d350c45a300b9ff24cba62"
-  },
-  {
-    "name": "Choclo (Tipo Cusco)",
-    "unit": "ciento",
-    "price": 147.5,
-    "page": 1,
-    "date": "2025-12-02",
-    "url": "https://cdn.www.gob.pe/uploads/document/file/9090987/7456609-reporte-de-ingreso-y-precios-en-el-gran-mercado-mayorista-de-lima-02-12-2025.pdf?v=1767197475",
-    "sha256": "6e0d73db26fabfb7cd7d5449ea14bebd44e485f552d350c45a300b9ff24cba62"
-  },
-  {
-    "name": "Col China/Longapa",
-    "unit": "docena",
-    "price": 43.75,
-    "page": 1,
-    "date": "2025-12-02",
-    "url": "https://cdn.www.gob.pe/uploads/document/file/9090987/7456609-reporte-de-ingreso-y-precios-en-el-gran-mercado-mayorista-de-lima-02-12-2025.pdf?v=1767197475",
-    "sha256": "6e0d73db26fabfb7cd7d5449ea14bebd44e485f552d350c45a300b9ff24cba62"
-  },
-  {
-    "name": "Col Corazon",
-    "unit": "docena",
-    "price": 31.25,
-    "page": 1,
-    "date": "2025-12-02",
-    "url": "https://cdn.www.gob.pe/uploads/document/file/9090987/7456609-reporte-de-ingreso-y-precios-en-el-gran-mercado-mayorista-de-lima-02-12-2025.pdf?v=1767197475",
-    "sha256": "6e0d73db26fabfb7cd7d5449ea14bebd44e485f552d350c45a300b9ff24cba62"
-  },
-  {
-    "name": "Coliflor",
-    "unit": "docena",
-    "price": 26.5,
-    "page": 1,
-    "date": "2025-12-02",
-    "url": "https://cdn.www.gob.pe/uploads/document/file/9090987/7456609-reporte-de-ingreso-y-precios-en-el-gran-mercado-mayorista-de-lima-02-12-2025.pdf?v=1767197475",
-    "sha256": "6e0d73db26fabfb7cd7d5449ea14bebd44e485f552d350c45a300b9ff24cba62"
-  },
-  {
-    "name": "Culantro",
-    "unit": "atado",
-    "price": 2.38,
-    "page": 1,
-    "date": "2025-12-02",
-    "url": "https://cdn.www.gob.pe/uploads/document/file/9090987/7456609-reporte-de-ingreso-y-precios-en-el-gran-mercado-mayorista-de-lima-02-12-2025.pdf?v=1767197475",
-    "sha256": "6e0d73db26fabfb7cd7d5449ea14bebd44e485f552d350c45a300b9ff24cba62"
-  },
-  {
-    "name": "Esparrago",
-    "unit": "paquete",
-    "price": 3.63,
-    "page": 1,
-    "date": "2025-12-02",
-    "url": "https://cdn.www.gob.pe/uploads/document/file/9090987/7456609-reporte-de-ingreso-y-precios-en-el-gran-mercado-mayorista-de-lima-02-12-2025.pdf?v=1767197475",
-    "sha256": "6e0d73db26fabfb7cd7d5449ea14bebd44e485f552d350c45a300b9ff24cba62"
-  },
-  {
-    "name": "Espinaca",
-    "unit": "kg",
-    "price": 2.13,
-    "page": 1,
-    "date": "2025-12-02",
-    "url": "https://cdn.www.gob.pe/uploads/document/file/9090987/7456609-reporte-de-ingreso-y-precios-en-el-gran-mercado-mayorista-de-lima-02-12-2025.pdf?v=1767197475",
-    "sha256": "6e0d73db26fabfb7cd7d5449ea14bebd44e485f552d350c45a300b9ff24cba62"
-  },
-  {
-    "name": "Frejolito Chino",
-    "unit": "kg",
-    "price": 2.5,
-    "page": 1,
-    "date": "2025-12-02",
-    "url": "https://cdn.www.gob.pe/uploads/document/file/9090987/7456609-reporte-de-ingreso-y-precios-en-el-gran-mercado-mayorista-de-lima-02-12-2025.pdf?v=1767197475",
-    "sha256": "6e0d73db26fabfb7cd7d5449ea14bebd44e485f552d350c45a300b9ff24cba62"
-  },
-  {
-    "name": "Frijol Verde Canario",
-    "unit": "kg",
-    "price": 2.88,
-    "page": 1,
-    "date": "2025-12-02",
-    "url": "https://cdn.www.gob.pe/uploads/document/file/9090987/7456609-reporte-de-ingreso-y-precios-en-el-gran-mercado-mayorista-de-lima-02-12-2025.pdf?v=1767197475",
-    "sha256": "6e0d73db26fabfb7cd7d5449ea14bebd44e485f552d350c45a300b9ff24cba62"
-  },
-  {
-    "name": "Haba Verde Serrana",
-    "unit": "kg",
-    "price": 1.25,
-    "page": 1,
-    "date": "2025-12-02",
-    "url": "https://cdn.www.gob.pe/uploads/document/file/9090987/7456609-reporte-de-ingreso-y-precios-en-el-gran-mercado-mayorista-de-lima-02-12-2025.pdf?v=1767197475",
-    "sha256": "6e0d73db26fabfb7cd7d5449ea14bebd44e485f552d350c45a300b9ff24cba62"
-  },
-  {
-    "name": "Hierba Buena",
-    "unit": "atado",
-    "price": 1.33,
-    "page": 1,
-    "date": "2025-12-02",
-    "url": "https://cdn.www.gob.pe/uploads/document/file/9090987/7456609-reporte-de-ingreso-y-precios-en-el-gran-mercado-mayorista-de-lima-02-12-2025.pdf?v=1767197475",
-    "sha256": "6e0d73db26fabfb7cd7d5449ea14bebd44e485f552d350c45a300b9ff24cba62"
-  },
-  {
-    "name": "Holantau/Organica",
-    "unit": "kg",
-    "price": 8.88,
-    "page": 1,
-    "date": "2025-12-02",
-    "url": "https://cdn.www.gob.pe/uploads/document/file/9090987/7456609-reporte-de-ingreso-y-precios-en-el-gran-mercado-mayorista-de-lima-02-12-2025.pdf?v=1767197475",
-    "sha256": "6e0d73db26fabfb7cd7d5449ea14bebd44e485f552d350c45a300b9ff24cba62"
-  },
-  {
-    "name": "Huacatay",
-    "unit": "atado",
-    "price": 2.0,
-    "page": 1,
-    "date": "2025-12-02",
-    "url": "https://cdn.www.gob.pe/uploads/document/file/9090987/7456609-reporte-de-ingreso-y-precios-en-el-gran-mercado-mayorista-de-lima-02-12-2025.pdf?v=1767197475",
-    "sha256": "6e0d73db26fabfb7cd7d5449ea14bebd44e485f552d350c45a300b9ff24cba62"
-  },
-  {
-    "name": "Kion",
-    "unit": "kg",
-    "price": 3.95,
-    "page": 1,
-    "date": "2025-12-02",
-    "url": "https://cdn.www.gob.pe/uploads/document/file/9090987/7456609-reporte-de-ingreso-y-precios-en-el-gran-mercado-mayorista-de-lima-02-12-2025.pdf?v=1767197475",
-    "sha256": "6e0d73db26fabfb7cd7d5449ea14bebd44e485f552d350c45a300b9ff24cba62"
-  },
-  {
-    "name": "Lechuga Americana",
-    "unit": "docena",
-    "price": 7.0,
-    "page": 1,
-    "date": "2025-12-02",
-    "url": "https://cdn.www.gob.pe/uploads/document/file/9090987/7456609-reporte-de-ingreso-y-precios-en-el-gran-mercado-mayorista-de-lima-02-12-2025.pdf?v=1767197475",
-    "sha256": "6e0d73db26fabfb7cd7d5449ea14bebd44e485f552d350c45a300b9ff24cba62"
-  },
-  {
-    "name": "Lechuga Criolla Seda",
-    "unit": "docena",
-    "price": 8.25,
-    "page": 1,
-    "date": "2025-12-02",
-    "url": "https://cdn.www.gob.pe/uploads/document/file/9090987/7456609-reporte-de-ingreso-y-precios-en-el-gran-mercado-mayorista-de-lima-02-12-2025.pdf?v=1767197475",
-    "sha256": "6e0d73db26fabfb7cd7d5449ea14bebd44e485f552d350c45a300b9ff24cba62"
-  },
-  {
-    "name": "Lechuga Romana Hidroponica",
-    "unit": "docena",
-    "price": 7.63,
-    "page": 1,
-    "date": "2025-12-02",
-    "url": "https://cdn.www.gob.pe/uploads/document/file/9090987/7456609-reporte-de-ingreso-y-precios-en-el-gran-mercado-mayorista-de-lima-02-12-2025.pdf?v=1767197475",
-    "sha256": "6e0d73db26fabfb7cd7d5449ea14bebd44e485f552d350c45a300b9ff24cba62"
-  },
-  {
-    "name": "Limon Sutil Bolsa",
-    "unit": "bolsa",
-    "price": 77.5,
-    "page": 1,
-    "date": "2025-12-02",
-    "url": "https://cdn.www.gob.pe/uploads/document/file/9090987/7456609-reporte-de-ingreso-y-precios-en-el-gran-mercado-mayorista-de-lima-02-12-2025.pdf?v=1767197475",
-    "sha256": "6e0d73db26fabfb7cd7d5449ea14bebd44e485f552d350c45a300b9ff24cba62"
-  },
-  {
-    "name": "Limon Sutil Cajon",
-    "unit": "cajón",
-    "price": 41.25,
-    "page": 1,
-    "date": "2025-12-02",
-    "url": "https://cdn.www.gob.pe/uploads/document/file/9090987/7456609-reporte-de-ingreso-y-precios-en-el-gran-mercado-mayorista-de-lima-02-12-2025.pdf?v=1767197475",
-    "sha256": "6e0d73db26fabfb7cd7d5449ea14bebd44e485f552d350c45a300b9ff24cba62"
-  },
-  {
-    "name": "Maiz Marlo/Coronta De Maiz",
-    "unit": "kg",
-    "price": 10.5,
-    "page": 1,
-    "date": "2025-12-02",
-    "url": "https://cdn.www.gob.pe/uploads/document/file/9090987/7456609-reporte-de-ingreso-y-precios-en-el-gran-mercado-mayorista-de-lima-02-12-2025.pdf?v=1767197475",
-    "sha256": "6e0d73db26fabfb7cd7d5449ea14bebd44e485f552d350c45a300b9ff24cba62"
-  },
-  {
-    "name": "Maiz Morado",
-    "unit": "kg",
-    "price": 2.43,
-    "page": 1,
-    "date": "2025-12-02",
-    "url": "https://cdn.www.gob.pe/uploads/document/file/9090987/7456609-reporte-de-ingreso-y-precios-en-el-gran-mercado-mayorista-de-lima-02-12-2025.pdf?v=1767197475",
-    "sha256": "6e0d73db26fabfb7cd7d5449ea14bebd44e485f552d350c45a300b9ff24cba62"
-  },
-  {
-    "name": "Manzana Cte/Para Agua",
-    "unit": "kg",
-    "price": 2.83,
-    "page": 2,
-    "date": "2025-12-02",
-    "url": "https://cdn.www.gob.pe/uploads/document/file/9090987/7456609-reporte-de-ingreso-y-precios-en-el-gran-mercado-mayorista-de-lima-02-12-2025.pdf?v=1767197475",
-    "sha256": "6e0d73db26fabfb7cd7d5449ea14bebd44e485f552d350c45a300b9ff24cba62"
-  },
-  {
-    "name": "Maracuya",
-    "unit": "kg",
-    "price": 4.13,
-    "page": 2,
-    "date": "2025-12-02",
-    "url": "https://cdn.www.gob.pe/uploads/document/file/9090987/7456609-reporte-de-ingreso-y-precios-en-el-gran-mercado-mayorista-de-lima-02-12-2025.pdf?v=1767197475",
-    "sha256": "6e0d73db26fabfb7cd7d5449ea14bebd44e485f552d350c45a300b9ff24cba62"
-  },
-  {
-    "name": "Nabo",
-    "unit": "atado",
-    "price": 2.38,
-    "page": 2,
-    "date": "2025-12-02",
-    "url": "https://cdn.www.gob.pe/uploads/document/file/9090987/7456609-reporte-de-ingreso-y-precios-en-el-gran-mercado-mayorista-de-lima-02-12-2025.pdf?v=1767197475",
-    "sha256": "6e0d73db26fabfb7cd7d5449ea14bebd44e485f552d350c45a300b9ff24cba62"
-  },
-  {
-    "name": "Olluco Largo",
-    "unit": "kg",
-    "price": 1.78,
-    "page": 2,
-    "date": "2025-12-02",
-    "url": "https://cdn.www.gob.pe/uploads/document/file/9090987/7456609-reporte-de-ingreso-y-precios-en-el-gran-mercado-mayorista-de-lima-02-12-2025.pdf?v=1767197475",
-    "sha256": "6e0d73db26fabfb7cd7d5449ea14bebd44e485f552d350c45a300b9ff24cba62"
-  },
-  {
-    "name": "Pacchoy",
-    "unit": "docena",
-    "price": 39.0,
-    "page": 2,
-    "date": "2025-12-02",
-    "url": "https://cdn.www.gob.pe/uploads/document/file/9090987/7456609-reporte-de-ingreso-y-precios-en-el-gran-mercado-mayorista-de-lima-02-12-2025.pdf?v=1767197475",
-    "sha256": "6e0d73db26fabfb7cd7d5449ea14bebd44e485f552d350c45a300b9ff24cba62"
-  },
-  {
-    "name": "Pallar Verde Serrucho",
-    "unit": "kg",
-    "price": 2.18,
-    "page": 2,
-    "date": "2025-12-02",
-    "url": "https://cdn.www.gob.pe/uploads/document/file/9090987/7456609-reporte-de-ingreso-y-precios-en-el-gran-mercado-mayorista-de-lima-02-12-2025.pdf?v=1767197475",
-    "sha256": "6e0d73db26fabfb7cd7d5449ea14bebd44e485f552d350c45a300b9ff24cba62"
-  },
-  {
-    "name": "Papa Amarilla",
-    "unit": "kg",
-    "price": 2.1,
-    "page": 2,
-    "date": "2025-12-02",
-    "url": "https://cdn.www.gob.pe/uploads/document/file/9090987/7456609-reporte-de-ingreso-y-precios-en-el-gran-mercado-mayorista-de-lima-02-12-2025.pdf?v=1767197475",
-    "sha256": "6e0d73db26fabfb7cd7d5449ea14bebd44e485f552d350c45a300b9ff24cba62"
-  },
-  {
-    "name": "Papa Blanca",
-    "unit": "kg",
-    "price": 0.74,
-    "page": 2,
-    "date": "2025-12-02",
-    "url": "https://cdn.www.gob.pe/uploads/document/file/9090987/7456609-reporte-de-ingreso-y-precios-en-el-gran-mercado-mayorista-de-lima-02-12-2025.pdf?v=1767197475",
-    "sha256": "6e0d73db26fabfb7cd7d5449ea14bebd44e485f552d350c45a300b9ff24cba62"
-  },
-  {
-    "name": "Papa Canchan 2/",
-    "unit": "kg",
-    "price": 1.03,
-    "page": 2,
-    "date": "2025-12-02",
-    "url": "https://cdn.www.gob.pe/uploads/document/file/9090987/7456609-reporte-de-ingreso-y-precios-en-el-gran-mercado-mayorista-de-lima-02-12-2025.pdf?v=1767197475",
-    "sha256": "6e0d73db26fabfb7cd7d5449ea14bebd44e485f552d350c45a300b9ff24cba62"
-  },
-  {
-    "name": "Papa Color",
-    "unit": "kg",
-    "price": 0.87,
-    "page": 2,
-    "date": "2025-12-02",
-    "url": "https://cdn.www.gob.pe/uploads/document/file/9090987/7456609-reporte-de-ingreso-y-precios-en-el-gran-mercado-mayorista-de-lima-02-12-2025.pdf?v=1767197475",
-    "sha256": "6e0d73db26fabfb7cd7d5449ea14bebd44e485f552d350c45a300b9ff24cba62"
-  },
-  {
-    "name": "Papa Huamantanga",
-    "unit": "kg",
-    "price": 1.53,
-    "page": 2,
-    "date": "2025-12-02",
-    "url": "https://cdn.www.gob.pe/uploads/document/file/9090987/7456609-reporte-de-ingreso-y-precios-en-el-gran-mercado-mayorista-de-lima-02-12-2025.pdf?v=1767197475",
-    "sha256": "6e0d73db26fabfb7cd7d5449ea14bebd44e485f552d350c45a300b9ff24cba62"
-  },
-  {
-    "name": "Papa Huayro",
-    "unit": "kg",
-    "price": 2.43,
-    "page": 2,
-    "date": "2025-12-02",
-    "url": "https://cdn.www.gob.pe/uploads/document/file/9090987/7456609-reporte-de-ingreso-y-precios-en-el-gran-mercado-mayorista-de-lima-02-12-2025.pdf?v=1767197475",
-    "sha256": "6e0d73db26fabfb7cd7d5449ea14bebd44e485f552d350c45a300b9ff24cba62"
-  },
-  {
-    "name": "Papa Negra Andina",
-    "unit": "kg",
-    "price": 0.96,
-    "page": 2,
-    "date": "2025-12-02",
-    "url": "https://cdn.www.gob.pe/uploads/document/file/9090987/7456609-reporte-de-ingreso-y-precios-en-el-gran-mercado-mayorista-de-lima-02-12-2025.pdf?v=1767197475",
-    "sha256": "6e0d73db26fabfb7cd7d5449ea14bebd44e485f552d350c45a300b9ff24cba62"
-  },
-  {
-    "name": "Papa Peruanita",
-    "unit": "kg",
-    "price": 1.69,
-    "page": 2,
-    "date": "2025-12-02",
-    "url": "https://cdn.www.gob.pe/uploads/document/file/9090987/7456609-reporte-de-ingreso-y-precios-en-el-gran-mercado-mayorista-de-lima-02-12-2025.pdf?v=1767197475",
-    "sha256": "6e0d73db26fabfb7cd7d5449ea14bebd44e485f552d350c45a300b9ff24cba62"
-  },
-  {
-    "name": "Papa Unica 2/",
-    "unit": "kg",
-    "price": 0.7,
-    "page": 2,
-    "date": "2025-12-02",
-    "url": "https://cdn.www.gob.pe/uploads/document/file/9090987/7456609-reporte-de-ingreso-y-precios-en-el-gran-mercado-mayorista-de-lima-02-12-2025.pdf?v=1767197475",
-    "sha256": "6e0d73db26fabfb7cd7d5449ea14bebd44e485f552d350c45a300b9ff24cba62"
-  },
-  {
-    "name": "Papa Yungay 1/",
-    "unit": "kg",
-    "price": 0.74,
-    "page": 2,
-    "date": "2025-12-02",
-    "url": "https://cdn.www.gob.pe/uploads/document/file/9090987/7456609-reporte-de-ingreso-y-precios-en-el-gran-mercado-mayorista-de-lima-02-12-2025.pdf?v=1767197475",
-    "sha256": "6e0d73db26fabfb7cd7d5449ea14bebd44e485f552d350c45a300b9ff24cba62"
-  },
-  {
-    "name": "Pepinillo",
-    "unit": "docena",
-    "price": 9.75,
-    "page": 2,
-    "date": "2025-12-02",
-    "url": "https://cdn.www.gob.pe/uploads/document/file/9090987/7456609-reporte-de-ingreso-y-precios-en-el-gran-mercado-mayorista-de-lima-02-12-2025.pdf?v=1767197475",
-    "sha256": "6e0d73db26fabfb7cd7d5449ea14bebd44e485f552d350c45a300b9ff24cba62"
-  },
-  {
-    "name": "Perejil",
-    "unit": "atado",
-    "price": 3.38,
-    "page": 2,
-    "date": "2025-12-02",
-    "url": "https://cdn.www.gob.pe/uploads/document/file/9090987/7456609-reporte-de-ingreso-y-precios-en-el-gran-mercado-mayorista-de-lima-02-12-2025.pdf?v=1767197475",
-    "sha256": "6e0d73db26fabfb7cd7d5449ea14bebd44e485f552d350c45a300b9ff24cba62"
-  },
-  {
-    "name": "Pimiento Morron",
-    "unit": "cajón",
-    "price": 66.25,
-    "page": 2,
-    "date": "2025-12-02",
-    "url": "https://cdn.www.gob.pe/uploads/document/file/9090987/7456609-reporte-de-ingreso-y-precios-en-el-gran-mercado-mayorista-de-lima-02-12-2025.pdf?v=1767197475",
-    "sha256": "6e0d73db26fabfb7cd7d5449ea14bebd44e485f552d350c45a300b9ff24cba62"
-  },
-  {
-    "name": "Poro",
-    "unit": "atado",
-    "price": 3.88,
-    "page": 2,
-    "date": "2025-12-02",
-    "url": "https://cdn.www.gob.pe/uploads/document/file/9090987/7456609-reporte-de-ingreso-y-precios-en-el-gran-mercado-mayorista-de-lima-02-12-2025.pdf?v=1767197475",
-    "sha256": "6e0d73db26fabfb7cd7d5449ea14bebd44e485f552d350c45a300b9ff24cba62"
-  },
-  {
-    "name": "Rabanito",
-    "unit": "atado",
-    "price": 2.63,
-    "page": 2,
-    "date": "2025-12-02",
-    "url": "https://cdn.www.gob.pe/uploads/document/file/9090987/7456609-reporte-de-ingreso-y-precios-en-el-gran-mercado-mayorista-de-lima-02-12-2025.pdf?v=1767197475",
-    "sha256": "6e0d73db26fabfb7cd7d5449ea14bebd44e485f552d350c45a300b9ff24cba62"
-  },
-  {
-    "name": "Tomate",
-    "unit": "cajón chico",
-    "price": 51.25,
-    "page": 2,
-    "date": "2025-12-02",
-    "url": "https://cdn.www.gob.pe/uploads/document/file/9090987/7456609-reporte-de-ingreso-y-precios-en-el-gran-mercado-mayorista-de-lima-02-12-2025.pdf?v=1767197475",
-    "sha256": "6e0d73db26fabfb7cd7d5449ea14bebd44e485f552d350c45a300b9ff24cba62"
-  },
-  {
-    "name": "Vainita Americana",
-    "unit": "kg",
-    "price": 1.88,
-    "page": 2,
-    "date": "2025-12-02",
-    "url": "https://cdn.www.gob.pe/uploads/document/file/9090987/7456609-reporte-de-ingreso-y-precios-en-el-gran-mercado-mayorista-de-lima-02-12-2025.pdf?v=1767197475",
-    "sha256": "6e0d73db26fabfb7cd7d5449ea14bebd44e485f552d350c45a300b9ff24cba62"
-  },
-  {
-    "name": "Yuca Amarilla",
-    "unit": "kg",
-    "price": 2.63,
-    "page": 2,
-    "date": "2025-12-02",
-    "url": "https://cdn.www.gob.pe/uploads/document/file/9090987/7456609-reporte-de-ingreso-y-precios-en-el-gran-mercado-mayorista-de-lima-02-12-2025.pdf?v=1767197475",
-    "sha256": "6e0d73db26fabfb7cd7d5449ea14bebd44e485f552d350c45a300b9ff24cba62"
-  },
-  {
-    "name": "Zanahoria",
-    "unit": "saco chico",
-    "price": 86.25,
-    "page": 2,
-    "date": "2025-12-02",
-    "url": "https://cdn.www.gob.pe/uploads/document/file/9090987/7456609-reporte-de-ingreso-y-precios-en-el-gran-mercado-mayorista-de-lima-02-12-2025.pdf?v=1767197475",
-    "sha256": "6e0d73db26fabfb7cd7d5449ea14bebd44e485f552d350c45a300b9ff24cba62"
-  },
-  {
-    "name": "Zapallo Italiano",
-    "unit": "docena",
-    "price": 10.25,
-    "page": 2,
-    "date": "2025-12-02",
-    "url": "https://cdn.www.gob.pe/uploads/document/file/9090987/7456609-reporte-de-ingreso-y-precios-en-el-gran-mercado-mayorista-de-lima-02-12-2025.pdf?v=1767197475",
-    "sha256": "6e0d73db26fabfb7cd7d5449ea14bebd44e485f552d350c45a300b9ff24cba62"
-  },
-  {
-    "name": "Zapallo Loche",
-    "unit": "unidad",
-    "price": 11.0,
-    "page": 2,
-    "date": "2025-12-02",
-    "url": "https://cdn.www.gob.pe/uploads/document/file/9090987/7456609-reporte-de-ingreso-y-precios-en-el-gran-mercado-mayorista-de-lima-02-12-2025.pdf?v=1767197475",
-    "sha256": "6e0d73db26fabfb7cd7d5449ea14bebd44e485f552d350c45a300b9ff24cba62"
-  },
-  {
-    "name": "Zapallo Macre",
-    "unit": "kg",
-    "price": 1.63,
-    "page": 2,
-    "date": "2025-12-02",
-    "url": "https://cdn.www.gob.pe/uploads/document/file/9090987/7456609-reporte-de-ingreso-y-precios-en-el-gran-mercado-mayorista-de-lima-02-12-2025.pdf?v=1767197475",
-    "sha256": "6e0d73db26fabfb7cd7d5449ea14bebd44e485f552d350c45a300b9ff24cba62"
-  },
-  {
-    "name": "Acelga",
-    "unit": "atado",
-    "price": 3.88,
-    "page": 1,
     "date": "2025-12-03",
     "url": "https://cdn.www.gob.pe/uploads/document/file/9100616/7456609-reporte-de-ingreso-y-precios-en-el-gran-mercado-mayorista-de-lima-03-12-2025.pdf?v=1767197475",
     "sha256": "b40ed245763f7f3dd5df897639d5f5b16c2c116d80c04ed7cf5e60233bcb0c59"
@@ -156814,5 +156166,653 @@
     "date": "2026-11-26",
     "url": "https://cdn.www.gob.pe/uploads/document/file/11033981/8779792-reporte-de-ingreso-y-precios-en-el-gran-mercado-mayorista-de-lima-26-11-2026.pdf?v=1795709614",
     "sha256": "03415efbc8fa288937a05a96bca756a8ccac21d8c4dcd962112d9d7cfb091bfa"
+  },
+  {
+    "name": "Acelga",
+    "unit": "atado",
+    "price": 4.5,
+    "page": 2,
+    "date": "2026-11-27",
+    "url": "https://cdn.www.gob.pe/uploads/document/file/11041457/8779792-reporte-de-ingreso-y-precios-en-el-gran-mercado-mayorista-de-lima-27-11-2026.pdf?v=1795794554",
+    "sha256": "0e4549b50e04b13c61542efd77e21844dc81821f5df2c8b5477215cd54b2b64e"
+  },
+  {
+    "name": "Aji Amarillo Seco",
+    "unit": "kg",
+    "price": 14.5,
+    "page": 2,
+    "date": "2026-11-27",
+    "url": "https://cdn.www.gob.pe/uploads/document/file/11041457/8779792-reporte-de-ingreso-y-precios-en-el-gran-mercado-mayorista-de-lima-27-11-2026.pdf?v=1795794554",
+    "sha256": "0e4549b50e04b13c61542efd77e21844dc81821f5df2c8b5477215cd54b2b64e"
+  },
+  {
+    "name": "Aji Escabeche",
+    "unit": "kg",
+    "price": 4.3,
+    "page": 2,
+    "date": "2026-11-27",
+    "url": "https://cdn.www.gob.pe/uploads/document/file/11041457/8779792-reporte-de-ingreso-y-precios-en-el-gran-mercado-mayorista-de-lima-27-11-2026.pdf?v=1795794554",
+    "sha256": "0e4549b50e04b13c61542efd77e21844dc81821f5df2c8b5477215cd54b2b64e"
+  },
+  {
+    "name": "Aji Montaña",
+    "unit": "kg",
+    "price": 4.0,
+    "page": 2,
+    "date": "2026-11-27",
+    "url": "https://cdn.www.gob.pe/uploads/document/file/11041457/8779792-reporte-de-ingreso-y-precios-en-el-gran-mercado-mayorista-de-lima-27-11-2026.pdf?v=1795794554",
+    "sha256": "0e4549b50e04b13c61542efd77e21844dc81821f5df2c8b5477215cd54b2b64e"
+  },
+  {
+    "name": "Aji Panca",
+    "unit": "kg",
+    "price": 16.63,
+    "page": 2,
+    "date": "2026-11-27",
+    "url": "https://cdn.www.gob.pe/uploads/document/file/11041457/8779792-reporte-de-ingreso-y-precios-en-el-gran-mercado-mayorista-de-lima-27-11-2026.pdf?v=1795794554",
+    "sha256": "0e4549b50e04b13c61542efd77e21844dc81821f5df2c8b5477215cd54b2b64e"
+  },
+  {
+    "name": "Aji Paprika",
+    "unit": "kg",
+    "price": 17.38,
+    "page": 2,
+    "date": "2026-11-27",
+    "url": "https://cdn.www.gob.pe/uploads/document/file/11041457/8779792-reporte-de-ingreso-y-precios-en-el-gran-mercado-mayorista-de-lima-27-11-2026.pdf?v=1795794554",
+    "sha256": "0e4549b50e04b13c61542efd77e21844dc81821f5df2c8b5477215cd54b2b64e"
+  },
+  {
+    "name": "Aji Rocoto",
+    "unit": "cajón",
+    "price": 37.5,
+    "page": 2,
+    "date": "2026-11-27",
+    "url": "https://cdn.www.gob.pe/uploads/document/file/11041457/8779792-reporte-de-ingreso-y-precios-en-el-gran-mercado-mayorista-de-lima-27-11-2026.pdf?v=1795794554",
+    "sha256": "0e4549b50e04b13c61542efd77e21844dc81821f5df2c8b5477215cd54b2b64e"
+  },
+  {
+    "name": "Ajo Criollo O Napuri",
+    "unit": "kg",
+    "price": 5.38,
+    "page": 2,
+    "date": "2026-11-27",
+    "url": "https://cdn.www.gob.pe/uploads/document/file/11041457/8779792-reporte-de-ingreso-y-precios-en-el-gran-mercado-mayorista-de-lima-27-11-2026.pdf?v=1795794554",
+    "sha256": "0e4549b50e04b13c61542efd77e21844dc81821f5df2c8b5477215cd54b2b64e"
+  },
+  {
+    "name": "Ajo Morado",
+    "unit": "kg",
+    "price": 7.63,
+    "page": 2,
+    "date": "2026-11-27",
+    "url": "https://cdn.www.gob.pe/uploads/document/file/11041457/8779792-reporte-de-ingreso-y-precios-en-el-gran-mercado-mayorista-de-lima-27-11-2026.pdf?v=1795794554",
+    "sha256": "0e4549b50e04b13c61542efd77e21844dc81821f5df2c8b5477215cd54b2b64e"
+  },
+  {
+    "name": "Albahaca",
+    "unit": "atado",
+    "price": 3.63,
+    "page": 2,
+    "date": "2026-11-27",
+    "url": "https://cdn.www.gob.pe/uploads/document/file/11041457/8779792-reporte-de-ingreso-y-precios-en-el-gran-mercado-mayorista-de-lima-27-11-2026.pdf?v=1795794554",
+    "sha256": "0e4549b50e04b13c61542efd77e21844dc81821f5df2c8b5477215cd54b2b64e"
+  },
+  {
+    "name": "Alcachofa",
+    "unit": "docena",
+    "price": 23.25,
+    "page": 2,
+    "date": "2026-11-27",
+    "url": "https://cdn.www.gob.pe/uploads/document/file/11041457/8779792-reporte-de-ingreso-y-precios-en-el-gran-mercado-mayorista-de-lima-27-11-2026.pdf?v=1795794554",
+    "sha256": "0e4549b50e04b13c61542efd77e21844dc81821f5df2c8b5477215cd54b2b64e"
+  },
+  {
+    "name": "Apio",
+    "unit": "atado",
+    "price": 19.5,
+    "page": 2,
+    "date": "2026-11-27",
+    "url": "https://cdn.www.gob.pe/uploads/document/file/11041457/8779792-reporte-de-ingreso-y-precios-en-el-gran-mercado-mayorista-de-lima-27-11-2026.pdf?v=1795794554",
+    "sha256": "0e4549b50e04b13c61542efd77e21844dc81821f5df2c8b5477215cd54b2b64e"
+  },
+  {
+    "name": "Arveja Verde Americana",
+    "unit": "kg",
+    "price": 5.25,
+    "page": 2,
+    "date": "2026-11-27",
+    "url": "https://cdn.www.gob.pe/uploads/document/file/11041457/8779792-reporte-de-ingreso-y-precios-en-el-gran-mercado-mayorista-de-lima-27-11-2026.pdf?v=1795794554",
+    "sha256": "0e4549b50e04b13c61542efd77e21844dc81821f5df2c8b5477215cd54b2b64e"
+  },
+  {
+    "name": "Arveja Verde Blanca Serrana",
+    "unit": "kg",
+    "price": 3.53,
+    "page": 2,
+    "date": "2026-11-27",
+    "url": "https://cdn.www.gob.pe/uploads/document/file/11041457/8779792-reporte-de-ingreso-y-precios-en-el-gran-mercado-mayorista-de-lima-27-11-2026.pdf?v=1795794554",
+    "sha256": "0e4549b50e04b13c61542efd77e21844dc81821f5df2c8b5477215cd54b2b64e"
+  },
+  {
+    "name": "Berenjena",
+    "unit": "docena",
+    "price": 22.5,
+    "page": 2,
+    "date": "2026-11-27",
+    "url": "https://cdn.www.gob.pe/uploads/document/file/11041457/8779792-reporte-de-ingreso-y-precios-en-el-gran-mercado-mayorista-de-lima-27-11-2026.pdf?v=1795794554",
+    "sha256": "0e4549b50e04b13c61542efd77e21844dc81821f5df2c8b5477215cd54b2b64e"
+  },
+  {
+    "name": "Beterraga",
+    "unit": "atado",
+    "price": 4.25,
+    "page": 2,
+    "date": "2026-11-27",
+    "url": "https://cdn.www.gob.pe/uploads/document/file/11041457/8779792-reporte-de-ingreso-y-precios-en-el-gran-mercado-mayorista-de-lima-27-11-2026.pdf?v=1795794554",
+    "sha256": "0e4549b50e04b13c61542efd77e21844dc81821f5df2c8b5477215cd54b2b64e"
+  },
+  {
+    "name": "Brocoli",
+    "unit": "kg",
+    "price": 5.63,
+    "page": 2,
+    "date": "2026-11-27",
+    "url": "https://cdn.www.gob.pe/uploads/document/file/11041457/8779792-reporte-de-ingreso-y-precios-en-el-gran-mercado-mayorista-de-lima-27-11-2026.pdf?v=1795794554",
+    "sha256": "0e4549b50e04b13c61542efd77e21844dc81821f5df2c8b5477215cd54b2b64e"
+  },
+  {
+    "name": "Caigua (Selva)",
+    "unit": "cajón",
+    "price": 50.0,
+    "page": 2,
+    "date": "2026-11-27",
+    "url": "https://cdn.www.gob.pe/uploads/document/file/11041457/8779792-reporte-de-ingreso-y-precios-en-el-gran-mercado-mayorista-de-lima-27-11-2026.pdf?v=1795794554",
+    "sha256": "0e4549b50e04b13c61542efd77e21844dc81821f5df2c8b5477215cd54b2b64e"
+  },
+  {
+    "name": "Camote Amarillo",
+    "unit": "kg",
+    "price": 1.03,
+    "page": 2,
+    "date": "2026-11-27",
+    "url": "https://cdn.www.gob.pe/uploads/document/file/11041457/8779792-reporte-de-ingreso-y-precios-en-el-gran-mercado-mayorista-de-lima-27-11-2026.pdf?v=1795794554",
+    "sha256": "0e4549b50e04b13c61542efd77e21844dc81821f5df2c8b5477215cd54b2b64e"
+  },
+  {
+    "name": "Camote Morado",
+    "unit": "kg",
+    "price": 2.65,
+    "page": 2,
+    "date": "2026-11-27",
+    "url": "https://cdn.www.gob.pe/uploads/document/file/11041457/8779792-reporte-de-ingreso-y-precios-en-el-gran-mercado-mayorista-de-lima-27-11-2026.pdf?v=1795794554",
+    "sha256": "0e4549b50e04b13c61542efd77e21844dc81821f5df2c8b5477215cd54b2b64e"
+  },
+  {
+    "name": "Cebolla Cabeza Blanca",
+    "unit": "kg",
+    "price": 2.63,
+    "page": 2,
+    "date": "2026-11-27",
+    "url": "https://cdn.www.gob.pe/uploads/document/file/11041457/8779792-reporte-de-ingreso-y-precios-en-el-gran-mercado-mayorista-de-lima-27-11-2026.pdf?v=1795794554",
+    "sha256": "0e4549b50e04b13c61542efd77e21844dc81821f5df2c8b5477215cd54b2b64e"
+  },
+  {
+    "name": "Cebolla Cabeza Roja",
+    "unit": "kg",
+    "price": 2.3,
+    "page": 2,
+    "date": "2026-11-27",
+    "url": "https://cdn.www.gob.pe/uploads/document/file/11041457/8779792-reporte-de-ingreso-y-precios-en-el-gran-mercado-mayorista-de-lima-27-11-2026.pdf?v=1795794554",
+    "sha256": "0e4549b50e04b13c61542efd77e21844dc81821f5df2c8b5477215cd54b2b64e"
+  },
+  {
+    "name": "Cebolla China",
+    "unit": "atado grande",
+    "price": 5.5,
+    "page": 2,
+    "date": "2026-11-27",
+    "url": "https://cdn.www.gob.pe/uploads/document/file/11041457/8779792-reporte-de-ingreso-y-precios-en-el-gran-mercado-mayorista-de-lima-27-11-2026.pdf?v=1795794554",
+    "sha256": "0e4549b50e04b13c61542efd77e21844dc81821f5df2c8b5477215cd54b2b64e"
+  },
+  {
+    "name": "Choclo (Tipo Cusco)",
+    "unit": "ciento",
+    "price": 295.0,
+    "page": 2,
+    "date": "2026-11-27",
+    "url": "https://cdn.www.gob.pe/uploads/document/file/11041457/8779792-reporte-de-ingreso-y-precios-en-el-gran-mercado-mayorista-de-lima-27-11-2026.pdf?v=1795794554",
+    "sha256": "0e4549b50e04b13c61542efd77e21844dc81821f5df2c8b5477215cd54b2b64e"
+  },
+  {
+    "name": "Col China/Longapa",
+    "unit": "docena",
+    "price": 83.75,
+    "page": 2,
+    "date": "2026-11-27",
+    "url": "https://cdn.www.gob.pe/uploads/document/file/11041457/8779792-reporte-de-ingreso-y-precios-en-el-gran-mercado-mayorista-de-lima-27-11-2026.pdf?v=1795794554",
+    "sha256": "0e4549b50e04b13c61542efd77e21844dc81821f5df2c8b5477215cd54b2b64e"
+  },
+  {
+    "name": "Col Corazon",
+    "unit": "docena",
+    "price": 41.25,
+    "page": 2,
+    "date": "2026-11-27",
+    "url": "https://cdn.www.gob.pe/uploads/document/file/11041457/8779792-reporte-de-ingreso-y-precios-en-el-gran-mercado-mayorista-de-lima-27-11-2026.pdf?v=1795794554",
+    "sha256": "0e4549b50e04b13c61542efd77e21844dc81821f5df2c8b5477215cd54b2b64e"
+  },
+  {
+    "name": "Coliflor",
+    "unit": "docena",
+    "price": 41.25,
+    "page": 2,
+    "date": "2026-11-27",
+    "url": "https://cdn.www.gob.pe/uploads/document/file/11041457/8779792-reporte-de-ingreso-y-precios-en-el-gran-mercado-mayorista-de-lima-27-11-2026.pdf?v=1795794554",
+    "sha256": "0e4549b50e04b13c61542efd77e21844dc81821f5df2c8b5477215cd54b2b64e"
+  },
+  {
+    "name": "Culantro",
+    "unit": "atado",
+    "price": 3.5,
+    "page": 2,
+    "date": "2026-11-27",
+    "url": "https://cdn.www.gob.pe/uploads/document/file/11041457/8779792-reporte-de-ingreso-y-precios-en-el-gran-mercado-mayorista-de-lima-27-11-2026.pdf?v=1795794554",
+    "sha256": "0e4549b50e04b13c61542efd77e21844dc81821f5df2c8b5477215cd54b2b64e"
+  },
+  {
+    "name": "Esparrago",
+    "unit": "paquete",
+    "price": 3.58,
+    "page": 2,
+    "date": "2026-11-27",
+    "url": "https://cdn.www.gob.pe/uploads/document/file/11041457/8779792-reporte-de-ingreso-y-precios-en-el-gran-mercado-mayorista-de-lima-27-11-2026.pdf?v=1795794554",
+    "sha256": "0e4549b50e04b13c61542efd77e21844dc81821f5df2c8b5477215cd54b2b64e"
+  },
+  {
+    "name": "Espinaca",
+    "unit": "kg",
+    "price": 3.13,
+    "page": 2,
+    "date": "2026-11-27",
+    "url": "https://cdn.www.gob.pe/uploads/document/file/11041457/8779792-reporte-de-ingreso-y-precios-en-el-gran-mercado-mayorista-de-lima-27-11-2026.pdf?v=1795794554",
+    "sha256": "0e4549b50e04b13c61542efd77e21844dc81821f5df2c8b5477215cd54b2b64e"
+  },
+  {
+    "name": "Frejolito Chino",
+    "unit": "kg",
+    "price": 2.5,
+    "page": 2,
+    "date": "2026-11-27",
+    "url": "https://cdn.www.gob.pe/uploads/document/file/11041457/8779792-reporte-de-ingreso-y-precios-en-el-gran-mercado-mayorista-de-lima-27-11-2026.pdf?v=1795794554",
+    "sha256": "0e4549b50e04b13c61542efd77e21844dc81821f5df2c8b5477215cd54b2b64e"
+  },
+  {
+    "name": "Frijol Verde Canario",
+    "unit": "kg",
+    "price": 7.5,
+    "page": 2,
+    "date": "2026-11-27",
+    "url": "https://cdn.www.gob.pe/uploads/document/file/11041457/8779792-reporte-de-ingreso-y-precios-en-el-gran-mercado-mayorista-de-lima-27-11-2026.pdf?v=1795794554",
+    "sha256": "0e4549b50e04b13c61542efd77e21844dc81821f5df2c8b5477215cd54b2b64e"
+  },
+  {
+    "name": "Haba Verde Serrana",
+    "unit": "kg",
+    "price": 2.88,
+    "page": 2,
+    "date": "2026-11-27",
+    "url": "https://cdn.www.gob.pe/uploads/document/file/11041457/8779792-reporte-de-ingreso-y-precios-en-el-gran-mercado-mayorista-de-lima-27-11-2026.pdf?v=1795794554",
+    "sha256": "0e4549b50e04b13c61542efd77e21844dc81821f5df2c8b5477215cd54b2b64e"
+  },
+  {
+    "name": "Hierba Buena",
+    "unit": "atado",
+    "price": 2.63,
+    "page": 2,
+    "date": "2026-11-27",
+    "url": "https://cdn.www.gob.pe/uploads/document/file/11041457/8779792-reporte-de-ingreso-y-precios-en-el-gran-mercado-mayorista-de-lima-27-11-2026.pdf?v=1795794554",
+    "sha256": "0e4549b50e04b13c61542efd77e21844dc81821f5df2c8b5477215cd54b2b64e"
+  },
+  {
+    "name": "Holantau/Organica",
+    "unit": "kg",
+    "price": 9.0,
+    "page": 2,
+    "date": "2026-11-27",
+    "url": "https://cdn.www.gob.pe/uploads/document/file/11041457/8779792-reporte-de-ingreso-y-precios-en-el-gran-mercado-mayorista-de-lima-27-11-2026.pdf?v=1795794554",
+    "sha256": "0e4549b50e04b13c61542efd77e21844dc81821f5df2c8b5477215cd54b2b64e"
+  },
+  {
+    "name": "Huacatay",
+    "unit": "atado",
+    "price": 4.63,
+    "page": 2,
+    "date": "2026-11-27",
+    "url": "https://cdn.www.gob.pe/uploads/document/file/11041457/8779792-reporte-de-ingreso-y-precios-en-el-gran-mercado-mayorista-de-lima-27-11-2026.pdf?v=1795794554",
+    "sha256": "0e4549b50e04b13c61542efd77e21844dc81821f5df2c8b5477215cd54b2b64e"
+  },
+  {
+    "name": "Kion",
+    "unit": "kg",
+    "price": 4.05,
+    "page": 2,
+    "date": "2026-11-27",
+    "url": "https://cdn.www.gob.pe/uploads/document/file/11041457/8779792-reporte-de-ingreso-y-precios-en-el-gran-mercado-mayorista-de-lima-27-11-2026.pdf?v=1795794554",
+    "sha256": "0e4549b50e04b13c61542efd77e21844dc81821f5df2c8b5477215cd54b2b64e"
+  },
+  {
+    "name": "Lechuga Americana",
+    "unit": "docena",
+    "price": 22.75,
+    "page": 2,
+    "date": "2026-11-27",
+    "url": "https://cdn.www.gob.pe/uploads/document/file/11041457/8779792-reporte-de-ingreso-y-precios-en-el-gran-mercado-mayorista-de-lima-27-11-2026.pdf?v=1795794554",
+    "sha256": "0e4549b50e04b13c61542efd77e21844dc81821f5df2c8b5477215cd54b2b64e"
+  },
+  {
+    "name": "Lechuga Criolla Seda",
+    "unit": "docena",
+    "price": 16.0,
+    "page": 2,
+    "date": "2026-11-27",
+    "url": "https://cdn.www.gob.pe/uploads/document/file/11041457/8779792-reporte-de-ingreso-y-precios-en-el-gran-mercado-mayorista-de-lima-27-11-2026.pdf?v=1795794554",
+    "sha256": "0e4549b50e04b13c61542efd77e21844dc81821f5df2c8b5477215cd54b2b64e"
+  },
+  {
+    "name": "Lechuga Romana Hidroponica",
+    "unit": "docena",
+    "price": 18.5,
+    "page": 2,
+    "date": "2026-11-27",
+    "url": "https://cdn.www.gob.pe/uploads/document/file/11041457/8779792-reporte-de-ingreso-y-precios-en-el-gran-mercado-mayorista-de-lima-27-11-2026.pdf?v=1795794554",
+    "sha256": "0e4549b50e04b13c61542efd77e21844dc81821f5df2c8b5477215cd54b2b64e"
+  },
+  {
+    "name": "Limon Sutil Bolsa",
+    "unit": "bolsa",
+    "price": 46.25,
+    "page": 2,
+    "date": "2026-11-27",
+    "url": "https://cdn.www.gob.pe/uploads/document/file/11041457/8779792-reporte-de-ingreso-y-precios-en-el-gran-mercado-mayorista-de-lima-27-11-2026.pdf?v=1795794554",
+    "sha256": "0e4549b50e04b13c61542efd77e21844dc81821f5df2c8b5477215cd54b2b64e"
+  },
+  {
+    "name": "Limon Sutil Cajon",
+    "unit": "cajón",
+    "price": 33.75,
+    "page": 2,
+    "date": "2026-11-27",
+    "url": "https://cdn.www.gob.pe/uploads/document/file/11041457/8779792-reporte-de-ingreso-y-precios-en-el-gran-mercado-mayorista-de-lima-27-11-2026.pdf?v=1795794554",
+    "sha256": "0e4549b50e04b13c61542efd77e21844dc81821f5df2c8b5477215cd54b2b64e"
+  },
+  {
+    "name": "Maiz Marlo/Coronta De Maiz",
+    "unit": "kg",
+    "price": 22.5,
+    "page": 2,
+    "date": "2026-11-27",
+    "url": "https://cdn.www.gob.pe/uploads/document/file/11041457/8779792-reporte-de-ingreso-y-precios-en-el-gran-mercado-mayorista-de-lima-27-11-2026.pdf?v=1795794554",
+    "sha256": "0e4549b50e04b13c61542efd77e21844dc81821f5df2c8b5477215cd54b2b64e"
+  },
+  {
+    "name": "Maiz Morado",
+    "unit": "kg",
+    "price": 6.13,
+    "page": 2,
+    "date": "2026-11-27",
+    "url": "https://cdn.www.gob.pe/uploads/document/file/11041457/8779792-reporte-de-ingreso-y-precios-en-el-gran-mercado-mayorista-de-lima-27-11-2026.pdf?v=1795794554",
+    "sha256": "0e4549b50e04b13c61542efd77e21844dc81821f5df2c8b5477215cd54b2b64e"
+  },
+  {
+    "name": "Manzana Cte/Para Agua",
+    "unit": "kg",
+    "price": 2.33,
+    "page": 2,
+    "date": "2026-11-27",
+    "url": "https://cdn.www.gob.pe/uploads/document/file/11041457/8779792-reporte-de-ingreso-y-precios-en-el-gran-mercado-mayorista-de-lima-27-11-2026.pdf?v=1795794554",
+    "sha256": "0e4549b50e04b13c61542efd77e21844dc81821f5df2c8b5477215cd54b2b64e"
+  },
+  {
+    "name": "Maracuya",
+    "unit": "kg",
+    "price": 3.35,
+    "page": 2,
+    "date": "2026-11-27",
+    "url": "https://cdn.www.gob.pe/uploads/document/file/11041457/8779792-reporte-de-ingreso-y-precios-en-el-gran-mercado-mayorista-de-lima-27-11-2026.pdf?v=1795794554",
+    "sha256": "0e4549b50e04b13c61542efd77e21844dc81821f5df2c8b5477215cd54b2b64e"
+  },
+  {
+    "name": "Nabo",
+    "unit": "atado",
+    "price": 6.5,
+    "page": 2,
+    "date": "2026-11-27",
+    "url": "https://cdn.www.gob.pe/uploads/document/file/11041457/8779792-reporte-de-ingreso-y-precios-en-el-gran-mercado-mayorista-de-lima-27-11-2026.pdf?v=1795794554",
+    "sha256": "0e4549b50e04b13c61542efd77e21844dc81821f5df2c8b5477215cd54b2b64e"
+  },
+  {
+    "name": "Olluco Largo",
+    "unit": "kg",
+    "price": 4.3,
+    "page": 2,
+    "date": "2026-11-27",
+    "url": "https://cdn.www.gob.pe/uploads/document/file/11041457/8779792-reporte-de-ingreso-y-precios-en-el-gran-mercado-mayorista-de-lima-27-11-2026.pdf?v=1795794554",
+    "sha256": "0e4549b50e04b13c61542efd77e21844dc81821f5df2c8b5477215cd54b2b64e"
+  },
+  {
+    "name": "Pacchoy",
+    "unit": "docena",
+    "price": 40.0,
+    "page": 2,
+    "date": "2026-11-27",
+    "url": "https://cdn.www.gob.pe/uploads/document/file/11041457/8779792-reporte-de-ingreso-y-precios-en-el-gran-mercado-mayorista-de-lima-27-11-2026.pdf?v=1795794554",
+    "sha256": "0e4549b50e04b13c61542efd77e21844dc81821f5df2c8b5477215cd54b2b64e"
+  },
+  {
+    "name": "Pallar Verde Serrucho",
+    "unit": "kg",
+    "price": 3.58,
+    "page": 2,
+    "date": "2026-11-27",
+    "url": "https://cdn.www.gob.pe/uploads/document/file/11041457/8779792-reporte-de-ingreso-y-precios-en-el-gran-mercado-mayorista-de-lima-27-11-2026.pdf?v=1795794554",
+    "sha256": "0e4549b50e04b13c61542efd77e21844dc81821f5df2c8b5477215cd54b2b64e"
+  },
+  {
+    "name": "Papa Amarilla",
+    "unit": "kg",
+    "price": 3.9,
+    "page": 2,
+    "date": "2026-11-27",
+    "url": "https://cdn.www.gob.pe/uploads/document/file/11041457/8779792-reporte-de-ingreso-y-precios-en-el-gran-mercado-mayorista-de-lima-27-11-2026.pdf?v=1795794554",
+    "sha256": "0e4549b50e04b13c61542efd77e21844dc81821f5df2c8b5477215cd54b2b64e"
+  },
+  {
+    "name": "Papa Blanca",
+    "unit": "kg",
+    "price": 2.0,
+    "page": 2,
+    "date": "2026-11-27",
+    "url": "https://cdn.www.gob.pe/uploads/document/file/11041457/8779792-reporte-de-ingreso-y-precios-en-el-gran-mercado-mayorista-de-lima-27-11-2026.pdf?v=1795794554",
+    "sha256": "0e4549b50e04b13c61542efd77e21844dc81821f5df2c8b5477215cd54b2b64e"
+  },
+  {
+    "name": "Papa Canchan 2/",
+    "unit": "kg",
+    "price": 3.35,
+    "page": 2,
+    "date": "2026-11-27",
+    "url": "https://cdn.www.gob.pe/uploads/document/file/11041457/8779792-reporte-de-ingreso-y-precios-en-el-gran-mercado-mayorista-de-lima-27-11-2026.pdf?v=1795794554",
+    "sha256": "0e4549b50e04b13c61542efd77e21844dc81821f5df2c8b5477215cd54b2b64e"
+  },
+  {
+    "name": "Papa Color",
+    "unit": "kg",
+    "price": 3.33,
+    "page": 2,
+    "date": "2026-11-27",
+    "url": "https://cdn.www.gob.pe/uploads/document/file/11041457/8779792-reporte-de-ingreso-y-precios-en-el-gran-mercado-mayorista-de-lima-27-11-2026.pdf?v=1795794554",
+    "sha256": "0e4549b50e04b13c61542efd77e21844dc81821f5df2c8b5477215cd54b2b64e"
+  },
+  {
+    "name": "Papa Huamantanga",
+    "unit": "kg",
+    "price": 2.43,
+    "page": 2,
+    "date": "2026-11-27",
+    "url": "https://cdn.www.gob.pe/uploads/document/file/11041457/8779792-reporte-de-ingreso-y-precios-en-el-gran-mercado-mayorista-de-lima-27-11-2026.pdf?v=1795794554",
+    "sha256": "0e4549b50e04b13c61542efd77e21844dc81821f5df2c8b5477215cd54b2b64e"
+  },
+  {
+    "name": "Papa Huayro",
+    "unit": "kg",
+    "price": 3.43,
+    "page": 3,
+    "date": "2026-11-27",
+    "url": "https://cdn.www.gob.pe/uploads/document/file/11041457/8779792-reporte-de-ingreso-y-precios-en-el-gran-mercado-mayorista-de-lima-27-11-2026.pdf?v=1795794554",
+    "sha256": "0e4549b50e04b13c61542efd77e21844dc81821f5df2c8b5477215cd54b2b64e"
+  },
+  {
+    "name": "Papa Negra Andina",
+    "unit": "kg",
+    "price": 2.13,
+    "page": 3,
+    "date": "2026-11-27",
+    "url": "https://cdn.www.gob.pe/uploads/document/file/11041457/8779792-reporte-de-ingreso-y-precios-en-el-gran-mercado-mayorista-de-lima-27-11-2026.pdf?v=1795794554",
+    "sha256": "0e4549b50e04b13c61542efd77e21844dc81821f5df2c8b5477215cd54b2b64e"
+  },
+  {
+    "name": "Papa Peruanita",
+    "unit": "kg",
+    "price": 3.43,
+    "page": 3,
+    "date": "2026-11-27",
+    "url": "https://cdn.www.gob.pe/uploads/document/file/11041457/8779792-reporte-de-ingreso-y-precios-en-el-gran-mercado-mayorista-de-lima-27-11-2026.pdf?v=1795794554",
+    "sha256": "0e4549b50e04b13c61542efd77e21844dc81821f5df2c8b5477215cd54b2b64e"
+  },
+  {
+    "name": "Papa Unica 2/",
+    "unit": "kg",
+    "price": 3.3,
+    "page": 3,
+    "date": "2026-11-27",
+    "url": "https://cdn.www.gob.pe/uploads/document/file/11041457/8779792-reporte-de-ingreso-y-precios-en-el-gran-mercado-mayorista-de-lima-27-11-2026.pdf?v=1795794554",
+    "sha256": "0e4549b50e04b13c61542efd77e21844dc81821f5df2c8b5477215cd54b2b64e"
+  },
+  {
+    "name": "Papa Yungay 1/",
+    "unit": "kg",
+    "price": 2.0,
+    "page": 3,
+    "date": "2026-11-27",
+    "url": "https://cdn.www.gob.pe/uploads/document/file/11041457/8779792-reporte-de-ingreso-y-precios-en-el-gran-mercado-mayorista-de-lima-27-11-2026.pdf?v=1795794554",
+    "sha256": "0e4549b50e04b13c61542efd77e21844dc81821f5df2c8b5477215cd54b2b64e"
+  },
+  {
+    "name": "Pepinillo",
+    "unit": "docena",
+    "price": 8.5,
+    "page": 3,
+    "date": "2026-11-27",
+    "url": "https://cdn.www.gob.pe/uploads/document/file/11041457/8779792-reporte-de-ingreso-y-precios-en-el-gran-mercado-mayorista-de-lima-27-11-2026.pdf?v=1795794554",
+    "sha256": "0e4549b50e04b13c61542efd77e21844dc81821f5df2c8b5477215cd54b2b64e"
+  },
+  {
+    "name": "Perejil",
+    "unit": "atado",
+    "price": 4.38,
+    "page": 3,
+    "date": "2026-11-27",
+    "url": "https://cdn.www.gob.pe/uploads/document/file/11041457/8779792-reporte-de-ingreso-y-precios-en-el-gran-mercado-mayorista-de-lima-27-11-2026.pdf?v=1795794554",
+    "sha256": "0e4549b50e04b13c61542efd77e21844dc81821f5df2c8b5477215cd54b2b64e"
+  },
+  {
+    "name": "Pimiento Morron",
+    "unit": "cajón",
+    "price": 75.0,
+    "page": 3,
+    "date": "2026-11-27",
+    "url": "https://cdn.www.gob.pe/uploads/document/file/11041457/8779792-reporte-de-ingreso-y-precios-en-el-gran-mercado-mayorista-de-lima-27-11-2026.pdf?v=1795794554",
+    "sha256": "0e4549b50e04b13c61542efd77e21844dc81821f5df2c8b5477215cd54b2b64e"
+  },
+  {
+    "name": "Poro",
+    "unit": "atado",
+    "price": 10.25,
+    "page": 3,
+    "date": "2026-11-27",
+    "url": "https://cdn.www.gob.pe/uploads/document/file/11041457/8779792-reporte-de-ingreso-y-precios-en-el-gran-mercado-mayorista-de-lima-27-11-2026.pdf?v=1795794554",
+    "sha256": "0e4549b50e04b13c61542efd77e21844dc81821f5df2c8b5477215cd54b2b64e"
+  },
+  {
+    "name": "Rabanito",
+    "unit": "atado",
+    "price": 4.75,
+    "page": 3,
+    "date": "2026-11-27",
+    "url": "https://cdn.www.gob.pe/uploads/document/file/11041457/8779792-reporte-de-ingreso-y-precios-en-el-gran-mercado-mayorista-de-lima-27-11-2026.pdf?v=1795794554",
+    "sha256": "0e4549b50e04b13c61542efd77e21844dc81821f5df2c8b5477215cd54b2b64e"
+  },
+  {
+    "name": "Tomate",
+    "unit": "cajón chico",
+    "price": 77.5,
+    "page": 3,
+    "date": "2026-11-27",
+    "url": "https://cdn.www.gob.pe/uploads/document/file/11041457/8779792-reporte-de-ingreso-y-precios-en-el-gran-mercado-mayorista-de-lima-27-11-2026.pdf?v=1795794554",
+    "sha256": "0e4549b50e04b13c61542efd77e21844dc81821f5df2c8b5477215cd54b2b64e"
+  },
+  {
+    "name": "Vainita Americana",
+    "unit": "kg",
+    "price": 4.38,
+    "page": 3,
+    "date": "2026-11-27",
+    "url": "https://cdn.www.gob.pe/uploads/document/file/11041457/8779792-reporte-de-ingreso-y-precios-en-el-gran-mercado-mayorista-de-lima-27-11-2026.pdf?v=1795794554",
+    "sha256": "0e4549b50e04b13c61542efd77e21844dc81821f5df2c8b5477215cd54b2b64e"
+  },
+  {
+    "name": "Yuca Amarilla",
+    "unit": "kg",
+    "price": 1.45,
+    "page": 3,
+    "date": "2026-11-27",
+    "url": "https://cdn.www.gob.pe/uploads/document/file/11041457/8779792-reporte-de-ingreso-y-precios-en-el-gran-mercado-mayorista-de-lima-27-11-2026.pdf?v=1795794554",
+    "sha256": "0e4549b50e04b13c61542efd77e21844dc81821f5df2c8b5477215cd54b2b64e"
+  },
+  {
+    "name": "Zanahoria",
+    "unit": "saco chico",
+    "price": 197.5,
+    "page": 3,
+    "date": "2026-11-27",
+    "url": "https://cdn.www.gob.pe/uploads/document/file/11041457/8779792-reporte-de-ingreso-y-precios-en-el-gran-mercado-mayorista-de-lima-27-11-2026.pdf?v=1795794554",
+    "sha256": "0e4549b50e04b13c61542efd77e21844dc81821f5df2c8b5477215cd54b2b64e"
+  },
+  {
+    "name": "Zapallo Italiano",
+    "unit": "docena",
+    "price": 17.75,
+    "page": 3,
+    "date": "2026-11-27",
+    "url": "https://cdn.www.gob.pe/uploads/document/file/11041457/8779792-reporte-de-ingreso-y-precios-en-el-gran-mercado-mayorista-de-lima-27-11-2026.pdf?v=1795794554",
+    "sha256": "0e4549b50e04b13c61542efd77e21844dc81821f5df2c8b5477215cd54b2b64e"
+  },
+  {
+    "name": "Zapallo Loche",
+    "unit": "unidad",
+    "price": 18.25,
+    "page": 3,
+    "date": "2026-11-27",
+    "url": "https://cdn.www.gob.pe/uploads/document/file/11041457/8779792-reporte-de-ingreso-y-precios-en-el-gran-mercado-mayorista-de-lima-27-11-2026.pdf?v=1795794554",
+    "sha256": "0e4549b50e04b13c61542efd77e21844dc81821f5df2c8b5477215cd54b2b64e"
+  },
+  {
+    "name": "Zapallo Macre",
+    "unit": "kg",
+    "price": 3.05,
+    "page": 3,
+    "date": "2026-11-27",
+    "url": "https://cdn.www.gob.pe/uploads/document/file/11041457/8779792-reporte-de-ingreso-y-precios-en-el-gran-mercado-mayorista-de-lima-27-11-2026.pdf?v=1795794554",
+    "sha256": "0e4549b50e04b13c61542efd77e21844dc81821f5df2c8b5477215cd54b2b64e"
   }
 ]
